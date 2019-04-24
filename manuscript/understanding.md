@@ -28,15 +28,16 @@ So erfordert beispielsweise [YAML](http://www.yaml.de/) den folgenden HTML-Code 
 </nav>
 ```
 
+Das einzig fehlende Puzzlestück, oder schon buchstäblich Verbindungsstück, ist, diese Bilbliothek zu verknüpfen, um über das vorgegebene Markup die Funktionalität auch auf die ausgewählten Patterns anzuwenden.
+
+Eine der einfachsten Arten, Bootstrap zu verwenden, besteht beispielsweise darin, etwas wie folgendes zu referenzieren:
+
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+```
+
 @@
 
-The only missing piece or, literally, link, is connecting the library so
-to have it apply the functionality to the chosen patterns, on basis of
-the mandated markup.
-For example, to use Bootstrap, we must reference something like:
-<link rel="stylesheet"
-href="https://maxcdn.bootstrapcdn.com/bootstrap/
-3.3.1/css/bootstrap.min.css">
 Now that we compared frameworks to fully functional pattern libra‐
 ries, here’s another view. Frameworks can also be seen as just the
 style sheets and scripts they are, and external frameworks as shared
