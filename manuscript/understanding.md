@@ -36,14 +36,10 @@ Eine der einfachsten Arten, Bootstrap zu verwenden, besteht beispielsweise darin
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 ```
 
+Nun wo wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, soll noch ein anderer Blick folgen. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als geteilte Stylesheets und Skripte, denen ein höhere Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript oder beides herauspicken und es zum Framework deklarieren! 
+
 @@
 
-Now that we compared frameworks to fully functional pattern libra‐
-ries, here’s another view. Frameworks can also be seen as just the
-style sheets and scripts they are, and external frameworks as shared
-style sheets and scripts that get lifted to a higher status. We could
-indeed pick any style sheet or script or both and declare it a frame‐
-work!
 The implications of this second insight are far-reaching. Although
 rather trivial, it’s one of the keys to understanding frameworks. We’ll
 keep the term “framework” to use common industry language but
