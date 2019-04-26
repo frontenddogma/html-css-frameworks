@@ -38,13 +38,10 @@ Eine der einfachsten Arten, Bootstrap zu verwenden, besteht beispielsweise darin
 
 Nun wo wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, soll noch ein anderer Blick folgen. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als geteilte Stylesheets und Skripte, denen ein höhere Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript oder beides herauspicken und es zum Framework deklarieren! 
 
+Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen. 
+
 @@
 
-The implications of this second insight are far-reaching. Although
-rather trivial, it’s one of the keys to understanding frameworks. We’ll
-keep the term “framework” to use common industry language but
-will at times look at the idea of elevated style sheets and scripts for
-guidance.
 Understanding Frameworks | 3
 Why Frameworks?
 Frameworks promise to save both development and design time.
