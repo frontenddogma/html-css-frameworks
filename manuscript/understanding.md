@@ -40,25 +40,18 @@ Nun wo wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) ve
 
 Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen. 
 
+## Why Frameworks?
+
+Frameworks versprechen, sowohl Design- als auch Entwicklungszeit zu sparen. Die Denkweise dahinter ist, dass viele der Dinge, die Website-Betreiber und -Entwickler wollen, schon tausende Male gemacht wurden, und dass deshalb das Rad nicht neu erfunden werden muss oder sollte. Interne Frameworks werden hier normalerweise etwas nüchterner betrachtet, so dass dies besonders auf externe Frameworks zutrifft (mehr zur Unterscheidung in einem Augenblick).
+
+Wenn Frameworks mit diesem Versprechen kommen, muss man sich eigentlich die Frage stellen, ob sie es auch erfüllen. Die Antwort darauf läuft letztlich auf eine Kostenkalkulation hinaus, die unglücklicher- aber auch logischerweise für jedes Projekt und Framework anders ausfällt. Was für Entwicklungskosten wurden eingespart? Wieviel wurde im Gegenzug für Training, Anpassungen und Aktualisierungen ausgegeben?  
+
+Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes Projekt entsprechend zu durchdenken, behandeln die nächsten Seiten Frameworks in dem Detail, das notwendig ist, um jedem zu ermöglichen, eine eigene Theorie von den <i>raisons d'être</i> für Frameworks aufzustellen. 
+
+## Arten und Einsatzfälle von Frameworks
+
 @@
 
-Understanding Frameworks | 3
-Why Frameworks?
-Frameworks promise to save both development and design time.
-The thinking goes that many of the things site owners and develop‐
-ers want have been done a thousand times, and thus there is no need
-to reinvent the wheel. Internal frameworks commonly enjoy a more
-sober regard, so this particularly applies to external frameworks.
-If frameworks come with this promise, the question arises whether
-or not they live up to it. The answer boils down to a cost calculation
-that is, unfortunately, different for every framework and project.
-How much development cost was saved? How much was, in turn,
-spent on training, customization, and upgrades?
-Apart from suggesting that we do the math and think through every
-project, the following pages cover frameworks in the necessary
-detail to empower everyone to form their own theory about the rai‐
-sons d'être of frameworks.
-Types and Uses of Frameworks
 While all frameworks provide patterns, we must note general dis‐
 tinctions. For one, there is a difference between internal and exter‐
 nal frameworks—the external ones are those that typically get
