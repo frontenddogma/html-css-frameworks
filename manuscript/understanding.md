@@ -59,33 +59,41 @@ referred to as frameworks. Then, there is a difference between using
 and developing a framework (note that developers can be users,
 which makes for some blurriness). And finally, there is a difference
 between experts and amateurs.
+
 Let’s chart this up.
+
 Expert Beginner
 Use Develop Use Develop
 Internal framework ? ? ? ?
 External framework ? ? ? ?
+
 What do you think? Should either type of framework be managed
 either way, by either group?
-4 | The Little Book of HTML/CSS Frameworks
+
 Here’s what I think. Let’s compare.
+
 Expert Beginner
 Use Develop Use Develop
 Internal framework Yes Yes Yes Yes
 External framework No Yes Yes No
+
 Please note that developing an internal framework and making it
 public, as we could even apply to blog themes, is here not consid‐
 ered developing an external framework. The decisive factor is the
 goal during the initial development process. A thorough revision
 and overhaul of an framework to make it external or internal-only,
 however, constitutes a development phase, and would be acceptable.
+
 Reflected in the table is the idea that frameworks can be used and
 developed liberally, with two exceptions. One exception is that
 experts shouldn’t use external frameworks; the other is that beginners
 shouldn’t develop external frameworks.
+
 The two exceptions stem from a violation of quality standards: while
 the external framework violates the ideals of the expert (which I will
 later describe), it is the beginner who would not even know the nec‐
 essary ideals to create a quality framework.
+
 The internal framework is safe to use or develop in every case
 because that’s the preferred way of developing web documents and
 apps. Internal beats external every time because external cannot, by
@@ -93,6 +101,7 @@ definition, know all the needs of the organization and fails many
 quality standards. Second, internal solutions are the better route for
 both experts and beginners to stay sharp and to learn, since their
 mistakes have a smaller impact.
+
 The development of an external framework is safest only with an
 experienced web developer, who can, following the principles out‐
 lined in this book, skillfully build and document it so that it has a
@@ -102,8 +111,10 @@ framework is thought to be more viable simply because things mat‐
 Understanding Frameworks | 5
 ter a lot less for him; he may discern few impacts in quality, and he
 may not yet have a long-term vision for his project.
-Compilation Frameworks
-Compilation frameworks are frameworks that include third-party
+
+I> ### Compilation Frameworks
+I>
+I> Compilation frameworks are frameworks that include third-party
 style sheets and scripts. These may be public reset style sheets, but
 can extend to elaborate UI elements. Skeleton, for example, used to
 build on Normalize.css, while Blueprint is thought to incorporate
@@ -112,69 +123,74 @@ compilation frameworks because they extend Bootstrap, but we
 typically find the compilation framework species internally, when
 institutions build their own frameworks based on existing public
 ones.
-We don’t cover compilation frameworks in more detail because they
+I>
+I> We don’t cover compilation frameworks in more detail because they
 expand on the external frameworks we do cover. But to err on the
 safe side: composite frameworks mean composite problems, and
 there’s extra work involved in testing and maintaining. Special
 attention is in order.
-Popular Frameworks
+
+## Popular Frameworks
+
 There are many dozens of HTML/CSS frameworks that developers
 have found useful. Here is a representative selection, to give you an
 impression of what the world of external frameworks feels like:
-• 960 Grid System
-• 1140 CSS Grid
-• Base
-• Bijou
-• Bootstrap
-• Blueprint
-• Cascade Framework
-• Columnal
-• Compass
-• CSS Smart Grid
-• Fluid Baseline Grid
-6 | The Little Book of HTML/CSS Frameworks
-• Foundation
-• Gantry
-• Golden Grid System
-• Goldilocks
-• Gridiculo.us
-• Gridless
-• Gridlock
-• Gumby
-• Groundwork
-• HTML KickStart
-• HTML5 Boilerplate
-• IceCream
-• Ingrid
-• InuitCSS
-• IVORY Framework
-• KNACSS
-• kouto swiss
-• Kube
-• Layers CSS
-• Less Framework
-• Metro UI CSS
-• Mueller Grid System
-• Profound Grid
-• Pure
-• Responsee
-• ResponsiveAeon
-• Responsive Grid System
-• Salsa
-• Semantic Grid System
-• Simple Grid
-• Skeleton
-Understanding Frameworks | 7
-• Susy
-• Titan
-• Toast
-• Tuktuk
-• YAML
+
+* 960 Grid System
+* 1140 CSS Grid
+* Base
+* Bijou
+* Bootstrap
+* Blueprint
+* Cascade Framework
+* Columnal
+* Compass
+* CSS Smart Grid
+* Fluid Baseline Grid
+* Foundation
+* Gantry
+* Golden Grid System
+* Goldilocks
+* Gridiculo.us
+* Gridless
+* Gridlock
+* Gumby
+* Groundwork
+* HTML KickStart
+* HTML5 Boilerplate
+* IceCream
+* Ingrid
+* InuitCSS
+* IVORY Framework
+* KNACSS
+* kouto swiss
+* Kube
+* Layers CSS
+* Less Framework
+* Metro UI CSS
+* Mueller Grid System
+* Profound Grid
+* Pure
+* Responsee
+* ResponsiveAeon
+* Responsive Grid System
+* Salsa
+* Semantic Grid System
+* Simple Grid
+* Skeleton
+* Susy
+* Titan
+* Toast
+* Tuktuk
+* YAML
+
 (Some readers will remember Choke, too, although that humor may
 have been rather crude.)
+
 These frameworks all vary in functionality and scope. Some focus
 on base layouts, while others go all the way into comprehensive
 print and mobile themes.
+
 Such a list of frameworks is the type of information that goes stale
 quickly. While some frameworks, most notably YAML (not to be
 confused with YAML Ain’t Markup Language), have been around
