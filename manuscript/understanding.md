@@ -67,35 +67,18 @@ Hier sind meine Gedanken. Lassen Sie uns vergleichen.
 | | Experte | | Neuling | |
 | --- | --- | --- | --- | --- |
 | | Benutzen | Entwickeln | Benutzen | Entwickeln |
-| Internes Framework | ja ✅ | ja ✅ | ja ✅ | ja ✅ |
-| Externes Framework | nein ⛔️ | ja ✅ | ja ✅ | nein ⛔ |
+| Internes Framework | ✅ ja | ✅ ja | ✅ ja | ✅ ja |
+| Externes Framework | ⛔ nein️ | ✅ ja | ✅ ja | ⛔ nein |
+
+Beachten Sie, dass das Entwickeln eines internen Frameworks und Veröffentlichen dessen, eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte, hier nicht als Entwicklung eines externen Frameworks betrachtet wird. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern zu machen, würde eine solche Entwicklungsphase jedoch darstellen und damit akzeptabel im Sinne dieser Kriterien sein. 
+
+Was die Tabelle darstellt, ist die Idee, dass Frameworks mit lediglich zwei Ausnahmen liberal verwendet und entwickelt werden sollten. Eine Ausnahme ist, dass Experten keine externen Frameworks gebrauchen sollten; die andere, dass Anfänger keine externen Frameworks entwickeln sollten.
+
+Beiden Ausnahmen, von denen die erste vor allem heute, einige Jahre nach Erscheinen der Originalausgabe dieses Buches, sehr hart wirken muss, liegt eine Verletzung von Qualitätsstandards oder der Annahme solches Standards zugrunde: Während ein externes Framework den Idealen eines Experten (welche ich später beschreibe) widersprechen sollte, hätte ein Neuling zwangsläufig noch gar keine Ideale, um ein hochwertiges Framework überhaupt entwerfen zu können.
+
+Ein internes Framework ist immer sicher zu verwenden oder entwickeln, weil es dem bevorzugten Weg entspricht, Websites und -Apps zu bauen. Intern ist immer besser als extern weil extern nie alle Bedürfnisse des entsprechenden Projekts kennen kann, und damit qualitativ an vielen Stellen inferior ist. Dazu kommt, dass interne Lösungen sowohl für Experten als auch Neulige die effektivere Route darstellen, in Übung zu bleiben und sich weiterzuentwickeln, nicht nur, weil ihre Fehler, die jeder von uns begeht, hier eine kleinere Reichweite haben.  
 
 @@
-
-Please note that developing an internal framework and making it
-public, as we could even apply to blog themes, is here not consid‐
-ered developing an external framework. The decisive factor is the
-goal during the initial development process. A thorough revision
-and overhaul of an framework to make it external or internal-only,
-however, constitutes a development phase, and would be acceptable.
-
-Reflected in the table is the idea that frameworks can be used and
-developed liberally, with two exceptions. One exception is that
-experts shouldn’t use external frameworks; the other is that beginners
-shouldn’t develop external frameworks.
-
-The two exceptions stem from a violation of quality standards: while
-the external framework violates the ideals of the expert (which I will
-later describe), it is the beginner who would not even know the nec‐
-essary ideals to create a quality framework.
-
-The internal framework is safe to use or develop in every case
-because that’s the preferred way of developing web documents and
-apps. Internal beats external every time because external cannot, by
-definition, know all the needs of the organization and fails many
-quality standards. Second, internal solutions are the better route for
-both experts and beginners to stay sharp and to learn, since their
-mistakes have a smaller impact.
 
 The development of an external framework is safest only with an
 experienced web developer, who can, following the principles out‐
@@ -103,7 +86,6 @@ lined in this book, skillfully build and document it so that it has a
 better chance to be useful, at a low cost-benefit ratio. For the less
 experienced developer or the one in a hurry, use of an external
 framework is thought to be more viable simply because things mat‐
-Understanding Frameworks | 5
 ter a lot less for him; he may discern few impacts in quality, and he
 may not yet have a long-term vision for his project.
 
