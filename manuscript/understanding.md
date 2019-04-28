@@ -36,7 +36,7 @@ Eine der einfachsten Arten, Bootstrap zu verwenden, besteht beispielsweise darin
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 ```
 
-Nun wo wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, soll noch ein anderer Blick folgen. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als geteilte Stylesheets und Skripte, denen ein höhere Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript oder beides herauspicken und es zum Framework deklarieren! 
+Nun wo wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, soll noch ein anderer Blick folgen. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als _geteilte_ Stylesheets und Skripte, denen ein höhere Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript oder beides herauspicken und es zum Framework deklarieren! 
 
 Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen. 
 
@@ -46,7 +46,7 @@ Frameworks versprechen, sowohl Design- als auch Entwicklungszeit zu sparen. Die 
 
 Wenn Frameworks mit diesem Versprechen kommen, muss man sich eigentlich die Frage stellen, ob sie es auch erfüllen. Die Antwort darauf läuft letztlich auf eine Kostenkalkulation hinaus, die unglücklicher- aber auch logischerweise für jedes Projekt und Framework anders ausfällt. Was für Entwicklungskosten wurden eingespart? Wieviel wurde im Gegenzug für Training, Anpassungen und Aktualisierungen ausgegeben?  
 
-Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes Projekt entsprechend zu durchdenken, behandeln die nächsten Seiten Frameworks in dem Detail, das notwendig ist, um jedem zu ermöglichen, eine eigene Theorie von den <i>raisons d'être</i> für Frameworks aufzustellen. 
+Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes Projekt entsprechend zu _durchdenken_, behandeln die nächsten Seiten Frameworks in dem Detail, das notwendig ist, um jedem zu ermöglichen, eine eigene Theorie von den <i>raisons d'être</i> für Frameworks aufzustellen. 
 
 ## Arten und Einsatzfälle von Frameworks
 
