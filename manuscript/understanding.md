@@ -50,32 +50,27 @@ Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes
 
 ## Arten und Einsatzfälle von Frameworks
 
+Alle Frameworks bilden Design-Patterns ab, aber trotzdem müssen wir erstmal allgemeinere Unterscheidungen treffen. Zum einen gibt es einen Unterschied zwischen internen und externen Frameworks – wobei es oftmals nur die externen sind, die gemeinhin als Frameworks bezeichnet werden. Zum anderen gibt es, offensichtlich aber dennoch wichtig, einen Unterschied zwischen der Benutzung und der Entwicklung von Frameworks (auch wenn Entwickler selbst auch Nutzer sein können, was für eine gewisse Unschärfe sorgt). Und dann gibt es noch den Unterschied zwischen Neulingen und Experten.
+
+Das sollten wir einmal skizzieren.
+
+| | Experte | | Neuling | |
+| --- | --- | --- | --- | --- |
+| | Benutzen | Entwickeln | Benutzen | Entwickeln |
+| Internes Framework | ? | ? | ? | ? |
+| Externes Framework | ? | ? | ? | ? |
+
+Was denken Sie? Sollten beide Arten von Frameworks auf beide Arten betrieben werden, von beiden Gruppen?
+
+Hier sind meine Gedanken. Lassen Sie uns vergleichen.
+
+| | Experte | | Neuling | |
+| --- | --- | --- | --- | --- |
+| | Benutzen | Entwickeln | Benutzen | Entwickeln |
+| Internes Framework | ja ✅ | ja ✅ | ja ✅ | ja ✅ |
+| Externes Framework | nein ⛔️ | ja ✅ | ja ✅ | nein ⛔ |
+
 @@
-
-While all frameworks provide patterns, we must note general dis‐
-tinctions. For one, there is a difference between internal and exter‐
-nal frameworks—the external ones are those that typically get
-referred to as frameworks. Then, there is a difference between using
-and developing a framework (note that developers can be users,
-which makes for some blurriness). And finally, there is a difference
-between experts and amateurs.
-
-Let’s chart this up.
-
-Expert Beginner
-Use Develop Use Develop
-Internal framework ? ? ? ?
-External framework ? ? ? ?
-
-What do you think? Should either type of framework be managed
-either way, by either group?
-
-Here’s what I think. Let’s compare.
-
-Expert Beginner
-Use Develop Use Develop
-Internal framework Yes Yes Yes Yes
-External framework No Yes Yes No
 
 Please note that developing an internal framework and making it
 public, as we could even apply to blog themes, is here not consid‐
