@@ -78,36 +78,17 @@ Beiden Ausnahmen, von denen die erste vor allem heute, einige Jahre nach Erschei
 
 Ein internes Framework ist immer sicher zu verwenden oder entwickeln, weil es dem bevorzugten Weg entspricht, Websites und -Apps zu bauen. Intern ist immer besser als extern weil extern nie alle Bedürfnisse des entsprechenden Projekts kennen kann, und damit qualitativ an vielen Stellen inferior ist. Dazu kommt, dass interne Lösungen sowohl für Experten als auch Neulige die effektivere Route darstellen, in Übung zu bleiben und sich weiterzuentwickeln, nicht nur, weil ihre Fehler, die jeder von uns begeht, hier eine kleinere Reichweite haben.  
 
+Die Entwicklung eines externen Frameworks ist am besten bei einem (oder natürlich mehreren) erfahrenen Webentwickler aufgehoben, einem der entsprechend der Prinzipien, die in diesem Buch aufgezeigt werden, selbiges Framework so bauen und dokumentieren kann, dass es tatsächlich nützlich ist, und das bei einem annehmbaren Verhältnis von Kosten zu Nutzen. Dem weniger erfahrenen Entwickler oder dem, der in Eile ist, wird der Gebrauch eines externen Frameworks eher deshalb angeraten, weil ihm manche Aspekte weniger wichtig sind; er mag weniger auf Qualität achten und vielleicht geht es ihm auch gar nicht um eine langfristige Vision für das entsprechende Projekt.   
+
+I> ### Kompilierte Frameworks
+I>
+I> Kompilierte, zusammengestellte Frameworks sind solche, die Stylesheets und Skripte von Dritten umfassen. Dies mögen öffentliche Reset-Stylesheets sein, kann aber auch durchaus umfangreiche UI-Elemente beinhalten. Skeleton band ursprünglich z.B. [Normalize.css](https://necolas.github.io/normalize.css/) ein, während Blueprint auf [Eric Meyers CSS-Reset](https://meyerweb.com/eric/tools/css/reset/) aufsetzt. Vor ein paar Jahren waren [WrapBootstrap](https://wrapbootstrap.com/) and [Flat UI Pro](https://designmodo.com/flat/) eher einfache Beispiele für kompilierte Frameworks, weil sie schlicht Bootstrap erweitern (wie so einige andere, nun, Stylesheets). Generell aber finden wir die Gattung der kompilierten Frameworks am häufigsten intern, wenn Organisation ihre eigenen Frameworks auf der Basis extierender öffentlicher Lösungen zusammenschrauben.
+I>
+I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich auf externen Frameworks aufbauen, die wir behandeln. Um aber auf der sicheren Seite zu sein: zusammengesetzte Frameworks bedeuten zusammengesetzte Probleme, und bedeuten zusätzliche Arbeit, was Tests und Wartung anbelangt. Erhöhte Aufmerksamkeit ist gefragt. 
+
+## Beliebte Frameworks
+
 @@
-
-The development of an external framework is safest only with an
-experienced web developer, who can, following the principles out‐
-lined in this book, skillfully build and document it so that it has a
-better chance to be useful, at a low cost-benefit ratio. For the less
-experienced developer or the one in a hurry, use of an external
-framework is thought to be more viable simply because things mat‐
-ter a lot less for him; he may discern few impacts in quality, and he
-may not yet have a long-term vision for his project.
-
-I> ### Compilation Frameworks
-I>
-I> Compilation frameworks are frameworks that include third-party
-style sheets and scripts. These may be public reset style sheets, but
-can extend to elaborate UI elements. Skeleton, for example, used to
-build on Normalize.css, while Blueprint is thought to incorporate
-Eric Meyer’s CSS reset. WrapBootstrap and Flat UI Pro are arguably
-compilation frameworks because they extend Bootstrap, but we
-typically find the compilation framework species internally, when
-institutions build their own frameworks based on existing public
-ones.
-I>
-I> We don’t cover compilation frameworks in more detail because they
-expand on the external frameworks we do cover. But to err on the
-safe side: composite frameworks mean composite problems, and
-there’s extra work involved in testing and maintaining. Special
-attention is in order.
-
-## Popular Frameworks
 
 There are many dozens of HTML/CSS frameworks that developers
 have found useful. Here is a representative selection, to give you an
