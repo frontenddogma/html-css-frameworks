@@ -97,9 +97,13 @@ impression of what the world of external frameworks feels like:
 * 960 Grid System
 * 1140 CSS Grid
 * Base
+* [Basscss](https://basscss.com/)
+* [Beard](http://buildwithbeard.com/)
 * Bijou
 * Bootstrap
 * Blueprint
+* [Brutalist Framework](http://www.brutalistframework.com/)
+* [Bulma](https://bulma.io/)
 * Cascade Framework
 * Columnal
 * Compass
@@ -114,6 +118,7 @@ impression of what the world of external frameworks feels like:
 * Gridlock
 * Gumby
 * Groundwork
+* [HiQ](https://jonathanharrell.github.io/hiq/)
 * HTML KickStart
 * HTML5 Boilerplate
 * IceCream
@@ -137,9 +142,12 @@ impression of what the world of external frameworks feels like:
 * Simple Grid
 * Skeleton
 * Susy
+* [Tachyons](http://tachyons.io/)
+* [Tacit](https://yegor256.github.io/tacit/)
 * Titan
 * Toast
 * Tuktuk
+* [turretcss](https://turretcss.com/)
 * YAML
 
 (Some readers will remember Choke, too, although that humor may
