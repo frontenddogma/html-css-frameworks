@@ -6,77 +6,91 @@ Now, what is a “good” framework? What does a framework have that
 we want to use? What constitutes the framework we may want to
 build? I’ve thought about and worked with and discussed this ques‐
 tion many times.
+
 In a professional or expert context, “good” usually refers to quality.
 We can establish this for frameworks as well. A framework should,
 especially when it’s an external one, meet the highest applicable
 quality standards.
+
 Frameworks tend to be only used after a project reaches a certain
 size and complexity (a one-pager doesn’t need Bootstrap or YAML).
 They’re also done by third parties. As size and complexity makes
 issues weigh heavier (and since third parties, as we have seen, can‐
 not know a project’s full needs), we’re in need of some guarantees
 and safeties.
+
 We can get one such safety if we can curb the bloat that external
 frameworks in particular bring. We know what helps: tailoring. So a
 good framework should expressly be tailored.
+
 If we assume a complex project, we’re likely not alone working with
 or on the framework; and if it’s an external one, we have no idea
 whether the developers of that framework speak our language (liter‐
 ally and metaphorically). What helps here is usability. A good
 framework should be usable.
+
 And then, requirements change just as the times: how do we work
 with the framework going forward? What if we need to add some‐
 thing, perhaps in a pinch? What helps with that is extensibility. And
 thus a framework should also be extensible. At least we or the
 framework should be clear how to extend it.
+
 We’re just being professional and reasonable when we demand qual‐
 ity. We gain extra confidence, then, by wanting frameworks that are
 also tailored, usable, and extensible. Let’s look at these three special
 attributes a little closer and point out the options developers have to
 get frameworks to that state.
-On Quality
-It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what
+
+I> ### On Quality
+I> 
+I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what
 exactly is quality? Or, for our purposes, what is quality code? When
 we think about it—consider lifting our eyes from these pages, and
 think code quality—we won’t struggle to find more than just the
 ideals of tailored, usable, and extensible. There’s also:
-• Fast
-• Accessible
-• Semantic
-• Robust
-• Scalable
-• Documented
-• Maintainable
-• Valid
-• Self-explaining
-• Consistent
-• “Automagical”
-• State of the art
-• Simple
-Attributes of a Good Framework | 9
-• Compact
-• Flexible
-• Tested
-• Fault-tolerant
-• Self-correcting
-• And more!
-This doesn’t even include anything emotional we may want to
+I>
+I> * Fast
+I> * Accessible
+I> * Semantic
+I> * Robust
+I> * Scalable
+I> * Documented
+I> * Maintainable
+I> * Valid
+I> * Self-explaining
+I> * Consistent
+I> * “Automagical”
+I> * State of the art
+I> * Simple
+I> * Compact
+I> * Flexible
+I> * Tested
+I> * Fault-tolerant
+I> * Self-correcting
+I> * And more!
+I> 
+I> This doesn’t even include anything emotional we may want to
 attach to quality, like “pleasant” or “fun.” But what we see is that
 quality has many different faces.
-1. A Framework Should Be Tailored
+
+## 1. A Framework Should Be Tailored
+
 We defined tailoring as “producing and adjusting to precise dimen‐
 sions and needs.” Producing refers to developing a framework—
 whether internal or external—while adjusting commonly means fit‐
 ting an external framework. The key here is “precise dimensions and
 needs.” We need to know our needs—otherwise we can neither pro‐
 duce nor adjust something to fit.
+
 One view of tailored code, by the way, is to compare needed code
 with overall code. That can be hard to measure, because the number
 of characters or lines in our code doesn’t do the trick. But conceptu‐
 ally, tailoring means using as little and yet as effective code as possi‐
 ble, and not more.
+
 What can we do to tailor? The approach depends on the origin of
 the framework, and that origin makes for a big difference.
+
 An internal framework is relatively simple to tailor: We develop to
 the needs of our project from the beginning. These needs may be
 defined by comps (comprehensive layouts) and mocks (mock-ups)
@@ -84,6 +98,7 @@ or, better, a style guide. Once all needed page types and elements
 have been specified, they’re coded up. If they’re all used by the later
 site or app, the code cannot be anything but tailored (although it can
 possibly still be optimized and compressed).
+
 An external framework, however, is much more difficult to tailor
 (by the receiving side, because it’s impossible for the originator). In a
 basic sense, we need to deduct all needed functionality from all
@@ -94,6 +109,7 @@ of the framework code and its documentation (e.g., tailoring will
 require testing, might break the framework, and could make the
 same work necessary for later updates, if not outright thwarting the
 ability to move to newer frameworks).
+
 These are big issues that make for good reasons why few people
 actually go to the length of customizing or tailoring external frame‐
 works (or any external code, for that matter). Yet the outcome—
@@ -102,64 +118,82 @@ inferior. And so we see with more clarity why in a professional con‐
 text, external frameworks shouldn’t be preferred. They promise to
 save cost, only to come with a stiff hidden tax or else bring down the
 quality of our work.
+
 Now, some frameworks like Bootstrap or Gumby have begun to
 address these problems by offering sophisticated customization wiz‐
 ards. This is smart, because it significantly alleviates the issues of
 non-tailored solutions. Framework developers should offer and
 users use such functionality.
+
 By the way, there’s another problem we need to consider: while we’re
 benefiting from either our decision to save cost or to improve qual‐
 ity, our end users benefit mostly from quality. Technically speaking,
 they are rarely on the list of beneficiaries if we decide to deploy a
 framework that’s bloated but easy to churn out.
+
 To tailor internal frameworks:
-• Be clear about needs.
-• Build the framework to these needs.
+
+* Be clear about needs.
+* Build the framework to these needs.
+
 To tailor external frameworks:
-• Be clear about needs.
-• Customize or modify the framework to these needs (or abstain
+
+* Be clear about needs.
+* Customize or modify the framework to these needs (or abstain
 from the framework).
-2. A Framework Should Be Usable
+
+## 2. A Framework Should Be Usable
+
 A good framework is not only tailored but also usable. But what is
 usability for frameworks? It starts with applying the common defini‐
-Attributes of a Good Framework | 11
 tion of usability: ease of use and learnability. And with a universal
 rule: keep it simple. Simplicity helps everything.
+
 But that’s not quite a complete answer, and so we need to differenti‐
 ate again. The distinction that serves us here is not one between
 frameworks, but between roles: framework users and framework
 developers.
+
 For the framework user (who may be a developer himself but is now
 concerned with working with the framework), a usable framework is
 also easy to understand. That ease of understanding is primarily
 achieved through clear framework documentation and, where appli‐
 cable, concise code.
+
 For the framework developer, there’s much more emphasis on usable
 code. Luckily, there are two things we can firmly link with helping
 code usability: maintainability practices and code conventions (cod‐
 ing guidelines). Adherence to maintainability practices and consis‐
 tent style are the backbone for usable code.
+
 With slightly smaller boundaries than developer experience, I gener‐
 ally believe there is a subfield of usability: developer usability. It
 could be defined as “the ease of use and learnability of code.” Per‐
 haps this field doesn’t get much attention because usable code goes
 under different names, as we just found, but perhaps it would bene‐
 fit from being treated separately.
+
 To make frameworks more usable for users:
-• Keep it simple.
-• Follow usability conventions.
-• Perform usability tests.
-• Provide documentation for framework users.
+
+* Keep it simple.
+* Follow usability conventions.
+* Perform usability tests.
+* Provide documentation for framework users.
+
 To make frameworks more usable for developers:
-• Keep it simple.
-• Aim for self-explanatory code.
-• Format code legibly and consistently.
-• Follow maintainability best practices.
-• Provide documentation for framework developers.
-3. A Framework Should Be Extensible
+
+* Keep it simple.
+* Aim for self-explanatory code.
+* Format code legibly and consistently.
+* Follow maintainability best practices.
+* Provide documentation for framework developers.
+
+### 3. A Framework Should Be Extensible
+
 The final attribute to underscore is extensibility. Extensibility for a
 framework means that it’s not just possible, but well-defined and
 easy to extend it.
+
 Extensibility is necessary for two reasons. First, external frameworks
 in particular won’t offer everything we need, so there needs to be a
 way to add functionality. Second, especially in large projects, there’s
@@ -168,6 +202,7 @@ their uncertainty and uniqueness: they may only be used once or
 twice and don’t warrant a place in the framework core or even near
 more common extensions. Both their location and handling have to
 be thought of.
+
 To make up for lacking functionality in a framework, users typically
 help themselves by pretending they don’t use a framework in the
 first place. That is, they have a style sheet or script that handles
@@ -178,6 +213,7 @@ ity is also a user responsibility). If nothing else, extensibility stresses
 the need for the most basic of all code safeties: a namespace (a
 framework-specific ID and class name prefix, and the same name‐
 space in JavaScript).
+
 Next, new and rarely used patterns are a challenge that runs in the
 best families. There tends to always be a need for something new,
 and there are always document types or elements that are used infre‐
@@ -192,27 +228,31 @@ make recommendations, but users should come up with their own
 guidelines if this piece has not been covered. A documented stan‐
 dard for new code allows better monitoring and better decisions on
 whether to keep (and relocate) the code, or to remove it.
+
 We’ve very successfully applied this principle with Google’s
 HTML/CSS framework Go—not to be confused with the program‐
 ming language, which was conceived two years later. Go came with a
-Attributes of a Good Framework | 13
 “backpack” library, Go X, which included elements that we used
 only occasionally. This kept the core very small—4,250 bytes includ‐
 ing the Google logo—but offered the use of additional, commonenough elements. Project-specific code made for a third layer that
 had to be carried by each project style sheet itself.
+
 To make frameworks more extensible:
-• Use a framework namespace.
-• Define handling of non-framework code.
-• Specify where new and rarely used code should be located (also
+
+* Use a framework namespace.
+* Define handling of non-framework code.
+* Specify where new and rarely used code should be located (also
 a framework-user responsibility).
-• Regularly review new and rarely used code, to either make part
+* Regularly review new and rarely used code, to either make part
 of framework or remove (also a framework-user responsibility).
-Please note that despite all my experience and convic‐
+
+I> Please note that despite all my experience and convic‐
 tions, I’ve phrased these rules as strong suggestions. I
 was tempted to say “must,” “must,” “must.” Whenever
 we like more dogma in our web development life, we
 use this verb.
-Another thing before we move on: note that no matter
+I> 
+I> Another thing before we move on: note that no matter
 the quality of the framework, the goal for its use is
 always on the owners and developers. Frameworks can
 be likened to cars: a good car should be, say, safe, easy
