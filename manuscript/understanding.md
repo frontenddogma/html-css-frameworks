@@ -88,78 +88,51 @@ I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich au
 
 ## Beliebte Frameworks
 
-@@
+Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Frameworks, die Webentwickler bisher als nützlich empfunden haben. Hier ist eine umfassende Auswahl, um einen Eindruck davon zu vermitteln, wie groß Welt der Frameworks geworden ist:  
 
-There are many dozens of HTML/CSS frameworks that developers
-have found useful. Here is a representative selection, to give you an
-impression of what the world of external frameworks feels like:
-
-* 960 Grid System
-* 1140 CSS Grid
-* Base
+* [960 Grid System](https://960.gs/)
 * [Basscss](https://basscss.com/)
 * [Beard](http://buildwithbeard.com/)
-* Bijou
-* Bootstrap
-* Blueprint
+* [Bijou](https://andhart.github.io/bijou/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Blueprint](http://www.blueprintcss.org/)
 * [Brutalist Framework](http://www.brutalistframework.com/)
 * [Bulma](https://bulma.io/)
-* Cascade Framework
-* Columnal
-* Compass
-* CSS Smart Grid
-* Fluid Baseline Grid
-* Foundation
-* Gantry
-* Golden Grid System
-* Goldilocks
-* Gridiculo.us
-* Gridless
-* Gridlock
-* Gumby
-* Groundwork
+* [Compass](http://compass-style.org/)
+* [CSS Smart Grid](http://origin.css.gd/)
+* [Foundation](https://foundation.zurb.com/)
+* [Gantry](http://gantry.org/)
+* [Golden Grid System](http://goldengridsystem.com/)
+* [Gridless](https://thatcoolguy.github.io/gridless-boilerplate/)
 * [HiQ](https://jonathanharrell.github.io/hiq/)
-* HTML KickStart
-* HTML5 Boilerplate
-* IceCream
-* Ingrid
-* InuitCSS
-* IVORY Framework
-* KNACSS
-* kouto swiss
-* Kube
-* Layers CSS
-* Less Framework
-* Metro UI CSS
-* Mueller Grid System
-* Profound Grid
-* Pure
-* Responsee
-* ResponsiveAeon
-* Responsive Grid System
-* Salsa
-* Semantic Grid System
-* Simple Grid
-* Skeleton
-* Susy
+* [HTML KickStart](http://www.99lime.com/elements/)
+* [HTML5 Boilerplate](https://html5boilerplate.com/)
+* [IceCream](http://html5-ninja.com/icecream/)
+* [Ingrid](http://piira.se/projects/ingrid/)
+* [KNACSS](https://www.knacss.com/)
+* [kouto swiss](http://kouto-swiss.io/)
+* [Kube](https://imperavi.com/kube/)
+* [Layers CSS](http://labs.jerryjappinen.com/layers/)
+* [Less Framework](http://lessframework.com/)
+* [Metro](https://metroui.org.ua/)
+* [Mueller Grid System](https://muellergridsystem.com/)
+* [Profound Grid](https://www.profoundgrid.com/)
+* [Pure](https://purecss.io/)
+* [Responsee](https://www.myresponsee.com/)
+* [Responsive Aeon](http://newaeonweb.com.br/responsiveaeon/)
+* [Responsive Grid System](https://www.bigdropinc.com/blog/responsive-gs/)
+* [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
+* [Skeleton](http://getskeleton.com/)
+* [Susy](https://www.oddbird.net/susy/)
 * [Tachyons](http://tachyons.io/)
 * [Tacit](https://yegor256.github.io/tacit/)
-* Titan
-* Toast
-* Tuktuk
 * [turretcss](https://turretcss.com/)
-* YAML
+* [YAML](http://www.yaml.de/)
 
-(Some readers will remember Choke, too, although that humor may
-have been rather crude.)
+(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals sehr grob war.)
 
-These frameworks all vary in functionality and scope. Some focus
-on base layouts, while others go all the way into comprehensive
-print and mobile themes.
+Die dargestellten Frameworks sind z.T. sehr unterschiedlich und variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
-Such a list of frameworks is the type of information that goes stale
-quickly. While some frameworks, most notably YAML (not to be
-confused with YAML Ain’t Markup Language), have been around
-for many years, other frameworks come and go. It’s more useful to
-obtain said impression from this list, regard it as a snapshot, and,
-perhaps, make it a starting point to experiment
+Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das recht schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden verschwunden – selbst aus der erst 2015 aufgenommen Übersicht sind bisher ganze _17_ Frameworks weggefallen (die meisten davon ersatzlos gestorben), und 8 neue hinzugekommen.
+
+Der Nutzen in der Liste hat sich damit zwar immer noch als etwas langlebiger als befürchtet erwiesen, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir noch ein paar weitere Gründe.  
