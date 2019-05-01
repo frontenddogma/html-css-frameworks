@@ -94,8 +94,8 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Basscss](https://basscss.com/)
 * [Beard](http://buildwithbeard.com/)
 * [Bijou](https://andhart.github.io/bijou/)
-* [Bootstrap](https://getbootstrap.com/)
 * [Blueprint](http://www.blueprintcss.org/)
+* [Bootstrap](https://getbootstrap.com/)
 * [Brutalist Framework](http://www.brutalistframework.com/)
 * [Bulma](https://bulma.io/)
 * [Compass](http://compass-style.org/)
@@ -129,7 +129,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [turretcss](https://turretcss.com/)
 * [YAML](http://www.yaml.de/)
 
-(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals sehr grob war.)
+(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals eher grob war.)
 
 Die dargestellten Frameworks sind z.T. sehr unterschiedlich und variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
