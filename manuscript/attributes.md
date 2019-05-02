@@ -1,27 +1,14 @@
 # Attribute guter Frameworks
 
+Was ist denn nun ein »gutes« Framework? Was hat, oder was muss ein Framework haben, das wir benutzen wollen? Was macht ein Framework aus, das wir bauen wollen, oder bauen wollen würden? Ich habe mich damit lange beschäftigt, darüber nachgedacht, daran gearbeitet und mich dazu ausgetauscht.
+
+In einem beruflichen und professionellen Zusammenhang bedeutet »gut« in erster Linie Qualität. Das lässt sich auch auf Frameworks anwenden. Ein Framework sollte, ganz besonders wenn es ein externes ist, das von anderen, vielleicht vielen anderen, benutzt wird, den höchsten Qualitätsstandards und -ansprüchen genügen.
+
+Frameworks neigen dazu, eingesetzt zu werden, sobald ein Projekt eine bestimmte Größe und Komplexität erreicht hat (auch wenn das schon probiert wurde, braucht ein einzelnes Dokument kein Bootstrap oder YAML). Sie werden dann, Stichwort externe Frameworks, von Dritten entwickelt. Da Größe und Komplexität auch Probleme schwerer werden lassen, und da Dritte, wie wir gesehen haben, weder all unsere Bedürfnisse kennen noch besonders verlässlich sind, brauchen wir unbedingt ein paar Garantien und Sicherheiten.
+
+Wir können uns eine solche Sicherheit beschaffen, indem wir den »Bloat«, das Fett, das besonders externe Frameworks mit sich bringen. Wir wissen, was hier hilft: Zuschneiden (_Tailoring_, oder _Customization_). Demnach sollte ein gutes Framework ausdrücklich eins sein, dass auf unsere Bedürfnisse zugeschnitten wird (da es das nahezu nie ist, da nicht sein kann).
+
 @@
-
-Now, what is a “good” framework? What does a framework have that
-we want to use? What constitutes the framework we may want to
-build? I’ve thought about and worked with and discussed this ques‐
-tion many times.
-
-In a professional or expert context, “good” usually refers to quality.
-We can establish this for frameworks as well. A framework should,
-especially when it’s an external one, meet the highest applicable
-quality standards.
-
-Frameworks tend to be only used after a project reaches a certain
-size and complexity (a one-pager doesn’t need Bootstrap or YAML).
-They’re also done by third parties. As size and complexity makes
-issues weigh heavier (and since third parties, as we have seen, can‐
-not know a project’s full needs), we’re in need of some guarantees
-and safeties.
-
-We can get one such safety if we can curb the bloat that external
-frameworks in particular bring. We know what helps: tailoring. So a
-good framework should expressly be tailored.
 
 If we assume a complex project, we’re likely not alone working with
 or on the framework; and if it’s an external one, we have no idea
