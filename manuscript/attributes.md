@@ -6,35 +6,17 @@ In einem beruflichen und professionellen Zusammenhang bedeutet »gut« in erster
 
 Frameworks neigen dazu, eingesetzt zu werden, sobald ein Projekt eine bestimmte Größe und Komplexität erreicht hat (auch wenn das schon probiert wurde, braucht ein einzelnes Dokument kein Bootstrap oder YAML). Sie werden dann, Stichwort externe Frameworks, von Dritten entwickelt. Da Größe und Komplexität auch Probleme schwerer werden lassen, und da Dritte, wie wir gesehen haben, weder all unsere Bedürfnisse kennen noch besonders verlässlich sind, brauchen wir unbedingt ein paar Garantien und Sicherheiten.
 
-Wir können uns eine solche Sicherheit beschaffen, indem wir den »Bloat«, das Fett, das besonders externe Frameworks mit sich bringen, loswerden. Wir wissen, was hier hilft: Zuschneiden (_Tailoring_, oder _Customization_). Demnach sollte ein gutes Framework ausdrücklich eins sein, dass auf unsere Bedürfnisse zugeschnitten wird (da es das nahezu nie ist, da nicht sein kann).
+Wir können uns eine solche Sicherheit beschaffen, indem wir den »Bloat«, das Fett, das besonders externe Frameworks mit sich bringen, loswerden. Wir wissen, was hier notwendig ist: Zuschneiden (_Tailoring_, oder _Customization_). Hiernach sollte ein gutes Framework ausdrücklich eins sein, das maßgeschneidert ist, dass auf unsere Bedürfnisse zugeschnitten wird (da es das nahezu nie ist, weil nicht sein kann).
 
-@@
+Wenn wir nun von einem großen, komplexen Projekt ausgehen, arbeiten wir wahrscheinlich nicht allein mit oder an dem Framework; wenn es ein externes ist, wissen wir noch nicht einmal, ob die Entwickler des Frameworks unsere Sprache sprechen – buchstäblich und metaphorisch. Was hier hilft ist Usability, Benutzerfreundlichkeit. Ein gutes Framework sollte benutzerfreundlich sein.  
 
-If we assume a complex project, we’re likely not alone working with
-or on the framework; and if it’s an external one, we have no idea
-whether the developers of that framework speak our language (liter‐
-ally and metaphorically). What helps here is usability. A good
-framework should be usable.
+Und schließlich verändern sich Anforderungen mit der Zeit: Wie arbeiten wir später mit dem Framework? Was passiert, wenn wir etwas ändern müssen? Oder wenn wir etwas hinzufügen müssen, vielleicht in Eile? Und was hier wichtig ist, ist Erweiterbarkeit, und so sollte ein Framework auch erweiterbar sein. Entweder wir haben eine genaue Vorstellung, wie wir unser Framework erweitern, oder das Framework selbst sollte davon eine klare Vorstellung (Dokumentation) haben.  
 
-And then, requirements change just as the times: how do we work
-with the framework going forward? What if we need to add some‐
-thing, perhaps in a pinch? What helps with that is extensibility. And
-thus a framework should also be extensible. At least we or the
-framework should be clear how to extend it.
+Dieses Verlangen nach Qualität ist lediglich vernünftig und professionell. Wir können mehr Vertrauen in ein Framework haben, wenn es auf unsere Bedürfnisse maßgeschneidert, wenn es benutzerfreundlich und wenn es erweiterbar ist. Diese drei besonderen Attribute wollen wir uns nochmal näher anschauen und dabei die Optionen herausarbeiten, die Entwickler haben, Frameworks auch entsprechend zu bauen.  
 
-We’re just being professional and reasonable when we demand qual‐
-ity. We gain extra confidence, then, by wanting frameworks that are
-also tailored, usable, and extensible. Let’s look at these three special
-attributes a little closer and point out the options developers have to
-get frameworks to that state.
-
-I> ### On Quality
-I> 
-I> It’s easy to just say “quality,” and, “Yes, I’ll have that, too.” But what
-exactly is quality? Or, for our purposes, what is quality code? When
-we think about it—consider lifting our eyes from these pages, and
-think code quality—we won’t struggle to find more than just the
-ideals of tailored, usable, and extensible. There’s also:
+I> ### Über Qualität
+I>
+I> Es ist leicht, »Qualität« zu sagen oder »ja, will ich auch«. Aber was genau ist Qualität? Oder, nach dem bereits Behandelten, was ist Qualitäts-Code? Wenn wir etwas darüber nachdenken – vielleicht genau jetzt, ohne zu lesen – werden wir keine Mühen haben, mehr als nur die Ideale maßgeschneidert, benutzerfreundlich und erweiterbar zu finden. So gibt es auch:
 I>
 I> * schnell
 I> * zugänglich/barrierefrei
@@ -56,11 +38,11 @@ I> * fehlertolerant
 I> * selbstkorrigierend
 I> * und mehr
 I> 
-I> This doesn’t even include anything emotional we may want to
-attach to quality, like “pleasant” or “fun.” But what we see is that
-quality has many different faces.
+I> Und dies umfasst noch nicht mal irgendwelche emotionalen Eigenschaften, die man mit Qualität in Verbindung bringen könnte, wie »angenehm« oder vielleicht »unterhaltsam«. Qualität hat aber viele Facetten. 
 
-## 1. A Framework Should Be Tailored
+## 1. Ein Framework sollte maßgeschneidert sein
+
+@@
 
 We defined tailoring as “producing and adjusting to precise dimen‐
 sions and needs.” Producing refers to developing a framework—
