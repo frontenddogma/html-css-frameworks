@@ -6,7 +6,7 @@ In einem beruflichen und professionellen Zusammenhang bedeutet »gut« in erster
 
 Frameworks neigen dazu, eingesetzt zu werden, sobald ein Projekt eine bestimmte Größe und Komplexität erreicht hat (auch wenn das schon probiert wurde, braucht ein einzelnes Dokument kein Bootstrap oder YAML). Sie werden dann, Stichwort externe Frameworks, von Dritten entwickelt. Da Größe und Komplexität auch Probleme schwerer werden lassen, und da Dritte, wie wir gesehen haben, weder all unsere Bedürfnisse kennen noch besonders verlässlich sind, brauchen wir unbedingt ein paar Garantien und Sicherheiten.
 
-Wir können uns eine solche Sicherheit beschaffen, indem wir den »Bloat«, das Fett, das besonders externe Frameworks mit sich bringen. Wir wissen, was hier hilft: Zuschneiden (_Tailoring_, oder _Customization_). Demnach sollte ein gutes Framework ausdrücklich eins sein, dass auf unsere Bedürfnisse zugeschnitten wird (da es das nahezu nie ist, da nicht sein kann).
+Wir können uns eine solche Sicherheit beschaffen, indem wir den »Bloat«, das Fett, das besonders externe Frameworks mit sich bringen, loswerden. Wir wissen, was hier hilft: Zuschneiden (_Tailoring_, oder _Customization_). Demnach sollte ein gutes Framework ausdrücklich eins sein, dass auf unsere Bedürfnisse zugeschnitten wird (da es das nahezu nie ist, da nicht sein kann).
 
 @@
 
@@ -36,25 +36,25 @@ we think about it—consider lifting our eyes from these pages, and
 think code quality—we won’t struggle to find more than just the
 ideals of tailored, usable, and extensible. There’s also:
 I>
-I> * Fast
-I> * Accessible
-I> * Semantic
-I> * Robust
-I> * Scalable
-I> * Documented
-I> * Maintainable
-I> * Valid
-I> * Self-explaining
-I> * Consistent
-I> * “Automagical”
-I> * State of the art
-I> * Simple
-I> * Compact
-I> * Flexible
-I> * Tested
-I> * Fault-tolerant
-I> * Self-correcting
-I> * And more!
+I> * schnell
+I> * zugänglich/barrierefrei
+I> * semantisch
+I> * robust
+I> * skalierbar
+I> * dokumentiert
+I> * wartbar
+I> * valid
+I> * selbsterklärend
+I> * konsistent
+I> * »automagisch«
+I> * »State of the Art«
+I> * einfach
+I> * kompakt
+I> * flexibel
+I> * getestet
+I> * fehlertolerant
+I> * selbstkorrigierend
+I> * und mehr
 I> 
 I> This doesn’t even include anything emotional we may want to
 attach to quality, like “pleasant” or “fun.” But what we see is that
