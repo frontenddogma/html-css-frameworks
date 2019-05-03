@@ -52,16 +52,9 @@ Ein internes Framework ist recht einfach, zuzuschneiden: Wir entwickeln von Anfa
 
 Bei einem externen Framework sieht die Sache jedoch anders aus – es ist wesentlich schwieriger, dies auf Maß zu kriegen, beim Empfänger, da der Erschaffer dies gar nicht für dessen exakten Bedarf zu entwickeln vermochte. Vereinfacht ausgedrückt müssten wir von der angebotenen Funktionalität alle nicht benötigte abziehen und den entsprechenden Code abziehen und ausbauen. Das führt uns zu den Hauptproblemen mit externen Frameworks: Es kann unmöglich sein, Code zu entfernen (dies funktioniert selbst bei modularisierten Frameworks oft nicht rückstandsfrei), und alles Zuschneiden hängt dann von der Quantität (der Menge an Code), Qualität und Dokumentation des Frameworks ab. Alle möglichen Anpassungen erfordern dann besondere Sorgfalt und Tests, können das Framework im schlimmsten Falle kaputt machen und selbst wenn alles funktioniert, wird bei jedem Framework-Update wieder Arbeit fällig, mit wieder neuen Risiken, sofern man nicht aufgibt und entweder nichts anpasst (schlecht für die Qualität) oder keine Framework-Aktualisierungen mitgeht (ebenso schlecht für die Qualität). 
 
-@@
+Dies sind große Hindernisse, die genau der Grund sind, warum wenige Leute tatsächlich so weit gehen, ein externes Framework (oder überhaupt irgendwelchen Code von Dritten) anzupassen oder zuzuschneiden. Und sie bilden einen guten Grund. Das Ergebnis jedoch – nicht zugeschnittener und damit Code von niedrigerer Qualität – ist weder fachmännisch noch hochwertig. Und auch wenn dies weiterhin unterstellt, dass wir überhaupt alle an hochwertigem Code interessiert sind, sollte es zeigen, wenn diese Unterstellung wahr ist, externe Frameworks nicht zu wählen sind. Sie versprechen, Kosten zu sparen, nur um mittel- und langfristig eine ziemlich hohe Steuer einzutreiben (dadurch, dass wir Arbeiten an ihnen durchführen müssen) – oder sonst die Qualität unserer Projekte herunterziehen.
 
-These are big issues that make for good reasons why few people
-actually go to the length of customizing or tailoring external frame‐
-works (or any external code, for that matter). Yet the outcome—
-non-tailored and lower-quality code—is not very expert-like, and
-inferior. And so we see with more clarity why in a professional con‐
-text, external frameworks shouldn’t be preferred. They promise to
-save cost, only to come with a stiff hidden tax or else bring down the
-quality of our work.
+@@
 
 Now, some frameworks like Bootstrap or Gumby have begun to
 address these problems by offering sophisticated customization wiz‐
