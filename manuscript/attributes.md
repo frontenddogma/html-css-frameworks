@@ -44,35 +44,15 @@ I> Und dies umfasst noch nicht mal irgendwelche emotionalen Eigenschaften, die m
 
 Wir haben Maßschneidern als »Produzieren und Anpassen auf genaue Maße und Bedürfnisse« definiert. »Produzieren« bezieht sich auf die Entwicklung eines Frameworks, egal ob intern oder extern, während es beim »Anpassen« gemeinhin um die Taillierung eines _externen_ Frameworks geht. Der Schlüssel hierbei sind »genaue Maße und Bedürfnisse«. Wir müssen unsere Bedürfnisse und unseren Bedarf kennen – sonst können wir nichts produzieren oder anpassen, das diesen entspricht.
 
+Ein Blickwinkel auf maßgeschneiderten Code ist es, benötigten mit eingesetztem Code zu vergleichen. Da die blanken Zahlen für Zeichen oder Zeilen an Code dafür nicht herangezogen werden können, ist dies sehr schwer festzustellen, aber konzeptionell bedeutet zugeschnittener Code hier ein möglichst hohes Verhältnis, um so wenig Code wie möglich so effektiv wie möglich einzusetzen.    
+
+Was kann getan werden, um maßzuschneidern? Der Ansatz hängt stark vom Ursprung des Frameworks ab.
+
+Ein internes Framework ist recht einfach, zuzuschneiden: Wir entwickeln von Anfang an direkt auf unsere Bedürfnisse hin. Diese Bedürfnisse mögen durch Comps und Mocks (umfassende Layouts), einen Styleguide oder ein Designsystem definiert werden. Sobald die benötigten Seitentypen und -elemente spezifiziert wurden, werden sie entwickelt – hier egal, ob komponentenbasiert oder monolithisch. Wenn all dieser Code auch von der späteren Site oder App verwendet wird, kann der Code kaum anders als maßgeschneidert sein (obwohl er wahrscheinlich noch optimiert und komprimiert werden kann). 
+
+Bei einem externen Framework sieht die Sache jedoch anders aus – es ist wesentlich schwieriger, dies auf Maß zu kriegen, beim Empfänger, da der Erschaffer dies gar nicht für dessen exakten Bedarf zu entwickeln vermochte. Vereinfacht ausgedrückt müssten wir von der angebotenen Funktionalität alle nicht benötigte abziehen und den entsprechenden Code abziehen und ausbauen. Das führt uns zu den Hauptproblemen mit externen Frameworks: Es kann unmöglich sein, Code zu entfernen (dies funktioniert selbst bei modularisierten Frameworks oft nicht rückstandsfrei), und alles Zuschneiden hängt dann von der Quantität (der Menge an Code), Qualität und Dokumentation des Frameworks ab. Alle möglichen Anpassungen erfordern dann besondere Sorgfalt und Tests, können das Framework im schlimmsten Falle kaputt machen und selbst wenn alles funktioniert, wird bei jedem Framework-Update wieder Arbeit fällig, mit wieder neuen Risiken, sofern man nicht aufgibt und entweder nichts anpasst (schlecht für die Qualität) oder keine Framework-Aktualisierungen mitgeht (ebenso schlecht für die Qualität). 
+
 @@
-
-One view of tailored code, by the way, is to compare needed code
-with overall code. That can be hard to measure, because the number
-of characters or lines in our code doesn’t do the trick. But conceptu‐
-ally, tailoring means using as little and yet as effective code as possi‐
-ble, and not more.
-
-What can we do to tailor? The approach depends on the origin of
-the framework, and that origin makes for a big difference.
-
-An internal framework is relatively simple to tailor: We develop to
-the needs of our project from the beginning. These needs may be
-defined by comps (comprehensive layouts) and mocks (mock-ups)
-or, better, a style guide. Once all needed page types and elements
-have been specified, they’re coded up. If they’re all used by the later
-site or app, the code cannot be anything but tailored (although it can
-possibly still be optimized and compressed).
-
-An external framework, however, is much more difficult to tailor
-(by the receiving side, because it’s impossible for the originator). In a
-basic sense, we need to deduct all needed functionality from all
-offered functionality, and then remove the code that remains. That
-leads us to the key issues with external frameworks: removing code
-may not even be possible, and tailoring then depends on the quality
-of the framework code and its documentation (e.g., tailoring will
-require testing, might break the framework, and could make the
-same work necessary for later updates, if not outright thwarting the
-ability to move to newer frameworks).
 
 These are big issues that make for good reasons why few people
 actually go to the length of customizing or tailoring external frame‐
@@ -198,7 +178,8 @@ HTML/CSS framework Go—not to be confused with the program‐
 ming language, which was conceived two years later. Go came with a
 “backpack” library, Go X, which included elements that we used
 only occasionally. This kept the core very small—4,250 bytes includ‐
-ing the Google logo—but offered the use of additional, commonenough elements. Project-specific code made for a third layer that
+ing the Google logo—but offered the use of additional, common
+enough elements. Project-specific code made for a third layer that
 had to be carried by each project style sheet itself.
 
 To make frameworks more extensible:
