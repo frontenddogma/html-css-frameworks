@@ -42,14 +42,9 @@ I> Und dies umfasst noch nicht mal irgendwelche emotionalen Eigenschaften, die m
 
 ## 1. Ein Framework sollte maßgeschneidert sein
 
-@@
+Wir haben Maßschneidern als »Produzieren und Anpassen auf genaue Maße und Bedürfnisse« definiert. »Produzieren« bezieht sich auf die Entwicklung eines Frameworks, egal ob intern oder extern, während es beim »Anpassen« gemeinhin um die Taillierung eines _externen_ Frameworks geht. Der Schlüssel hierbei sind »genaue Maße und Bedürfnisse«. Wir müssen unsere Bedürfnisse und unseren Bedarf kennen – sonst können wir nichts produzieren oder anpassen, das diesen entspricht.
 
-We defined tailoring as “producing and adjusting to precise dimen‐
-sions and needs.” Producing refers to developing a framework—
-whether internal or external—while adjusting commonly means fit‐
-ting an external framework. The key here is “precise dimensions and
-needs.” We need to know our needs—otherwise we can neither pro‐
-duce nor adjust something to fit.
+@@
 
 One view of tailored code, by the way, is to compare needed code
 with overall code. That can be hard to measure, because the number

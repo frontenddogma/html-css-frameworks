@@ -12,7 +12,7 @@ Pattern: Ein klassisches Design-Pattern oder [Entwurfsmuster](https://de.wikiped
 
 Kosten: Ein Maß für jede negative Konsequenz. Typischerweise Ausgaben an Arbeit, Zeit oder Geld, aber möglicherweise auch negative Veränderungen in bspw. Wahrnehmung, Befriedigung oder Reputation. In der Webentwicklung bedeutet z.B. jedes Element, das einer Seite hinzugefügt wird, Kosten in Bezug auf reduzierte Seiten-Performance.
 
-Maßschneidern: Das Produzieren und Anpassen auf genau Maße und Bedürfnisse. In der Webentwicklung ist maßgeschneiderter oder zugeschnitter Code genau der Code, der für ein Projekt benötigt wird – aber nicht mehr.
+Maßschneidern: Das Produzieren und Anpassen auf genaue Maße und Bedürfnisse. In der Webentwicklung ist maßgeschneiderter oder zugeschnitter Code der Code, der für ein Projekt benötigt wird – und nicht mehr.
 
 Dann einige Annahmen:
 
