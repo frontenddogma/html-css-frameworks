@@ -54,32 +54,23 @@ Bei einem externen Framework sieht die Sache jedoch anders aus – es ist wesent
 
 Dies sind große Hindernisse, die genau der Grund sind, warum wenige Leute tatsächlich so weit gehen, ein externes Framework (oder überhaupt irgendwelchen Code von Dritten) anzupassen oder zuzuschneiden. Und sie bilden einen guten Grund. Das Ergebnis jedoch – nicht zugeschnittener und damit Code von niedrigerer Qualität – ist weder fachmännisch noch hochwertig. Und auch wenn dies weiterhin unterstellt, dass wir überhaupt alle an hochwertigem Code interessiert sind, sollte es zeigen, wenn diese Unterstellung wahr ist, externe Frameworks nicht zu wählen sind. Sie versprechen, Kosten zu sparen, nur um mittel- und langfristig eine ziemlich hohe Steuer einzutreiben (dadurch, dass wir Arbeiten an ihnen durchführen müssen) – oder sonst die Qualität unserer Projekte herunterziehen.
 
+Manche Frameworks wie Bootstrap (und Bootstrap vielleicht noch am meisten) gehen diese Probleme an, indem sie umfangreiche und durchdachte Konfigurations-Wizards und -Optionen anbieten. Dies ist klug, denn genau so kann den Nachteilen nicht zugeschnittener Lösungen begegnet werden. Frameworks-Entwickler sollten – müssen – solche Funktionen bieten und Nutzer diese nutzen, auch wenn sie sowohl Entwicklung als auch Einarbeitung komplexer machen. (Das ist möglicherweise auch gleich der Grund, warum es immer noch viele Frameworks gibt, die nicht konfigurierbar sind, und qualitätsseitig weiter Warnungen gegeben werden müssen.)
+
+Nebenbei bemerkt müssen wir noch ein anderes Problem berücksichtigen: Während es wir selbst in jedem Fall von der Entscheidung profitieren, ob mit einem Framework Zeit und Geld gespart oder hohe Qualität erreicht werden soll, gewinnen unsere Nutzer nur dann, wenn die Entscheidung auf Qualität fällt. Sie haben selten etwas davon, wenn wir uns einfach für ein Framework entscheiden, dass zwar leicht aufzusetzen ist, aber mit Tonnen an ungenutztem Ballast kommt.  
+
+Um interne Frameworks maßzuschneidern muss man:
+
+* die Projektbedürfnisse und -ziele genau kennen;
+* das Framework genau auf diese Bedürfnisse hin entwickeln. 
+
+Um externe Frameworks maßzuschneidern muss man:
+
+* die Projektbedürfnisse und -ziele genau kennen;
+* das Framework genau auf diese Bedürfnisse hin anpassen – oder, wenn man vom Ziel höchster Qualität kommt, vom Framework Abstand nehmen.
+
+## 2. Ein Framework sollte benutzefreundlich sein
+
 @@
-
-Now, some frameworks like Bootstrap or Gumby have begun to
-address these problems by offering sophisticated customization wiz‐
-ards. This is smart, because it significantly alleviates the issues of
-non-tailored solutions. Framework developers should offer and
-users use such functionality.
-
-By the way, there’s another problem we need to consider: while we’re
-benefiting from either our decision to save cost or to improve qual‐
-ity, our end users benefit mostly from quality. Technically speaking,
-they are rarely on the list of beneficiaries if we decide to deploy a
-framework that’s bloated but easy to churn out.
-
-To tailor internal frameworks:
-
-* Be clear about needs.
-* Build the framework to these needs.
-
-To tailor external frameworks:
-
-* Be clear about needs.
-* Customize or modify the framework to these needs (or abstain
-from the framework).
-
-## 2. A Framework Should Be Usable
 
 A good framework is not only tailored but also usable. But what is
 usability for frameworks? It starts with applying the common defini‐
