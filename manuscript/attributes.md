@@ -68,55 +68,36 @@ Um externe Frameworks maßzuschneidern muss man:
 * die Projektbedürfnisse und -ziele genau kennen;
 * das Framework genau auf diese Bedürfnisse hin anpassen – oder, wenn man vom Ziel höchster Qualität kommt, vom Framework Abstand nehmen.
 
-## 2. Ein Framework sollte benutzefreundlich sein
+## 2. Ein Framework sollte benutzerfreundlich sein
+
+Ein gutes Framework ist nicht nur maßgeschneidert, sondern auch benutzerfreundlich. Was heißt aber Benutzerfreundlichkeit, oder Benutzbarkeit, oder, um beim Englischen zu bleiben, Usability bei Frameworks? Sie beginnt mit der Anwendung der [üblichen Definition](https://en.wikipedia.org/wiki/Usability): leichte Bedien- und Erlernbarkeit. Und mit einer universellen Regel: Einfachheit (_Keep It Simple_). Einfachheit hilft bei fast allem. 
+
+Das kann aber noch nicht die vollständige Antwort sein, denn es muss weiter differenziert werden. Was uns hier hilft ist nicht die Unterscheidung zwischen Frameworks, sondern Rollen: die zwischen Framework-Benutzern und -Entwicklern.
+
+Für den Framework-Benutzer (der auch ein Entwickler sein kann, aber hier mit dem _Gebrauch_ eines Frameworks beschäftigt ist) ist ein benutzerfreundliches Framework eins, das leicht zu verwenden und verstehen ist. Dieses Verständnis wird primär durch klare und umfassende Framework-Dokumentation erreicht sowie, wenn nötig (z.B. zur Integration oder Einbettung), nachvollziehbaren Code. 
+
+Für den Framework-Entwickler liegt wesentlich stärkere Betonung auf benutzbarem Code. Es gibt hier vor allem zwei Dinge, die der Benutzerfreundlichkeit von Code dienen: die Befolgung von »[Best](https://meiert.com/en/blog/maintainability-guide/) [Practices](https://meiert.com/en/blog/maintainability-guide-2/)« zu Wartbarkeit sowie [Code-Konventionen und -Richtlinien](https://www.oreilly.com/library/view/the-little-book/9781492048459/). Einfache Wartbarkeit und konsistenter Stil, was sprechenden und kommentierten Code einschließt, bilden das Rückgrat benutzerfreundlichen Codes.  
+
+Dem Thema [_Developer Experience_ (DX)](https://hackernoon.com/developer-experience-dx-devs-are-people-too-6590d6577afe) zugehörig gibt es noch einen weiteren Bereich unterhalb von Benutzerfreundlichkeit, nämlich: Benutzerfreundlichkeit für Entwickler, oder _Developer Usability_. Dieser Bereich könnte mit »leichter Bedien- und Erlernbarkeit von Code« beschrieben werden. Vielleicht erhält er nicht soviel Aufmerksamkeit, weil benutzerfreundlicher Code oft unter anderen Namen propagiert und eingefordert wird, aber wie wir sehen, könnte er vielleicht davon profitieren, separat ausgezeichnet zu werden.
+
+Um Frameworks für Nutzer benutzerfreundlicher zu machen muss man:
+
+* es einfach halten;
+* Usability-Konventionen folgen;
+* Usability-Tests durchführen;
+* verständliche und ausreichende Dokumentation bieten.  
+
+Um Frameworks für Entwickler benutzerfreundlicher zu machen muss man:
+
+* es einfach halten;
+* selbsterklärenden Code anstreben;
+* Code lesbar und konsistent formatieren;
+* »Best Practices« für Wartbarkeit folgen;
+* Dokumentation speziell für Framework-Entwickler bieten.
+
+### 3. Ein Framework sollte erweiterbar sein
 
 @@
-
-A good framework is not only tailored but also usable. But what is
-usability for frameworks? It starts with applying the common defini‐
-tion of usability: ease of use and learnability. And with a universal
-rule: keep it simple. Simplicity helps everything.
-
-But that’s not quite a complete answer, and so we need to differenti‐
-ate again. The distinction that serves us here is not one between
-frameworks, but between roles: framework users and framework
-developers.
-
-For the framework user (who may be a developer himself but is now
-concerned with working with the framework), a usable framework is
-also easy to understand. That ease of understanding is primarily
-achieved through clear framework documentation and, where appli‐
-cable, concise code.
-
-For the framework developer, there’s much more emphasis on usable
-code. Luckily, there are two things we can firmly link with helping
-code usability: maintainability practices and code conventions (cod‐
-ing guidelines). Adherence to maintainability practices and consis‐
-tent style are the backbone for usable code.
-
-With slightly smaller boundaries than developer experience, I gener‐
-ally believe there is a subfield of usability: developer usability. It
-could be defined as “the ease of use and learnability of code.” Per‐
-haps this field doesn’t get much attention because usable code goes
-under different names, as we just found, but perhaps it would bene‐
-fit from being treated separately.
-
-To make frameworks more usable for users:
-
-* Keep it simple.
-* Follow usability conventions.
-* Perform usability tests.
-* Provide documentation for framework users.
-
-To make frameworks more usable for developers:
-
-* Keep it simple.
-* Aim for self-explanatory code.
-* Format code legibly and consistently.
-* Follow maintainability best practices.
-* Provide documentation for framework developers.
-
-### 3. A Framework Should Be Extensible
 
 The final attribute to underscore is extensibility. Extensibility for a
 framework means that it’s not just possible, but well-defined and
