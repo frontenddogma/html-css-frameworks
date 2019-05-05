@@ -40,7 +40,7 @@ Nun wo wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) ve
 
 Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen. 
 
-## Why Frameworks?
+## Warum Frameworks?
 
 Frameworks versprechen, sowohl Design- als auch Entwicklungszeit zu sparen. Die Denkweise dahinter ist, dass viele der Dinge, die Website-Betreiber und -Entwickler wollen, schon tausende Male gemacht wurden, und dass deshalb das Rad nicht neu erfunden werden muss oder sollte. Interne Frameworks werden hier normalerweise etwas nüchterner betrachtet, so dass dies besonders auf externe Frameworks zutrifft (mehr zur Unterscheidung in einem Augenblick).
 
