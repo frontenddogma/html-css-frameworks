@@ -97,31 +97,13 @@ Um Frameworks für Entwickler benutzerfreundlicher zu machen muss man:
 
 ### 3. Ein Framework sollte erweiterbar sein
 
+Das letzte zu betonende Attribut ist Erweiterbarkeit. Erweiterbarkeit bedeutet bei Frameworks, dass es nicht nur möglich, sondern gut definiert und einfach ist, es zu erweitern oder ergänzen – nicht inhärent im Sinne eines neuen Framework-Bestandteils, sondern als sich wie ein solcher Teil anfühlende Ergänzung. 
+
+Erweiterbarkeit ist aus zwei Gründen notwendig. Zum einen bieten vor allem externe Framework nicht alles, was wir brauchen – das haben wir schon als Kernproblem festgehalten –, und so muss es einen Weg geben, neue Features, die framework-nah sind, zu ergänzen. Zum anderen, und dies bezieht sich nun eher auf große Projekte, wird es grundsätzlich immer Bedarf nach neuen Features und Patterns geben – und das Problem damit ist deren Einzigartig- und auch Flüchtigkeit: Manche Funktionen mögen nur ein- oder zweimal verwendet werden und rechtfertigen damit keine Nähe zum Framework-Kern, oder noch nicht mal zu Erweiterungen. Sowohl der Ort als auch Handhabung solcher Elemente muss bedacht werden.
+
+Um fehlende Funktionalität abzubilden, behelfen sich Frameworks-Entwickler oft, indem sie das Framework quasi ignorieren und einfach ein Stylesheet oder Skript einhängen, das das abdeckt, was das Framework nicht beherrscht. Das ist tatsächlich in Ordnung – der Punkt der Erweiterbarkeit dreht sich hier eher darum, dass das Framework einen Mechanismus oder zumindest Dokumentation beinhaltet, wie »Nicht-Framework-Funktionalität« und damit Erweiterungen behandelt werden sollen. Das Minimum, was hier technisch berücksichtigt werden sollte, ist der basischste aller Code-Schutzmechanismen: ein Namensraum, also ein framework-spezifisches ID- oder Klassen-Präfix (`#framework-`, `.framework-`), und selbiges in JavaScript. In den vergangenen Jahren hat sich der Trend zwar stark von solchen Namensräumen fortentwickelt, aber die Gründe für die Entwicklung – das halbtote [OOCSS](http://oocss.org/), das beliebte [BEM](http://getbem.com/), dazu HTML-»Harakiri« wie [Atomic CSS](https://acss.io/) oder [Tachyons](http://tachyons.io/) – stehen auf genauso tönernen Füßen wie die in den meisten öffentlichen Frameworks noch immer verbreitete Praxis, kein Präfix zu verwenden und damit Styling-Kollisionen nicht nur zu riskieren, sondern zu erbetteln.   
+
 @@
-
-The final attribute to underscore is extensibility. Extensibility for a
-framework means that it’s not just possible, but well-defined and
-easy to extend it.
-
-Extensibility is necessary for two reasons. First, external frameworks
-in particular won’t offer everything we need, so there needs to be a
-way to add functionality. Second, especially in large projects, there’s
-a tendency for new patterns to pop up. The problem with these is
-their uncertainty and uniqueness: they may only be used once or
-twice and don’t warrant a place in the framework core or even near
-more common extensions. Both their location and handling have to
-be thought of.
-
-To make up for lacking functionality in a framework, users typically
-help themselves by pretending they don’t use a framework in the
-first place. That is, they have a style sheet or script that handles
-everything the framework doesn’t cover. That’s actually quite OK;
-the point here is to be clear about how such “non-framework func‐
-tionality” or extensions are handled (and we notice how extensibil‐
-ity is also a user responsibility). If nothing else, extensibility stresses
-the need for the most basic of all code safeties: a namespace (a
-framework-specific ID and class name prefix, and the same name‐
-space in JavaScript).
 
 Next, new and rarely used patterns are a challenge that runs in the
 best families. There tends to always be a need for something new,
