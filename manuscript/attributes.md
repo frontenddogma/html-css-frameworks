@@ -58,12 +58,12 @@ Manche Frameworks wie Bootstrap (und Bootstrap vielleicht noch am meisten) gehen
 
 Nebenbei bemerkt müssen wir noch ein anderes Problem berücksichtigen: Während es wir selbst in jedem Fall von der Entscheidung profitieren, ob mit einem Framework Zeit und Geld gespart oder hohe Qualität erreicht werden soll, gewinnen unsere Nutzer nur dann, wenn die Entscheidung auf Qualität fällt. Sie haben selten etwas davon, wenn wir uns einfach für ein Framework entscheiden, dass zwar leicht aufzusetzen ist, aber mit Tonnen an ungenutztem Ballast kommt.
 
-Um interne Frameworks maßzuschneidern muss man:
+Um interne Frameworks maßzuschneidern sollte man:
 
 * die Projektbedürfnisse und -ziele genau kennen;
 * das Framework genau auf diese Bedürfnisse hin entwickeln. 
 
-Um externe Frameworks maßzuschneidern muss man:
+Um externe Frameworks maßzuschneidern sollte man:
 
 * die Projektbedürfnisse und -ziele genau kennen;
 * das Framework genau auf diese Bedürfnisse hin anpassen – oder, wenn man vom Ziel höchster Qualität kommt, vom Framework Abstand nehmen.
@@ -80,14 +80,14 @@ Für den Framework-Entwickler liegt wesentlich stärkere Betonung auf benutzbare
 
 Dem Thema [_Developer Experience_ (DX)](https://hackernoon.com/developer-experience-dx-devs-are-people-too-6590d6577afe) zugehörig gibt es noch einen weiteren Bereich unterhalb von Benutzerfreundlichkeit, nämlich: Benutzerfreundlichkeit für Entwickler, oder _Developer Usability_. Dieser Bereich könnte mit »leichter Bedien- und Erlernbarkeit von Code« beschrieben werden. Vielleicht erhält er nicht soviel Aufmerksamkeit, weil benutzerfreundlicher Code oft unter anderen Namen propagiert und eingefordert wird, aber wie wir sehen, könnte er vielleicht davon profitieren, separat ausgezeichnet zu werden.
 
-Um Frameworks für Nutzer benutzerfreundlicher zu machen muss man:
+Um Frameworks für Nutzer benutzerfreundlicher zu machen sollte man:
 
 * es einfach halten;
 * Usability-Konventionen folgen;
 * Usability-Tests durchführen;
 * verständliche und ausreichende Dokumentation bieten.
 
-Um Frameworks für Entwickler benutzerfreundlicher zu machen muss man:
+Um Frameworks für Entwickler benutzerfreundlicher zu machen sollte man:
 
 * es einfach halten;
 * selbsterklärenden Code anstreben;
@@ -99,60 +99,21 @@ Um Frameworks für Entwickler benutzerfreundlicher zu machen muss man:
 
 Das letzte zu betonende Attribut ist Erweiterbarkeit. Erweiterbarkeit bedeutet bei Frameworks, dass es nicht nur möglich, sondern gut definiert und einfach ist, es zu erweitern oder ergänzen – nicht inhärent im Sinne eines neuen Framework-Bestandteils, sondern als sich wie ein solcher Teil anfühlende Ergänzung. 
 
-Erweiterbarkeit ist aus zwei Gründen notwendig. Zum einen bieten vor allem externe Framework nicht alles, was wir brauchen – das haben wir schon als Kernproblem festgehalten –, und so muss es einen Weg geben, neue Features, die framework-nah sind, zu ergänzen. Zum anderen, und dies bezieht sich nun eher auf große Projekte, wird es grundsätzlich immer Bedarf nach neuen Features und Patterns geben – und das Problem damit ist deren Einzigartig- und auch Flüchtigkeit: Manche Funktionen mögen nur ein- oder zweimal verwendet werden und rechtfertigen damit keine Nähe zum Framework-Kern, oder noch nicht mal zu Erweiterungen. Sowohl der Ort als auch Handhabung solcher Elemente muss bedacht werden.
+Erweiterbarkeit ist aus zwei Gründen notwendig. Zum einen bieten vor allem externe Framework nicht alles, was wir brauchen – das haben wir schon als Kernproblem festgehalten –, und so muss es einen Weg geben, neue Features zu ergänzen. Zum anderen, und dies bezieht sich nun eher auf große Projekte, wird es grundsätzlich immer Bedarf nach neuen Funktionen und Patterns geben – und das Problem damit ist deren Einzigartig- und auch Flüchtigkeit: Manche Funktionen mögen nur ein- oder zweimal verwendet werden und rechtfertigen damit keine Nähe zum Framework-Kern, oder noch nicht mal zu Erweiterungen. Sowohl der Ort als auch Handhabung solcher Elemente muss bedacht werden.
 
-Um fehlende Funktionalität abzubilden, behelfen sich Frameworks-Entwickler oft, indem sie das Framework quasi ignorieren und einfach ein Stylesheet oder Skript einhängen, das das abdeckt, was das Framework nicht beherrscht. Das ist tatsächlich in Ordnung – der Punkt der Erweiterbarkeit dreht sich hier eher darum, dass das Framework _zumindest einen Mechanismus oder wenigstens Dokumentation beinhaltet_, wie »Nicht-Framework-Funktionalität« und damit Erweiterungen behandelt werden sollen. Das Minimum, was hier technisch berücksichtigt werden sollte, ist der basischste aller Code-Schutzmechanismen: ein Namensraum, also ein framework-spezifisches ID- oder Klassen-Präfix (`#framework-`, `.framework-`), und selbiges in JavaScript. In den vergangenen Jahren hat sich der Trend zwar stark von solchen Namensräumen fortentwickelt, aber die Gründe für die Entwicklung – das halbtote [OOCSS](http://oocss.org/), das beliebte [BEM](http://getbem.com/), dazu [HTML-»Harakiri«](https://meiert.com/de/publications/articles/20091027/) wie [Atomic CSS](https://acss.io/) oder [Tachyons](http://tachyons.io/) – stehen auf genauso tönernen Füßen wie die in den meisten öffentlichen Frameworks noch immer verbreitete Praxis, kein Präfix zu verwenden und damit Styling-Kollisionen nicht nur zu riskieren, sondern zu erbetteln.
+Um fehlende Funktionalität abzubilden, behelfen sich Frameworks-Entwickler oft, indem sie das Framework quasi ignorieren und einfach ein Stylesheet oder Skript einhängen, das das abdeckt, was das Framework nicht beherrscht. Das ist tatsächlich in Ordnung – der Punkt der Erweiterbarkeit dreht sich hier eher darum, dass das Framework _zumindest einen Mechanismus oder wenigstens Dokumentation beinhaltet_, wie »Nicht-Framework-Funktionalität« und damit Erweiterungen behandelt werden sollen. Das Minimum, was technisch berücksichtigt werden sollte, ist der basischste aller Code-Schutzmechanismen: ein Namensraum, also ein framework-spezifisches ID- oder Klassen-Präfix (`#framework-`, `.framework-`), und selbiges in JavaScript. In den vergangenen Jahren hat sich der Trend zwar stark von solchen Namensräumen fortentwickelt, aber die Gründe für die Entwicklung – das halbtote [OOCSS](http://oocss.org/), das beliebte [BEM](http://getbem.com/), dazu [HTML-»Harakiri«](https://meiert.com/de/publications/articles/20091027/) wie [Atomic CSS](https://acss.io/) oder [Tachyons](http://tachyons.io/) – stehen auf genauso tönernen Füßen wie die in den meisten öffentlichen Frameworks noch immer verbreitete Praxis, kein Präfix zu verwenden und damit Styling-Kollisionen nicht nur zu riskieren, sondern zu erbetteln.
 
-@@
+Neue und selten benutzte Funktionen stellen eine Herausforderung dar, die gewissermaßen in den besten Familien auftritt. Es gibt irgendwie immer Bedarf nach etwas Neuem, und es gibt auch immer irgendwelche Seitentypen und -elemente, die selten verwendet werden. Dies sind zwei der Hauptgründe für krebsartig wachsenden Code, und sie sind schwer zu kontrollieren, wenn sie nicht streng beobachtet und eingefangen werden. Da wir es mit einem kleinen Buch zu tun haben, eine bewährte Gegenmaßnahme ist es, spezielle Stylesheet- und Skript-Abschnitte vorzusehen und auszuzeichnen, in denen neuer, vor allem aber experimenteller und vorerst selten eingesetzter Code landet. (Ein separates Stylesheet und Skript kann ebenfalls für solche Zwecke bereitgestellt werden.) Frameworks-Entwickler sollten entsprechend versuchen, zu antizipieren, ob Code oder vielmehr die entsprechenden Funktionen vielleicht erstmal selten gebraucht werden, um diese so in »Quarantäne« zu stecken; Frameworks-Nutzer, die, die nicht aktiv daran entwickeln, sollten durchaus aber auch Vermerke für alles vornehmen, was nur in Sonderfällen mal zum Einsatz kommt. Ein dokumentierter Standard für eine solche Quarantäne kann effektivere Kontrolle und damit bessere Entscheidungen ermöglichen, ob Code behalten, umgezogen – oder entfernt wird. 
 
-Next, new and rarely used patterns are a challenge that runs in the
-best families. There tends to always be a need for something new,
-and there are always document types or elements that are used infre‐
-quently. They’re one of the biggest contributing factors to code
-bloat. They are hard to control if they don’t get watched and reigned
-in vigorously. Though I could give a longer dissertation about the
-matter, an effective counter-practice is to either designate style sheet
-and script sections for new and experimental code, as well as rare
-elements—or to even put aside a separate style sheet and script for
-such purposes. The framework developers should anticipate this and
-make recommendations, but users should come up with their own
-guidelines if this piece has not been covered. A documented stan‐
-dard for new code allows better monitoring and better decisions on
-whether to keep (and relocate) the code, or to remove it.
+Das Prinzip war sehr erfolgreich mit Google HTML-/CSS-Framework »Go« – nicht zu verwechseln mit der erst später entwickelten Programmiersprache. Go verfügte über ein »Rucksack«-Stylesheet, Go X, das alle Elemente beinhaltete, die nur selten verwendet wurden. Dies erlaubte, den Kern des Frameworks äußerst klein zu halten ([etwa 4&nbsp;KB](https://www.google.com/css/go.css), einschließlich des Google-Logos), aber es trotzdem zu ermöglichen, schnell weitere Funktionen einzubinden. Projektspezifischer Code, gewissermaßen die dritte Stufe nach dem Go-Kern und der Go-X-Bibliothek, musste dann separat eingebunden werden, was dokumentiert war – wie in diesem Kapitel so sehr empfohlen – aber dann Verantwortung jedes Google-Projekts selbst war. Am Ende dieses Buches finden Sie ein paar weitere Details zu den Prinzipien hinter dem Go-Framework; was an dieser Stelle zu ergänzen ist, ist dass dies heute dank verstärkt komponentenbasierter Arbeit sowie weiterer Tooling-Optionen, die eine Art »CSS-Tree-Shaking« ermöglichen, eher _eine_ Option darstellt, mit selten benötigtem Code umzugehen.
 
-We’ve very successfully applied this principle with Google’s
-HTML/CSS framework Go—not to be confused with the program‐
-ming language, which was conceived two years later. Go came with a
-“backpack” library, Go X, which included elements that we used
-only occasionally. This kept the core very small—4,250 bytes includ‐
-ing the Google logo—but offered the use of additional, common
-enough elements. Project-specific code made for a third layer that
-had to be carried by each project style sheet itself.
+Um Frameworks erweiterbar zu machen sollte man:
 
-To make frameworks more extensible:
+* einen Namensraum in Erwägung ziehen;
+* die Handhabung von Nicht-Framework-Code explizit berücksichtigen und definieren;
+* spezifizieren, wo neuer und selten gebrauchter Code landen sollte;
+* neuen und selten gebrauchten Code regelmäßig überprüfen, um ihn entweder näher am oder im Framework zu verorten oder zu entfernen.
 
-* Use a framework namespace.
-* Define handling of non-framework code.
-* Specify where new and rarely used code should be located (also
-a framework-user responsibility).
-* Regularly review new and rarely used code, to either make part
-of framework or remove (also a framework-user responsibility).
-
-I> Please note that despite all my experience and convic‐
-tions, I’ve phrased these rules as strong suggestions. I
-was tempted to say “must,” “must,” “must.” Whenever
-we like more dogma in our web development life, we
-use this verb.
-I> 
-I> Another thing before we move on: note that no matter
-the quality of the framework, the goal for its use is
-always on the owners and developers. Frameworks can
-be likened to cars: a good car should be, say, safe, easy
-to handle, and economical. And so a good framework
-should be tailored and usable and extensible. But just
-as we look at the driver to know the destination for her
-car, we look at the developer to know the goals for the
-framework she’s using. We can drive a framework
-against the wall just as we can a car, which is the reason
-we differentiate between experts and novices. Just to
-get this out there: a framework doesn’t drive itself.
+I> Beachten Sie, dass ich diese Regeln trotz meiner Erfahrung und Überzeugungen eher als »starke Empfehlungen« ausgedrückt habe. Ich war ehemals versucht, »müssen«, »müssen«, »müssen« zu schreiben. Wann auch immer wir mehr Dogma in unserem Entwicklerleben wünschen, benutzen wir dieses Verb. Letztendlich aber haben große Teile dieses Buchs ihren Ursprung noch in der Webentwicklungswelt von vor etwa fünf Jahren (weitere Aktualisierungen sollten das Buch weiter nach vorne schieben), und gibt es nicht nur neuere Tooling-Optionen, sondern auch andere Schulen und Philosophien – Philosophien, die dank z.B. Tree-Shaking gar nichts verwerfliches entdecken können, wenn in irgendeiner Ecke Code liegt, der nicht verwendet wird. Das muss man eigentlich sezieren und sich näher anschauen, und genau das macht dieses Buch noch nicht.  
+I>
+I> Ein letzter Punkt: Egal wie es um die Qualität eines Frameworks beschaffen ist, seine Einsatzziele kennen nur seine Nutzer, diejenigen die ein Framework für ein bestimmtes Projekt wählen und einsetzen. Frameworks sind dann vielleicht ein bisschen wie Autos: Ein gutes Auto sollte, sagen wir mal, sicher, leicht handhabbar und ökonomisch sein. Vergleichbar wie man sagen kann, dass ein gutes Framework maßgeschneidert, benutzerfreundlich und erweiterbar sein sollte. Der Autobauer und der Frameworks-Entwickler können hier Qualität abliefern. Aber genauso wie es dann auf die Fahrer ankommt, zu sagen, wo sie mit ihren Autos denn hin wollen, kommt es letztlich auf die Framework-Nutzer an, das Fahrtziel ihres Frameworks festzulegen. Wir können Frameworks genauso an die Wand fahren wie Autos. Egal, wie gut sie sind.
