@@ -102,7 +102,7 @@ the job (like an alternative header, with different markup). Stay away
 from forking or “patch improvements”; solve issues at the core, or
 not at all.
 
-I> The more complex the project and the bigger the orga‐
+D> The more complex the project and the bigger the orga‐
 nization, the harder it can be to display the necessary
 discipline. Everyone working with a framework needs
 to follow these two rules, however, to achieve the high‐
