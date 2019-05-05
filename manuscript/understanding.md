@@ -44,7 +44,7 @@ Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie 
 
 Frameworks versprechen, sowohl Design- als auch Entwicklungszeit zu sparen. Die Denkweise dahinter ist, dass viele der Dinge, die Website-Betreiber und -Entwickler wollen, schon tausende Male gemacht wurden, und dass deshalb das Rad nicht neu erfunden werden muss oder sollte. Interne Frameworks werden hier normalerweise etwas nüchterner betrachtet, so dass dies besonders auf externe Frameworks zutrifft (mehr zur Unterscheidung in einem Augenblick).
 
-Wenn Frameworks mit diesem Versprechen kommen, muss man sich eigentlich die Frage stellen, ob sie es auch erfüllen. Die Antwort darauf läuft letztlich auf eine Kostenkalkulation hinaus, die unglücklicher- aber auch logischerweise für jedes Projekt und Framework anders ausfällt. Was für Entwicklungskosten wurden eingespart? Wieviel wurde im Gegenzug für Training, Anpassungen und Aktualisierungen ausgegeben?  
+Wenn Frameworks mit diesem Versprechen kommen, muss man sich eigentlich die Frage stellen, ob sie es auch erfüllen. Die Antwort darauf läuft letztlich auf eine Kostenkalkulation hinaus, die unglücklicher- aber auch logischerweise für jedes Projekt und Framework anders ausfällt. Was für Entwicklungskosten wurden eingespart? Wieviel wurde im Gegenzug für Training, Anpassungen und Aktualisierungen ausgegeben?
 
 Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes Projekt entsprechend zu _durchdenken_, behandeln die nächsten Seiten Frameworks in dem Detail, das notwendig ist, um jedem zu ermöglichen, eine eigene Theorie von den <i>raisons d'être</i> für Frameworks aufzustellen. 
 
@@ -76,9 +76,9 @@ Was die Tabelle darstellt, ist die Idee, dass Frameworks mit lediglich zwei Ausn
 
 Beiden Ausnahmen, von denen die erste vor allem heute, einige Jahre nach Erscheinen der Originalausgabe dieses Buches, sehr hart wirken muss, liegt eine Verletzung von Qualitätsstandards oder der Annahme solches Standards zugrunde: Während ein externes Framework den Idealen eines Experten (welche ich später beschreibe) widersprechen sollte, hätte ein Neuling zwangsläufig noch gar keine Ideale, um ein hochwertiges Framework überhaupt entwerfen zu können.
 
-Ein internes Framework ist immer sicher zu verwenden oder entwickeln, weil es dem bevorzugten Weg entspricht, Websites und -Apps zu bauen. Intern ist immer besser als extern weil extern nie alle Bedürfnisse des entsprechenden Projekts kennen kann, und damit qualitativ an vielen Stellen inferior ist. Dazu kommt, dass interne Lösungen sowohl für Experten als auch Neulige die effektivere Route darstellen, in Übung zu bleiben und sich weiterzuentwickeln, nicht nur, weil ihre Fehler, die jeder von uns begeht, hier eine kleinere Reichweite haben.  
+Ein internes Framework ist immer sicher zu verwenden oder entwickeln, weil es dem bevorzugten Weg entspricht, Websites und -Apps zu bauen. Intern ist immer besser als extern weil extern nie alle Bedürfnisse des entsprechenden Projekts kennen kann, und damit qualitativ an vielen Stellen inferior ist. Dazu kommt, dass interne Lösungen sowohl für Experten als auch Neulige die effektivere Route darstellen, in Übung zu bleiben und sich weiterzuentwickeln, nicht nur, weil ihre Fehler, die jeder von uns begeht, hier eine kleinere Reichweite haben.
 
-Die Entwicklung eines externen Frameworks ist am besten bei einem (oder natürlich mehreren) erfahrenen Webentwickler aufgehoben, einem der entsprechend der Prinzipien, die in diesem Buch aufgezeigt werden, selbiges Framework so bauen und dokumentieren kann, dass es tatsächlich nützlich ist, und das bei einem annehmbaren Verhältnis von Kosten zu Nutzen. Dem weniger erfahrenen Entwickler oder dem, der in Eile ist, wird der Gebrauch eines externen Frameworks eher deshalb angeraten, weil ihm manche Aspekte weniger wichtig sind; er mag weniger auf Qualität achten und vielleicht geht es ihm auch gar nicht um eine langfristige Vision für das entsprechende Projekt.   
+Die Entwicklung eines externen Frameworks ist am besten bei einem (oder natürlich mehreren) erfahrenen Webentwickler aufgehoben, einem der entsprechend der Prinzipien, die in diesem Buch aufgezeigt werden, selbiges Framework so bauen und dokumentieren kann, dass es tatsächlich nützlich ist, und das bei einem annehmbaren Verhältnis von Kosten zu Nutzen. Dem weniger erfahrenen Entwickler oder dem, der in Eile ist, wird der Gebrauch eines externen Frameworks eher deshalb angeraten, weil ihm manche Aspekte weniger wichtig sind; er mag weniger auf Qualität achten und vielleicht geht es ihm auch gar nicht um eine langfristige Vision für das entsprechende Projekt.
 
 I> ### Kompilierte Frameworks
 I>
@@ -88,7 +88,7 @@ I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich au
 
 ## Beliebte Frameworks
 
-Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Frameworks, die Webentwickler bisher als nützlich empfunden haben. Hier ist eine umfassende Auswahl, um einen Eindruck davon zu vermitteln, wie groß Welt der Frameworks geworden ist:  
+Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Frameworks, die Webentwickler bisher als nützlich empfunden haben. Hier ist eine umfassende Auswahl, um einen Eindruck davon zu vermitteln, wie groß Welt der Frameworks geworden ist:
 
 * [960 Grid System](https://960.gs/)
 * [Basscss](https://basscss.com/)
@@ -135,4 +135,4 @@ Die dargestellten Frameworks sind z.T. sehr unterschiedlich und variieren in Fun
 
 Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das recht schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden verschwunden – selbst aus der erst 2015 aufgenommen Übersicht sind bisher ganze _17_ Frameworks weggefallen (die meisten davon ersatzlos gestorben), und 8 neue hinzugekommen.
 
-Der Nutzen in der Liste hat sich damit zwar immer noch als etwas langlebiger als befürchtet erwiesen, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir noch ein paar weitere Gründe.  
+Der Nutzen in der Liste hat sich damit zwar immer noch als etwas langlebiger als befürchtet erwiesen, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir noch ein paar weitere Gründe.
