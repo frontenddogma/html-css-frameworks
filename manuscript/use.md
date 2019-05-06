@@ -1,19 +1,12 @@
 # Frameworks benutzen
 
+Die zwei Arten, wie wir Frameworks ausgesetzt sein können, haben wir mit »Benutzen« und »Entwickeln« bestimmt (mit ein bisschen notwendiger Überschneidung). Die anfängliche Definition gibt diesem einen interessanten Blickwinkel, da wir wie besprochen jedes Stylesheet oder Skript als »Framework« betrachten können. Und in diesem Sinne hätte auch schon jeder, der mal mit Stylesheets oder Skripten gearbeitet hat, schon ein grundsätzliches Verständnis davon, wie man mit Frameworks arbeitet.
+
+Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwickeln, und muss wenn überhaupt vom Framework abhängen. Benutzung erfordert also die Wahl eines Frameworks – und dann die Befolgung zweier Grundregeln.
+
+## Ein Framework auswählen
+
 @@
-
-Two ways we’ve been exposed to frameworks are by using and devel‐
-oping them (with some inherent overlap). Our initial definition
-gives this an interesting spin, as we have seen that we can regard any
-style sheet or script as a “framework.” So anyone who has worked
-with style sheets and scripts already has a basic idea of how to use
-frameworks.
-
-After all that we’ve learned, using can’t be as complicated as develop‐
-ing, and must mostly depend on the framework. It requires a choice
-of framework, and then demands two ground rules.
-
-## Choosing a Framework
 
 The “pro-quality” choice has been explained as using or developing
 an internal framework, and choosing a framework generally applies
