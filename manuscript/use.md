@@ -1,6 +1,6 @@
 # Frameworks benutzen
 
-Die zwei Arten, wie wir Frameworks ausgesetzt sein können, haben wir mit »Benutzen« und »Entwickeln« bestimmt (mit ein bisschen notwendiger Überschneidung). Die anfängliche Definition gibt diesem einen interessanten Blickwinkel, da wir wie besprochen jedes Stylesheet oder Skript als »Framework« betrachten können. Und in diesem Sinne hätte auch schon jeder, der mal mit Stylesheets oder Skripten gearbeitet hat, schon ein grundsätzliches Verständnis davon, wie man mit Frameworks arbeitet.
+Die zwei Arten, wie wir Frameworks ausgesetzt sein können, haben wir mit »Benutzen« und »Entwickeln« bestimmt (mit ein bisschen notwendiger Überschneidung). Die anfängliche Definition gibt diesem einen interessanten Blickwinkel, da wir wie besprochen jedes Stylesheet oder Skript als »Framework« betrachten können. Und in diesem Sinne hätte auch schon jeder, der mal mit Stylesheets oder Skripten gearbeitet hat, schon ein _grundsätzliches_ Verständnis davon, wie man mit Frameworks arbeitet.
 
 Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwickeln, und muss wenn überhaupt vom Framework abhängen. Benutzung erfordert also die Wahl eines Frameworks – und dann die Befolgung zweier Grundregeln.
 
