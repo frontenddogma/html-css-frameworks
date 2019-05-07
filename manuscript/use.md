@@ -6,16 +6,12 @@ Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwicke
 
 ## Ein Framework auswählen
 
+Eine Entscheidung »pro Qualität« wurde damit beschlossen, ein internes Framework zu benutzen oder zu entwickeln. Die _Auswahl_ eines Frameworks bezieht sich nun eher auf externe Frameworks, und sie hängt von zwei Faktoren ab:
+
+1. Befriedigt es unsere Bedürfnisse?
+2. Ist es von hoher Qualität (d.h., ist es maßgeschneidert – oder zuschneidbar –, benutzerfreundlich und erweiterbar)?
+
 @@
-
-The “pro-quality” choice has been explained as using or developing
-an internal framework, and choosing a framework generally applies
-to external ones. The choice of an external framework depends on
-two factors:
-
-1. Which one meets our needs the best?
-2. Which one is of the best quality (that is, which one is as tail‐
-ored/customizable, usable, and extensible as possible)?
 
 These questions underline the importance of knowing our precise
 needs. It is even important in order to pick a framework, as knowing
