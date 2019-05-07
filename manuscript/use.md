@@ -6,20 +6,16 @@ Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwicke
 
 ## Ein Framework auswählen
 
-Eine Entscheidung »pro Qualität« wurde damit beschlossen, ein internes Framework zu benutzen oder zu entwickeln. Die _Auswahl_ eines Frameworks bezieht sich nun eher auf externe Frameworks, und sie hängt von zwei Faktoren ab:
+Eine Entscheidung »pro Qualität« wurde damit beschlossen, ein _internes_ Framework zu benutzen oder zu entwickeln. Die _Auswahl_ eines Frameworks bezieht sich nun eher auf externe Frameworks, und sie hängt von zwei Faktoren ab:
 
 1. Befriedigt es unsere Bedürfnisse?
 2. Ist es von hoher Qualität (d.h., ist es maßgeschneidert – oder zuschneidbar –, benutzerfreundlich und erweiterbar)?
 
+An dieser Stelle wird also nochmals die Wichtigkeit betont, unsere genauen Bedürfnisse zu kennen. Dies ist selbst – oder selbstredend – bei der _Wahl_ eines Frameworks wichtig, da nur Kenntnis unserer Anforderungen hilft, überhaupt sagen zu können, welches Framework besser passt (Stichwort Maßschneiderung) und unseren Ansprüche im Hinblick auf Erweiterbarkeit genügt (wobei die Komplexität unserer Bedürfnisse in der Regel mit dem Bedarf nach Erweiterbarkeit korreliert). 
+
+## Die zwei Grundregeln für den Gebrauch eines Frameworks
+
 @@
-
-These questions underline the importance of knowing our precise
-needs. It is even important in order to pick a framework, as knowing
-our needs helps determine which framework fits better (tailoring)
-and comes closer to our extensibility needs (though simple needs
-don’t require extensibility as frequently as comprehensive needs).
-
-## The Two Ground Rules of Using a Framework
 
 And of any framework at that. These two rules are golden:
 
