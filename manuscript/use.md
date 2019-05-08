@@ -15,14 +15,13 @@ An dieser Stelle wird also nochmals die Wichtigkeit betont, unsere genauen Bedü
 
 ## Die zwei Grundregeln für den Gebrauch eines Frameworks
 
+…&nbsp;und jeden Frameworks. Diese beiden Regeln sind aus Gold:
+
+### 1. Befolge die Dokumentation
+
+Ob internes oder externes Framework, ob Experte oder Anfänger, lesen und folgen Sie der Dokumentation.
+
 @@
-
-And of any framework at that. These two rules are golden:
-
-### 1. Follow the documentation
-
-Whether internal or external framework, whether expert or begin‐
-ner, read and follow the documentation.
 
 This rule is paramount because the second source of quality issues
 with frameworks and the works created with them (after framework
