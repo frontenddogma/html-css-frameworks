@@ -17,40 +17,27 @@ An dieser Stelle wird also nochmals die Wichtigkeit betont, unsere genauen Bedü
 
 …&nbsp;und _jeden_ Frameworks. Diese beiden Regeln sind aus Gold:
 
-### 1. Befolge die Dokumentation
+### 1. Befolgen Sie die Dokumentation
 
 Ob internes oder externes Framework, ob Experte oder Anfänger, lesen und folgen Sie der Dokumentation.
 
-@@
+Diese Regel scheint so unbedeutend, ist aber kritisch, da nach Framework-Bloat die zweitgrößte Ursache für Qualitätsprobleme mit Frameworks und den damit erstellten Arbeiten Bedienfehler sind – oder Bedienfehlverhalten. Beispiele dafür sind oft erst unschuldig wirkende »Hacks« für Seitenelemente oder Eigenentwicklungen für Funktionen, die bereits Teil des Frameworks sind.
 
-This rule is paramount because the second source of quality issues
-with frameworks and the works created with them (after framework
-bloat) is user and developer error. Or user and developer miscon‐
-duct! Some scenarios that illustrate this might be when a pattern is
-hacked to work, when something has been developed that’s actually
-already part of the framework, when things get overwritten without
-regard for framework updates, or when something has just been
-“made working.”
+»RTFM« gilt auch bei Frameworks: Wenn wir ein Framework verwenden, sollten wir immer die Dokumentation beachten.
 
-When using frameworks, always follow the documentation.
+### 2. Überschreiben Sie keinen Framework-Code
 
-### 2. Don’t overwrite framework code
+Aus Gründen, auf die wir sofort etwas näher eingehen, sollte framework-eigener Code nie einfach überschrieben werden.
 
-For reasons that will become clearer in the next section, never over‐
-write framework code.
-
-Contributing to the expert’s dilemma with external frameworks,
-overwriting framework code can have unforeseen consequences and
-break things with future updates. Here’s an example:
-Framework:
+Ein Teil des Dilemmas des Experten, was externe Frameworks anbelangt, kann das Überschreiben von Framework-Code unvorhersehbare Konsequenzen haben und leicht Probleme mit zukünftigen Updates nach sich ziehen. Hier ist ein einfaches Beispiel:
 
 ```css
 header {
-  /* No layout declarations */
+  /* Keine Layout-Deklarationen */
 }
 ```
 
-Overwrite:
+Unschuldiges Überschreiben:
 
 ```css
 header {
@@ -59,7 +46,7 @@ header {
 }
 ```
 
-Framework update:
+Framework-Update:
 
 ```css
 header {
@@ -68,6 +55,8 @@ header {
   top: 0;
 }
 ```
+
+@@
 
 The example, simplified as it is, shows how a seemingly innocent
 change can have acute consequences. Here, a header is moved by
