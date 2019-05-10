@@ -29,7 +29,7 @@ Diese Regel scheint so unbedeutend, ist aber kritisch, da nach Framework-Bloat d
 
 Aus Gründen, auf die wir sofort etwas näher eingehen, sollte framework-eigener Code nie einfach überschrieben werden.
 
-Ein Teil des Dilemmas des Experten, was externe Frameworks anbelangt, kann das Überschreiben von Framework-Code unvorhersehbare Konsequenzen haben und leicht Probleme mit zukünftigen Updates nach sich ziehen. Hier ist ein einfaches Beispiel:
+Ein Teil des Dilemmas des Experten, was externe Frameworks anbelangt, kann das Überschreiben von Framework-Code unvorhersehbare Konsequenzen haben und leicht Probleme mit zukünftigen Updates nach sich ziehen. Hier ist ein kleines Beispiel:
 
 ```css
 header {
@@ -56,30 +56,13 @@ header {
 }
 ```
 
+Das Beispiel, einfach wie es ist, zeigt wie eine scheinbar unschuldige Änderungen deutliche Folgen haben kann. Hier wird ein Header einfach ein `em` verschoben. (Da der Framework-Header implizit statisch »positioniert« war, handelt es sich tatsächlich um ein Überschreiben.) Das nächste Framework-Update stellt jedoch auf absolute Positionierung um. Da die überschreibenden Deklarationen später in der Kaskade folgen, verhindern sie das Update (mit der Ausnahme von `left: 0;`). In Fällen wie diesen sind die Effekte von Überschreibungen unvorhersehbar, und sie sollten aus diesem Grund so weit es geht vermieden werden.
+
+Was sollte man wirklich tun? Bei internen Frameworks sollte man selbstverständlich nichts irgendwo anders überschreiben, sondern entweder das Framework direkt anpassen oder die Dinge so lassen, wie sie sind. Bei externen Frameworks sollte man genau das ebenfalls tun – die Dinge so lassen – oder ein separates Pattern, ein anderes Element entwickeln, dass die entsprechende Aufgabe übernimmt (wie z.B. ein alternativer Header, mit anderem Markup). Frameworks-Forks oder -Patches sollte man vermeiden. Es ist besser, wenn wir versuchen, die Dinge direkt an der Wurzel zu lösen – oder gar nicht, was uns evtl. irgendwann zu Handlungen zwingt, die auf lange Sicht besser sind, wie das Framework doch direkt zu verbessern, es zu wechseln oder eins zu bauen, das auf uns zugeschnitten ist. 
+
+D> Je komplexer das Projekt und je größer die Organisation, desto schwieriger wird es, die hier nötige Disziplin aufzubringen. Aber jeder, der mit einem Framework arbeitet, sollte diese Regeln im Kopf behalten und wenn irgend möglich befolgen, um höchstmögliche Konsistenz und Qualität zu erreichen.
+
 @@
-
-The example, simplified as it is, shows how a seemingly innocent
-change can have acute consequences. Here, a header is moved by
-one em. (Note that the example constitutes an overwrite because the
-framework header is inherently “positioned” and also rests on the
-initial values for position and top.) The next framework update,
-however, switches to absolute positioning. As the overwriting rules
-come later in the cascade, they prevent the update from working
-(with the exception of left: 0;). In cases like this, overwrites are
-unpredictable. Overwrites should hence be avoided where possible.
-
-The remedy: For internal frameworks, update the framework, or
-leave things as they are (as in, no overwriting). For external frame‐
-works, leave things as they are, or create a separate pattern that does
-the job (like an alternative header, with different markup). Stay away
-from forking or “patch improvements”; solve issues at the core, or
-not at all.
-
-D> The more complex the project and the bigger the orga‐
-nization, the harder it can be to display the necessary
-discipline. Everyone working with a framework needs
-to follow these two rules, however, to achieve the high‐
-est levels of quality and consistency possible.
 
 I> ### Overwriting Versus Extending
 I>
