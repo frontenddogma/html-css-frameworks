@@ -62,18 +62,16 @@ Was sollte man wirklich tun? Bei internen Frameworks sollte man selbstverständl
 
 D> Je komplexer das Projekt und je größer die Organisation, desto schwieriger wird es, die hier nötige Disziplin aufzubringen. Aber jeder, der mit einem Framework arbeitet, sollte diese Regeln im Kopf behalten und wenn irgend möglich befolgen, um höchstmögliche Konsistenz und Qualität zu erreichen.
 
+I> ### Überschreiben vs. Erweitern
+I>
+I> Es liegt nicht viel zwischen dem Überschreiben und Erweitern von Code, besonders wenn man bedenkt, dass Überschreiben nicht unbedingt heißt, Code direkt zu verändern – siehe Beispiel. Hier sind ein paar Beispiele – sehr CSS-spezifisch, aber auch anwendbar auf andere Sprachen.
+I>
+I> Überschreiben:
+I>
+I> * A → B: Code A zu Code B geändert oder durch diesen ersetzt.
+
 @@
 
-I> ### Overwriting Versus Extending
-I>
-I> There is a fine line between overwriting and extending code, espe‐
-cially since overwriting doesn’t necessarily mean changing code.
-Here are conceptual examples for both (with a CSS twist but appli‐
-cable to other languages):
-I>
-I> Overwriting:
-I>
-I> * A → B: code A changed to, or replaced by, B.
 I> * A1 → A2: code A, like a rule or function, doing 1 changed to
 doing 2.
 I> * [A1 + B1]: code A doing 1 extended by code B doing 1, too or
