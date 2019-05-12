@@ -69,18 +69,17 @@ I>
 I> Überschreiben:
 I>
 I> * A → B: Code A zu Code B geändert oder durch diesen ersetzt.
+I> * A~1~ → A~2~: Code A, z.B. Regel oder Funktion, die eine Sache 1 macht, angepasst, so dass sie Sache 2 macht.
 
 @@
 
-I> * A1 → A2: code A, like a rule or function, doing 1 changed to
-doing 2.
-I> * [A1 + B1]: code A doing 1 extended by code B doing 1, too or
+I> * [A~1~ + B~1~]: code A doing 1 extended by code B doing 1, too or
 differently, in the same file (this is overwriting because the
 eect of the original code changed).
-I> * [A1] + [B1]: code A doing 1 extended by code B doing 1, too or
+I> * [A~1~] + [B~1~]: code A doing 1 extended by code B doing 1, too or
 differently, in a different file (this is also overwriting because
 the eect of the original code changed).
-I> * (A1 + B2: not a case of overwriting nor extending, because it’s
+I> * (A~1~ + B~2~: not a case of overwriting nor extending, because it’s
 exemplifying different code doing different things.)
 I> 
 I> Extending:
@@ -95,7 +94,7 @@ tional or even elegant, so we don’t want to rule it out entirely!
 I> 
 I> The point is, especially for CSS, overwriting can not only have side
 effects and introduce inconsistencies, but it can make our work
-extremely complicated. When we look at the case [A1] + [B1], for
+extremely complicated. When we look at the case [A~1~] + [B~1~], for
 example, we notice that we can face two challenges on debugging:
 first, what happens exactly (why is A not in effect anymore?), and
 second, where does it happen? Extending in the same file, or in
