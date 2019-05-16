@@ -70,32 +70,15 @@ I> Überschreiben:
 I>
 I> * A → B: Code A zu Code B geändert oder durch diesen ersetzt.
 I> * A~1~ → A~2~: Code A, z.B. Regel oder Funktion, die eine Sache 1 macht, angepasst, so dass sie Sache 2 macht.
-
-@@
-
-I> * [A~1~ + B~1~]: code A doing 1 extended by code B doing 1, too or
-differently, in the same file (this is overwriting because the
-eect of the original code changed).
-I> * [A~1~] + [B~1~]: code A doing 1 extended by code B doing 1, too or
-differently, in a different file (this is also overwriting because
-the eect of the original code changed).
-I> * (A~1~ + B~2~: not a case of overwriting nor extending, because it’s
-exemplifying different code doing different things.)
+I> * [A~1~ + B~1~]: Code A, der 1 macht, erweitert durch Code B, der in derselben Datei 1 auf dieselbe oder eine andere Weise macht (das ist Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
+I> * [A~1~] + [B~1~]: Code A, der 1 macht, erweitert durch Code B, der in einer anderen Datei 1 auf dieselbe oder eine andere Weise macht (dies ist ebenfalls Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
+I> * (A~1~ + B~2~: kein Überschreiben oder Erweitern, weil nur ein Beispiel dafür, wie unterschiedlicher Code unterschiedliche Sachen macht.) 
 I> 
-I> Extending:
+I> Erweitern:
 I> 
-I> * [A + B]: code A extended by code B, in the same file.
-I> * [A] + [B]: code A extended by code B, in a different file.
+I> * [A + B]: Code A erweitert durch Code B, in derselben Datei.
+I> * [A] + [B]: Code A erweitert durch Code B, in einer anderen Datei.
 I> 
-I> There are more cases, especially if we consider additional code
-snippets (not just “B,” but also “C,” “D,” “E,” etc.) affecting code
-written elsewhere (“A”). And sometimes, overwriting can be inten‐
-tional or even elegant, so we don’t want to rule it out entirely!
+I> Es gibt viele weitere Beispiele, vor allem wenn wir beginnen, weitere Code-Snippets in Bezug zu setzen (nicht nur »B«, sondern auch »C«, »D«, »E« &c.), die Code an anderer Stelle (»A«) berührt. Und manchmal kann dies beabsichtigt sein, vielleicht sogar elegant, und so soll Überschreiben und Erweitern hier nicht verurteilt werden.
 I> 
-I> The point is, especially for CSS, overwriting can not only have side
-effects and introduce inconsistencies, but it can make our work
-extremely complicated. When we look at the case [A~1~] + [B~1~], for
-example, we notice that we can face two challenges on debugging:
-first, what happens exactly (why is A not in effect anymore?), and
-second, where does it happen? Extending in the same file, or in
-another well-defined manner, causes fewer issues.
+I> Der Punkt ist vielmehr, dass besonders im Fall von CSS Überschreiben zu Nebeneffekten und Inkonsistenzen führen und unsere Arbeit extrem verkomplizieren und erschweren kann. Wenn wir uns z.B. den Fall [A~1~] + [B~1~] nochmal ansehen, bemerken wir, wie er leicht zu zwei Herausforderungen führt: Zum einen, was passiert genau (warum ist A nicht mehr in Kraft?); zum anderen, wo passiert was? In derselben Datei zu erweitern mag weniger Probleme verursachen.
