@@ -69,16 +69,16 @@ I>
 I> Überschreiben:
 I>
 I> * A → B: Code A zu Code B geändert oder durch diesen ersetzt.
-I> * A~1~ → A~2~: Code A, z.B. Regel oder Funktion, die eine Sache 1 macht, angepasst, so dass sie Sache 2 macht.
-I> * [A~1~ + B~1~]: Code A, der 1 macht, erweitert durch Code B, der in derselben Datei 1 auf dieselbe oder eine andere Weise macht (das ist Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
-I> * [A~1~] + [B~1~]: Code A, der 1 macht, erweitert durch Code B, der in einer anderen Datei 1 auf dieselbe oder eine andere Weise macht (dies ist ebenfalls Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
-I> * (A~1~ + B~2~: kein Überschreiben oder Erweitern, weil nur ein Beispiel dafür, wie unterschiedlicher Code unterschiedliche Sachen macht.) 
+I> * A1 → A2: Code A, z.B. Regel oder Funktion, die eine Sache 1 macht, angepasst, so dass sie Sache 2 macht.
+I> * \[A1 + B1]: Code A, der 1 macht, erweitert durch Code B, der in derselben Datei 1 auf dieselbe oder eine andere Weise macht (das ist Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
+I> * \[A1] + \[B1]: Code A, der 1 macht, erweitert durch Code B, der in einer anderen Datei 1 auf dieselbe oder eine andere Weise macht (dies ist ebenfalls Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
+I> * (A1 + B2: kein Überschreiben oder Erweitern, weil nur ein Beispiel dafür, wie unterschiedlicher Code unterschiedliche Sachen macht.) 
 I> 
 I> Erweitern:
 I> 
-I> * [A + B]: Code A erweitert durch Code B, in derselben Datei.
-I> * [A] + [B]: Code A erweitert durch Code B, in einer anderen Datei.
+I> * \[A + B]: Code A erweitert durch Code B, in derselben Datei.
+I> * \[A] + \[B]: Code A erweitert durch Code B, in einer anderen Datei.
 I> 
 I> Es gibt viele weitere Beispiele, vor allem wenn wir beginnen, weitere Code-Snippets in Bezug zu setzen (nicht nur »B«, sondern auch »C«, »D«, »E« &c.), die Code an anderer Stelle (»A«) berührt. Und manchmal kann dies beabsichtigt sein, vielleicht sogar elegant, und so soll Überschreiben und Erweitern hier nicht verurteilt werden.
 I> 
-I> Der Punkt ist vielmehr, dass besonders im Fall von CSS Überschreiben zu Nebeneffekten und Inkonsistenzen führen und unsere Arbeit extrem verkomplizieren und erschweren kann. Wenn wir uns z.B. den Fall [A~1~] + [B~1~] nochmal ansehen, bemerken wir, wie er leicht zu zwei Herausforderungen führt: Zum einen, was passiert genau (warum ist A nicht mehr in Kraft?); zum anderen, wo passiert was? In derselben Datei zu erweitern mag weniger Probleme verursachen.
+I> Der Punkt ist vielmehr, dass besonders im Fall von CSS Überschreiben zu Nebeneffekten und Inkonsistenzen führen und unsere Arbeit extrem verkomplizieren und erschweren kann. Wenn wir uns z.B. den Fall \[A1] + \[B1] nochmal ansehen, bemerken wir, wie er leicht zu zwei Herausforderungen führt: Zum einen, was passiert genau (warum ist A nicht mehr in Kraft?); zum anderen, wo passiert was? In derselben Datei zu erweitern mag weniger Probleme verursachen.
