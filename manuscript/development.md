@@ -52,15 +52,15 @@ A prototype is an irreplaceable testing ground that we need to
 obtain the end result we want.
 Prototypes follow their own principles, however. They must be, as I
 attempted to summarize in earlier years (slightly reworded):
-• Complete
-• Current
-• Realistic
-• Focused
-• Accessible/available
-• Managed with discipline
-• Maintained
-• Communicated/promoted
-• Documented
+* Complete
+* Current
+* Realistic
+* Focused
+* Accessible/available
+* Managed with discipline
+* Maintained
+* Communicated/promoted
+* Documented
 Each of these points is important, but the first three are critical. The
 prototype has to include everything (all document types and ele‐
 ments), it must be current (any functionality changes must be reflec‐
@@ -83,18 +83,18 @@ ously test and improve their code. (This is all related to web rather
 than software development, since in software development, there is
 a longer history and strong tradition of working with tests.)
 For quality assurance, it’s useful to:
-• Establish coding guidelines
-• Define output quality criteria
-• Run regular tests (over prototype and live implementations)
+* Establish coding guidelines
+* Define output quality criteria
+* Run regular tests (over prototype and live implementations)
 For quality control, test:
-• Accessibility
-• Links (if applicable)
-• Performance
-• Responsiveness
-• Maintainability
-• Validation
-• Linting
-• Formatting
+* Accessibility
+* Links (if applicable)
+* Performance
+* Responsiveness
+* Maintainability
+* Validation
+* Linting
+* Formatting
 (Incidentally, I run a website hub dedicated to web development
 testing tools. Check uitest.com/en/analysis/ for a large selection of
 them.)
@@ -154,24 +154,24 @@ frameworks than for external ones, though updates in a large orga‐
 nization with many developers spread out over many places can be
 challenging, too.
 Here are a few tricks to make framework updates easier:
-• Try to avoid HTML changes because of their comparatively
+* Try to avoid HTML changes because of their comparatively
 high cost. An update should only consist of styling or scripting
 changes and impart no actual work for users (which, to counter
 the aforementioned definition blurriness, also means developers
 who work with the framework). The update of framework refer‐
 ences can be OK.
-• Announce updates in advance.
-• Provide a way to test whether the update would have any ill
+* Announce updates in advance.
+* Provide a way to test whether the update would have any ill
 effects. This can happen through something simple like book‐
 marklets (see “Test Bookmarklets” on page 23), or something
 more sophisticated like proxying (using a proxy to intercept and
 change requests to framework files in order to feed updated files
 for testing).
-• Inform users about possible side effects (and use this as an
+* Inform users about possible side effects (and use this as an
 opportunity to educate them about, for example, the problems
 of overwrites, as explained in “2. Don’t overwrite framework
 code” on page 15).
-• Communicate the status of ongoing updates.
+* Communicate the status of ongoing updates.
 What we’re assuming here is that we’re not just “versioning” frame‐
 works. That’s the practice of shipping a framework—let’s say, foo—
 and when the first changes come, not updating foo, but shipping
@@ -243,21 +243,21 @@ Logistics
 Our journey, now that we diligently worked through everything rel‐
 evant to frameworks, is soon over. A bonus aspect concerns logis‐
 tics. We have covered a few pieces that can be considered logistics:
-• Coding guidelines
-• Quality-control tools
-• Documentation
+* Coding guidelines
+* Quality-control tools
+* Documentation
 What we haven’t touched are:
-• Framework development plans or roadmaps
-• Version control systems (like Git, Mercurial, or Subversion)
-• Request and bug management systems (like Bugzilla)
-• Framework sites (public for external frameworks) with news
+* Framework development plans or roadmaps
+* Version control systems (like Git, Mercurial, or Subversion)
+* Request and bug management systems (like Bugzilla)
+* Framework sites (public for external frameworks) with news
 feeds
-• Mailing lists for
+* Mailing lists for
 — Developers (framework development team)
 — Users (open to everyone interested)
 — Announcements (low-volume essentials which should go to
 the developers and users lists, too)
-• Trackers for live implementations
+* Trackers for live implementations
 A framework site and an announcements list are particularly note‐
 worthy, as they can pay good dividends to framework owners and
 developers. The site serves as a hub for information and documenta‐
@@ -271,12 +271,12 @@ topic that depends on the complexity and circumstances of the
 framework and the problems it tries to solve.
 To repeat, for expert framework development, we need
 to pay special attention to:
-• Principles
-• A prototype
-• Quality management
-• Maintenance
-• Documentation
-• Logistics
+* Principles
+* A prototype
+* Quality management
+* Maintenance
+* Documentation
+* Logistics
 As these are ordered in descending order of impor‐
 tance, our frameworks can probably survive with poor
 support and gaping docs, but sacrifices in vision, test‐
