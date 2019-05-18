@@ -6,17 +6,15 @@ Der folgende Abschnitt beschreibt die Grundlagen für die Entwicklung eines Fram
 
 ## Prinzipien
 
+Wir haben hierzu bereits alle Aufgaben erledigt und alle Prinzipien für die Framework-Entwicklung erarbeitet. Ein Framework sollte entsprechend die höchsten Qualitätsstandards anstreben, und:
+
+1. Ein Framework sollte maßgeschneidert sein.
+2. Ein Framework sollte benutzerfreundlich sein.
+3. Ein Framework sollte erweiterbar sein.
+
+Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und dazu können wir bereits auf Methoden zurückgreifen, die in vorherigen Abschnitten behandelt wurden.
+
 @@
-
-We’ve already done our assignment and fleshed out the principles
-for framework development. A framework should aim for the highest quality standards, and then:
-
-1. A framework should be tailored.
-2. A framework should be usable.
-3. A framework should be extensible.
-
-These shall serve as every framework’s core values (for which we can
-use the avenues outlined earlier).
 
 Customization, as identified under “1. A Framework Should Be Tail‐
 ored” on page 10, plays a special role here, for it is the secret weapon
