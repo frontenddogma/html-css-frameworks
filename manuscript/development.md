@@ -2,13 +2,11 @@
 
 Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht. Externe Frameworks haben dabei etwas von Draufgängertum (gepaart mit einem Schuss Naivität). Wie das gesamte Buch bisher festhält, es ist notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das vielzu viel ist.
 
+Der folgende Abschnitt beschreibt die Grundlagen für die Entwicklung eines Frameworks, mit speziellem Bezug für die Arbeit in einer größeren Organisation.
+
+## Prinzipien
+
 @@
-
-The following pages describe the basics of writing a framework. The
-ideas describe the situation of an experienced web developer leading
-a framework effort in a large organization.
-
-## Principles
 
 We’ve already done our assignment and fleshed out the principles
 for framework development. A framework should aim for the highest quality standards, and then:
