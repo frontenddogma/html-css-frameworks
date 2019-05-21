@@ -1,26 +1,10 @@
+@@ Check on links and emphasis
+
+
 # Zusammenfassung
 
-@@
+Frameworks täuschen. Sie muten wie ein isoliertes Spezialthema an, eins, das dazu unschuldig und einfach ist. Und nun haben wir gesehen, wie wenig speziell sondern normal Frameworks sind, und dabei gleichzeitig kompliziert. Man kann sie in der heutigen Webentwicklung kaum mehr umgehen, und dennoch sollte man das, es sei denn man nimmt sie als nicht trivial wahr, und durchdringt sie.
 
-Frameworks are deceptive. They seem easy. They look like a pretty
-isolated special topic. And now we’ve seen how common and com‐
-plicated they are, like a not-entirely-small meteoroid that passes
-every single planetary object in our web development solar system.
-Frameworks are not trivial. If I may distract from the speed with
-which I typed this down, with brevity as an excuse goal, then any
-question still open is due to that very fact that they’re not.
+Fassen wir zusammen. Professionelle Webentwicklung dreht sich um Qualität. Qualität ist nicht leicht zu definieren, aber ein wichtiger Aspekt ist maßgeschneiderter, genau den Bedürfnissen entsprechender Code. Externe Frameworks, die keine Optionen zur Konfiguration bieten, können von Nutzern gar nicht zugeschnitten werden, und von Entwicklern nur sehr schwer und unter großen Schmerzen. Interne Frameworks sind wesentlich leichter zu handhaben und generell zu bevorzugen. Gute Frameworks streben höchstmögliche Qualität an – maßgeschneidert, benutzerfreundlich, erweiterbar. Framework-Nutzer sollten sich an die Dokumentation halten und keinen Framework-Code überschreiben. Framework-Entwickler sollten über Prinzipien verfügen, einen Prototypen, Werkzeuge zum Qualitätsmanagement, einen Wartungsplan sowie ein gesundes Interesse an Dokumentation. Und dann kann trotzdem immer noch einiges schiefgehen.
 
-But I want to recap. Professional web development is about quality.
-Quality is not easy to define, but one part of it is tailored code.
-External frameworks without customization options are impossible
-for users to tailor, and a pain for developers. Internal frameworks
-are much easier to handle and generally the way to go. Good frame‐
-works aim for the highest quality—to be tailored, usable, and exten‐
-sible. Framework users should follow the documentation and not
-overwrite framework code. Framework developers should have
-principles, a prototype, quality management tools, a maintenance
-plan, and healthy interest in documentation. And still, things can go
-wrong.
-
-If they don’t, we may be on to the one framework. The one frame‐
-work for us. Well done.
+Wenn das nicht passiert, haben wir vielleicht das richtige Framework erwischt. Das richtige Framework _für uns_. Gut gemacht.
