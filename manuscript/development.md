@@ -1,3 +1,6 @@
+@@ Check on links and emphasis
+
+
 # Frameworks entwickeln
 
 Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht. Externe Frameworks haben dabei etwas von Draufgängertum (gepaart mit einem Schuss Naivität). Wie das gesamte Buch bisher festhält, es ist notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das vielzu viel ist.
@@ -14,80 +17,43 @@ Wir haben hierzu bereits alle Aufgaben erledigt und alle Prinzipien für die Fra
 
 Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und dazu können wir bereits auf Methoden zurückgreifen, die in vorherigen Abschnitten behandelt wurden.
 
+Anpassungs- und Konfigurationsmöglichkeiten, wie in Abschnitt »1. Ein Framework sollte maßgeschneidert sein« behandelt, spielt hier eine besondere Rolle, da diese die Geheimwaffe – und letzte Verteidigungslinie – des externen Framework-Entwicklers sind. Frameworks-Konfigurationsoptionen sind der einzige Weg, es fremden Nutzern, Nutzern, deren Projekte wir nie kennenlernen werden, möglich zu machen, zuzuschneiden.
+
+Ich habe mich ursprünglich dagegen entschieden, einen Abschnitt speziell über die Konfiguration zu ergänzen (und auch für den Moment in dieser ergänzten deutschen Ausgabe). Zum einen stellt Konfiguration kein Allheilmittel für externe Frameworks dar, zum anderen erschafft sie so viele Probleme (Aufgaben) im Entwicklungsbereich, dass dieser in vielen Situation prohibitiv teuer wird. Dies liegt daran, dass je mehr Konfigurationsmöglichkeiten es gibt, desto komplexer ein Framework wird. Zu der Entwicklungsarbeit selbst gehören dann natürlich auch immer noch Tests, Qualitätsmanagement, Wartung, usw.
+
+## Prototyp
+
+Das wichtigste, was für ein erfolgreiches Framework benötigt wird, ist ein Prototyp. Hierbei ist nochmal die Erkenntnis wichtig, dass wir es wirklich nur mit einfachen Stylesheets und Skripten zu tun haben. Große Projekte – Projekte, für die Frameworks wirklich gebraucht werden – haben immer schon von Prototypen profitiert.
+
+Was bedeutet denn Prototyp? In seiner einfachsten Form ist dies eine statische (interne) Website. Diese sollte alle Dokumenttypen und -elemente beinhalten, die wir in der Produktion benötigen, denn hier wird aller Code für Struktur (HTML), Präsentation (CSS) und Verhalten (JavaScript) zusammengetragen. Der Prototyp sollte realistische, wo wichtig auch »extreme« Beispielinhalte umfassen – dies dient dem Testen, dass alles funktioniert.
+
+Ein Prototyp ist unersetzlich, damit wir testen können, ob das Framework wirklich funktioniert und seinen Zweck erfüllt.
+
+Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal skizziert haben, folgendes sein oder anstreben:
+
+* Vollständig
+* Aktuell
+* Realistisch
+* Fokussiert
+* Zugänglich/verfügbar
+* Diszipliniert betrieben
+* Gewartet
+* Kommuniziert/beworben
+* Dokumentiert
+
+(Ich glaube, diese nun mehr als 10 Jahre alten Punkte bedürfen der Revision und Restrukturierung.)
+
+Jeder dieser Punkte ist wichtig, aber die ersten drei kritisch. Ein Prototyp muss wirklich alles umfassen (alle Seitentypen und -elemente, auch wenn dies aus einer Content- und nicht App-Perspektive kommt), er muss aktuell sein (jegliche Änderungen müssen sofort angewendet werden und sichtbar sein) und er muss realistisch sein (Beispielinhalte müssen eine möglichst gute Annäherung daran sein, wie das Framework wahrscheinlich außerhalb des Prototypen verwendet wird).
+
+Gute Prototypen sind auch eine Kunst und bedürfen einer wesentlich längeren Ausführung.
+
+## Qualitätsmanagement
+
+Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten oft verpflichten wollen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
+
+Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen Validierer, Barrierefreiheits- und Performance-Tests. Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
+
 @@
-
-Customization, as identified under “1. A Framework Should Be Tail‐
-ored” on page 10, plays a special role here, for it is the secret weapon
-—and last line of defense—of the external framework developer.
-Offering framework customization options is the only way to get
-closer to tailoring for outside users, users whose projects we will
-never know.
-
-I decided against including a section about customization because
-it’s not a magic pill for external frameworks, and can stack the whole
-deck against the framework developer instead of the framework
-user. This is because the more customization options there are, the
-more complex the framework gets. Yet that’s still only talking frame‐
-work development. The framework and all its customized subver‐
-sions, as we’ll see shortly, still need to be tested, quality-managed,
-maintained, and so on.
-
-## Prototype
-
-The single most important thing we need to build a successful
-framework is a prototype. Here we benefit from our recognition that
-we’re really only talking about plain-vanilla style sheets and scripts.
-Large projects—projects like those for which we now talk frame‐
-works—have always benefited from prototypes.
-
-What do we mean by prototype? In its simplest form, it is a static
-(internal) website or demo site. It should contain all document types
-and elements we need in production: the prototype is where we code
-all the structure (HTML), presentation (CSS), and behavior (Java‐
-Script). And the prototype should include realistic (occasionally
-intermingled with extreme) sample contents: that’s how we test that
-everything works.
-
-A prototype is an irreplaceable testing ground that we need to
-obtain the end result we want.
-
-Prototypes follow their own principles, however. They must be, as I
-attempted to summarize in earlier years (slightly reworded):
-
-* Complete
-* Current
-* Realistic
-* Focused
-* Accessible/available
-* Managed with discipline
-* Maintained
-* Communicated/promoted
-* Documented
-
-Each of these points is important, but the first three are critical. The
-prototype has to include everything (all document types and ele‐
-ments), it must be current (any functionality changes must be reflec‐
-ted immediately), and it needs to be realistic (the sample data must
-be an as-good-as-possible approximation of how the framework is
-going to be used outside of the prototype).
-
-## Quality Management
-
-In order to be sure that we deliver the quality we’re committing to as
-professionals, we need to verify it. This is done through quality
-assurance (which aims to prevent issues by focusing on the process),
-and quality control (which aims to find and fix issues in the end
-product).
-
-Web development, as a still rather young discipline, knows more
-quality control than quality assurance. Good examples are valida‐
-tion, accessibility, and performance checks, of which there are
-plenty. On the quality assurance end, the most prominent example is
-the enactment of coding guidelines, but some organizations and
-individuals go so far as to use elaborate infrastructure to continu‐
-ously test and improve their code. (This is all related to web rather
-than software development, since in software development, there is
-a longer history and strong tradition of working with tests.)
 
 For quality assurance, it’s useful to:
 
