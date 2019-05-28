@@ -53,37 +53,30 @@ Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten 
 
 Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen Validierer, Barrierefreiheits- und Performance-Tests. Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
 
-@@
+Zur Qualitätssicherung ist es nützlich:
 
-For quality assurance, it’s useful to:
+* Code-Richtlinien zu etablieren;
+* Qualitätskriterien für den Output zu definieren;
+* regelmäßig Tests (über Prototyp und Live-Implementierung) laufen zu lassen.
 
-* Establish coding guidelines
-* Define output quality criteria
-* Run regular tests (over prototype and live implementations)
+Zur Qualitätskontrolle sollte man folgendes testen:
 
-For quality control, test:
-
-* Accessibility
-* Links (if applicable)
+* Barrierefreiheit
+* Links (wenn anwendbar)
 * Performance
 * Responsiveness
-* Maintainability
-* Validation
-* Linting
-* Formatting
+* Wartbarkeit
+* Validierung
+* Code-Qualität
+* Formatierung
 
-(Incidentally, I run a website hub dedicated to web development
-testing tools. Check uitest.com/en/analysis/ for a large selection of
-them.)
+(Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie gerne einen Blick auf [uitest.com/analysis/](@@) für eine umfangreiche Sammlung an Werkzeugen, um Website zu bauen und testen, sowie [_The Little Book of Website Quality Control_](@@) für ein paar weitere Gedanken zum Thema.)
 
-To take a page out of Google’s book, it’s best to automate such
-checks. Reviewing tool documentation can give valuable pointers, as
-a number of tools can be installed locally or come with an API. In
-addition, there are instruments like Selenium and ChromeDriver
-that facilitate automated browser testing. As with many of the more
-complex topics, this book will resort to just showing directions.
+Es ist, um es im Geiste von Google – und Effizienz – auszudrücken, immer sinnvoll, solche Tests zu automatisieren. Die Dokumentation einzelner Tools gibt oft schon wichtige Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](@@) und [ChromeDriver](@@), die automatisiertes Testen im Browser ermöglichen. Wie bei vielen anderen komplexen Themen, kann hier nur grob in eine Richtung verwiesen werden.
 
-## Maintenance
+## Wartung
+
+@@
 
 We’ve so far noted how principles, a prototype, and quality manage‐
 ment are important in framework development. The last key item to
