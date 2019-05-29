@@ -70,39 +70,21 @@ Zur Qualitätskontrolle sollte man folgendes testen:
 * Code-Qualität
 * Formatierung
 
-(Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie gerne einen Blick auf [uitest.com/analysis/](@@) für eine umfangreiche Sammlung an Werkzeugen, um Website zu bauen und testen, sowie [_The Little Book of Website Quality Control_](@@) für ein paar weitere Gedanken zum Thema.)
+(Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie gerne einen Blick auf [uitest.com/analysis/](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Website zu bauen und testen, sowie [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.)
 
-Es ist, um es im Geiste von Google – und Effizienz – auszudrücken, immer sinnvoll, solche Tests zu automatisieren. Die Dokumentation einzelner Tools gibt oft schon wichtige Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](@@) und [ChromeDriver](@@), die automatisiertes Testen im Browser ermöglichen. Wie bei vielen anderen komplexen Themen, kann hier nur grob in eine Richtung verwiesen werden.
+Es ist, um es im Geiste von Google – und Effizienz – auszudrücken, immer sinnvoll, solche Tests zu automatisieren. Die Dokumentation einzelner Tools gibt oft schon wichtige Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser ermöglichen. Wie bei vielen anderen komplexen Themen, kann hier nur grob in eine Richtung verwiesen werden.
 
 ## Wartung
 
+Wir haben bisher aufgeführt, wie wichtig Prinzipien, ein Prototyp und Qualitätsmanagement für die Frameworks-Entwicklung sind. Der letzte Schlüssel ist Wartung. Wartung bedeutet hier (wie bei Prototypen) vor allem das Commitment, die Hingabe zu einem Framework. Dies ist aus zwei Gründen von Bedeutung.
+
+Zum einen ist Wartung entscheidend, weil der Gebrauch eines Frameworks ein Versprechen an seine Nutzer ist. Das Versprechen umfasst auf jeden Fall, dass das verwendete Framework, wenn nicht bereits garantiert für immer perfekt gewartet wird. Das Versprechen verlangt sogar noch mehr als Wartung, nämlich dass wer auch immer es wartet, er alles in seiner Macht stehende tut, keine strukturellen Änderungen vorzunehmen, sondern nach Möglichkeit nur präsentations- und verhaltensbezogene.
+
+Zum anderen, weil das Commitment zu Wartung eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (sollte sein), dass das HTML am wichtigsten ist, wirklich gut zu schreiben, weil es am teuersten ist, zu ändern – Stichwort Kostendefinition –, und zwar wesentlich teurer als Stylesheets und Skripte. (Daran hat sich auch mit weiterem Tooling und neueren Frameworks nichts wesentlich geändert.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen, auslaufen zu lassen, um »einfach ein neues zu nehmen«, und ist damit wiederum auch näher an der Vision von Nur-CSS-Design-Iterationen und -Refactorings. (Natürlich werden strukturelle Änderungen auch immer HTML-Anpassungen, damit auch CSS- und JavaScript-Modifikationen und für das Framework neue »Major«-Releases erfordern.)
+
+Ein Framework, das echte und sogar komplexte Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben die populäreren Frameworks über die Jahre längst bewiesen.
+
 @@
-
-We’ve so far noted how principles, a prototype, and quality manage‐
-ment are important in framework development. The last key item to
-stress is maintenance. Maintenance here primarily means (similar to
-prototypes) a strong commitment to move forward with a frame‐
-work. This is important for two reasons.
-
-For one, in the case of external frameworks, maintenance is crucial
-because publishing a framework is a promise to the user base. That
-promise is precisely that it’s going to be maintained. It’s also a
-promise in how it’s going to be maintained, in that we do everything
-in our power not to change any structure, but only the framework
-style sheets and scripts.
-
-For another, in any framework, a commitment to maintenance acts
-like another form of safety. The general idea in web development is
-that the HTML is most important to get right, because it’s more
-expensive—think our cost definition—to change than style sheets
-and scripts. An explicit commitment to maintenance will keep us
-from discarding a framework to just “build another,” and thus lives
-up to the vision of CSS-only design iterations and refactorings. (Of
-course, true structural changes will still always require HTML
-changes, and with that, eventually, CSS and JavaScript edits.)
-
-A framework, solving widespread and complex development and
-design issues, comes with an express obligation to maintenance.
 
 I> ### Maintaining and Breaking
 I> 
