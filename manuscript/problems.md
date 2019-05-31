@@ -1,6 +1,3 @@
-@@ Check on links and emphasis
-
-
 # Bekannte Probleme
 
 Da Frameworks vor allem in größeren Projekten nützlich sind, sind die Probleme beim Einsatz mit Frameworks auch oft größer. Hier sind einige der verbreitetsten und schwerwiegendsten Probleme, zusammen mit ein paar Ideen, wie man mit ihnen umgehen kann.
@@ -13,7 +10,7 @@ Die Lösung ist nicht einfach. Benutzern externer Frameworks steht es eh frei, z
 
 ## Mangel an einem Prototypen
 
-Keinen Prototypen zu haben ist ein gleichermaßen kritisches Problem, dank all der im Kapitel @@ genannten Vorteile, die ein solcher mit sich bringt. Abgesehen von der Tatsache, dass die Entwicklung von Frameworks ungleich schwerer wird, wenn sie in keiner abgegrenzten Umgebung getestet werden kann, vergrößert sich die Wartungskomplexität quasi minütlich ohne Prototyp, ohne solche Umgebung. Ein Framework ohne Prototyp dreht frei, gerät außer Kontrolle. Wie zuvor angeraten kann bereits eine Sammlung statischer Seiten bereits helfen – so diese die grundlegenden Elemente vollständig abdeckt, und sie aktuell und realistisch ist.
+Keinen Prototypen zu haben ist ein gleichermaßen kritisches Problem, dank all der im Abschnitt »Prototyp« genannten Vorteile, die ein solcher mit sich bringt. Abgesehen von der Tatsache, dass die Entwicklung von Frameworks ungleich schwerer wird, wenn sie in keiner abgegrenzten Umgebung getestet werden kann, vergrößert sich die Wartungskomplexität quasi minütlich ohne Prototyp, ohne solche Umgebung. Ein Framework ohne Prototyp dreht frei, gerät außer Kontrolle. Wie zuvor angeraten kann bereits eine Sammlung statischer Seiten bereits helfen – so diese die grundlegenden Elemente vollständig abdeckt, und sie aktuell und realistisch ist.
 
 ## Mangel an Wartung
 

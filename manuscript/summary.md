@@ -1,6 +1,3 @@
-@@ Check on links and emphasis
-
-
 # Zusammenfassung
 
 Frameworks täuschen. Sie muten wie ein isoliertes Spezialthema an, eins, das dazu unschuldig und einfach ist. Und nun haben wir gesehen, wie wenig speziell sondern normal Frameworks sind, und dabei gleichzeitig kompliziert. Man kann sie in der heutigen Webentwicklung kaum mehr umgehen, und dennoch sollte man das, es sei denn man nimmt sie als nicht trivial wahr, und durchdringt sie.
