@@ -91,15 +91,11 @@ I> Ich denke, dass diese Einschätzung noch immer solide ist. Code kann mit Furc
 
 ### Aktualisierungen
 
+Die Handhabung von Framework-Updates ist so wichtig, dass wir sie nochmal gesondert behandeln sollten. Sie sind generell einfacher bei internen als bei externen Frameworks, obwohl Aktualisierungen in großen Organisationen mit vielen Entwicklern und Teams, die weit verstreut sind, ebenfalls eine Herausforderung darstellen.
+
+Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
+
 @@
-
-The handling of framework updates is delicate enough to deserve a
-separate section. Updates are generally easier to manage for internal
-frameworks than for external ones, though updates in a large orga‐
-nization with many developers spread out over many places can be
-challenging, too.
-
-Here are a few tricks to make framework updates easier:
 
 * Try to avoid HTML changes because of their comparatively
 high cost. An update should only consist of styling or scripting
