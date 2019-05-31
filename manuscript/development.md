@@ -26,7 +26,7 @@ Was bedeutet denn Prototyp? In seiner einfachsten Form ist dies eine statische (
 
 Ein Prototyp ist unersetzlich, damit wir testen können, ob das Framework wirklich funktioniert und seinen Zweck erfüllt.
 
-Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal [skizziert](@@) habe, folgendes sein oder anstreben:
+Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal [skizziert](https://meiert.com/de/publications/talks/20070523/#toc-requirements) habe, folgendes sein oder anstreben:
 
 * Vollständig
 * Aktuell
@@ -48,7 +48,7 @@ Gute Prototypen sind auch eine Kunst und bedürfen einer wesentlich längeren Au
 
 Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten oft verpflichten wollen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
 
-Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](@@), [Barrierefreiheits-](@@) und [Performance-Tests](@@). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
+Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](https://uitest.com/analysis/#validation), [Barrierefreiheits-](https://uitest.com/analysis/#accessibility) und [Performance-Tests](https://uitest.com/analysis/#performance). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
 
 Zur Qualitätssicherung ist es nützlich:
 
@@ -77,13 +77,13 @@ Wir haben bisher aufgeführt, wie wichtig Prinzipien, ein Prototyp und Qualität
 
 Zum einen ist Wartung entscheidend, weil der Gebrauch eines Frameworks ein Versprechen an seine Nutzer ist. Das Versprechen umfasst auf jeden Fall, dass das verwendete Framework, wenn nicht bereits garantiert für immer perfekt gewartet wird. Das Versprechen verlangt sogar noch mehr als Wartung, nämlich dass wer auch immer es wartet, er alles in seiner Macht stehende tut, keine strukturellen Änderungen vorzunehmen, sondern nach Möglichkeit nur präsentations- und verhaltensbezogene.
 
-Zum anderen, weil das Commitment zu Wartung eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (sollte sein), dass das [HTML am wichtigsten ist](@@), wirklich gut zu schreiben, weil es am teuersten ist, zu ändern – Stichwort Kostendefinition –, und zwar wesentlich teurer als Stylesheets und Skripte. (Daran hat sich auch mit weiterem Tooling und neueren Frameworks nichts wesentlich geändert.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen, auslaufen zu lassen, um »einfach ein neues zu nehmen«, und ist damit wiederum auch näher an der Vision von Nur-CSS-Design-Iterationen und -Refactorings. (Natürlich werden strukturelle Änderungen auch immer HTML-Anpassungen, damit auch CSS- und JavaScript-Modifikationen und für das Framework neue »Major«-Releases erfordern.)
+Zum anderen, weil das Commitment zu Wartung eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (sollte sein), dass das [HTML am wichtigsten ist](https://meiert.com/de/publications/articles/20091027/), wirklich gut zu schreiben, weil es am teuersten ist, zu ändern – Stichwort Kostendefinition –, und zwar wesentlich teurer als Stylesheets und Skripte. (Daran hat sich auch mit weiterem Tooling und neueren Frameworks nichts wesentlich geändert.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen, auslaufen zu lassen, um »einfach ein neues zu nehmen«, und ist damit wiederum auch näher an der Vision von Nur-CSS-Design-Iterationen und -Refactorings. (Natürlich werden strukturelle Änderungen auch immer HTML-Anpassungen, damit auch CSS- und JavaScript-Modifikationen und für das Framework neue »Major«-Releases erfordern.)
 
 Ein Framework, das echte und sogar komplexte Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben die populäreren Frameworks über die Jahre längst bewiesen.
 
 I> ### Warten und Kaputtmachen
 I>
-I> Hier ist etwas Ironisches: Auch wenn wir als Framework-Entwickler verantwortungsbewusst und sorgfältig vorgehen sollten, mit Framework-Updates nichts unnötig kaputt zu machen, sollten wir uns davor auch nicht übermäßig sorgen. Zur Frage, was das Wichtigste sei, wenn man Frameworks entwickelt und wartet, habe ich vor ein paar Jahren [folgendes entgegnet](@@):
+I> Hier ist etwas Ironisches: Auch wenn wir als Framework-Entwickler verantwortungsbewusst und sorgfältig vorgehen sollten, mit Framework-Updates nichts unnötig kaputt zu machen, sollten wir uns davor auch nicht übermäßig sorgen. Zur Frage, was das Wichtigste sei, wenn man Frameworks entwickelt und wartet, habe ich vor ein paar Jahren [folgendes entgegnet](https://plus.google.com/+JensOMeiert/posts/4aVAQhJvnh6):
 I>
 I> »Je häufiger ein Framework verwendet wird, je erfolgreicher es damit ist, desto wahrscheinlicher wird es, dass Updates und Wartungsarbeiten mal etwas kaputt machen. […] Wartung ist der Schlüssel, aber es ist unmöglich, sicher zu stellen, dass nie etwas schief geht, und der Versuch allein schon unglaublich teuer. Dazu kommt, dass selbst wenn Dinge schief gehen, sie nie [katastrophal] schief gehen. Das führt wieder zum Setzen von Erwartungen: […] die Leute sollten Updates nicht fürchten, sondern schätzen.«
 I>
