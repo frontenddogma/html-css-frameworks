@@ -1,6 +1,3 @@
-@@ Check on links and emphasis
-
-
 # Frameworks entwickeln
 
 Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht. Externe Frameworks haben dabei etwas von Draufgängertum (gepaart mit einem Schuss Naivität). Wie das gesamte Buch bisher festhält, es ist notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das vielzu viel ist.
@@ -29,7 +26,7 @@ Was bedeutet denn Prototyp? In seiner einfachsten Form ist dies eine statische (
 
 Ein Prototyp ist unersetzlich, damit wir testen können, ob das Framework wirklich funktioniert und seinen Zweck erfüllt.
 
-Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal skizziert haben, folgendes sein oder anstreben:
+Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal [skizziert](@@) habe, folgendes sein oder anstreben:
 
 * Vollständig
 * Aktuell
@@ -51,7 +48,7 @@ Gute Prototypen sind auch eine Kunst und bedürfen einer wesentlich längeren Au
 
 Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten oft verpflichten wollen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
 
-Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen Validierer, Barrierefreiheits- und Performance-Tests. Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
+Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](@@), [Barrierefreiheits-](@@) und [Performance-Tests](@@). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
 
 Zur Qualitätssicherung ist es nützlich:
 
@@ -80,37 +77,21 @@ Wir haben bisher aufgeführt, wie wichtig Prinzipien, ein Prototyp und Qualität
 
 Zum einen ist Wartung entscheidend, weil der Gebrauch eines Frameworks ein Versprechen an seine Nutzer ist. Das Versprechen umfasst auf jeden Fall, dass das verwendete Framework, wenn nicht bereits garantiert für immer perfekt gewartet wird. Das Versprechen verlangt sogar noch mehr als Wartung, nämlich dass wer auch immer es wartet, er alles in seiner Macht stehende tut, keine strukturellen Änderungen vorzunehmen, sondern nach Möglichkeit nur präsentations- und verhaltensbezogene.
 
-Zum anderen, weil das Commitment zu Wartung eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (sollte sein), dass das HTML am wichtigsten ist, wirklich gut zu schreiben, weil es am teuersten ist, zu ändern – Stichwort Kostendefinition –, und zwar wesentlich teurer als Stylesheets und Skripte. (Daran hat sich auch mit weiterem Tooling und neueren Frameworks nichts wesentlich geändert.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen, auslaufen zu lassen, um »einfach ein neues zu nehmen«, und ist damit wiederum auch näher an der Vision von Nur-CSS-Design-Iterationen und -Refactorings. (Natürlich werden strukturelle Änderungen auch immer HTML-Anpassungen, damit auch CSS- und JavaScript-Modifikationen und für das Framework neue »Major«-Releases erfordern.)
+Zum anderen, weil das Commitment zu Wartung eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (sollte sein), dass das [HTML am wichtigsten ist](@@), wirklich gut zu schreiben, weil es am teuersten ist, zu ändern – Stichwort Kostendefinition –, und zwar wesentlich teurer als Stylesheets und Skripte. (Daran hat sich auch mit weiterem Tooling und neueren Frameworks nichts wesentlich geändert.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen, auslaufen zu lassen, um »einfach ein neues zu nehmen«, und ist damit wiederum auch näher an der Vision von Nur-CSS-Design-Iterationen und -Refactorings. (Natürlich werden strukturelle Änderungen auch immer HTML-Anpassungen, damit auch CSS- und JavaScript-Modifikationen und für das Framework neue »Major«-Releases erfordern.)
 
 Ein Framework, das echte und sogar komplexte Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben die populäreren Frameworks über die Jahre längst bewiesen.
 
+I> ### Warten und Kaputtmachen
+I>
+I> Hier ist etwas Ironisches: Auch wenn wir als Framework-Entwickler verantwortungsbewusst und sorgfältig vorgehen sollten, mit Framework-Updates nichts unnötig kaputt zu machen, sollten wir uns davor auch nicht übermäßig sorgen. Zur Frage, was das Wichtigste sei, wenn man Frameworks entwickelt und wartet, habe ich vor ein paar Jahren [folgendes entgegnet](@@):
+I>
+I> »Je häufiger ein Framework verwendet wird, je erfolgreicher es damit ist, desto wahrscheinlicher wird es, dass Updates und Wartungsarbeiten mal etwas kaputt machen. […] Wartung ist der Schlüssel, aber es ist unmöglich, sicher zu stellen, dass nie etwas schief geht, und der Versuch allein schon unglaublich teuer. Dazu kommt, dass selbst wenn Dinge schief gehen, sie nie [katastrophal] schief gehen. Das führt wieder zum Setzen von Erwartungen: […] die Leute sollten Updates nicht fürchten, sondern schätzen.«
+I>
+I> Ich denke, dass diese Einschätzung noch immer solide ist. Code kann mit Furcht nichts anfangen. Wenn wir als Entwickler unsere Hausarbeit machen, können gelegentliche Probleme sogar eine gute (und vielleicht die einzige) Sache sein, Framework-Nutzer im Umgang mit Grundregeln und ordentlichem Framework-Gebrauch zu schulen, und eventuelle Code-Probleme aufzuzeigen. Als Entwickler müssen wir manchmal auch unangenehme Entscheidungen treffen.
+
+### Aktualisierungen
+
 @@
-
-I> ### Maintaining and Breaking
-I> 
-I> A word of caution: while we, as framework developers, need to
-show responsibility and exercise thorough care not to break any‐
-thing with framework updates, we must also not worry too much
-about breaking something. On the question what the most impor‐
-tant thing was when creating and maintaining frameworks, I
-responded a few years ago:
-I> 
-I> “The more used and hence successful a framework is, the more
-likely it is that things will break over regular maintenance. […]
-maintenance is key, yet avoiding things to break is impossible,
-and the attempt alone unbelievably expensive. And then, while
-things go wrong, things never go wrong badly. And that leads
-back to setting expectations: […] people should embrace, not
-fear, updates to them.”
-I> 
-I> I believe that this advice is still sound. Code can’t afford anxiety. If
-we developers do our homework, occasional breaks can even be a
-good thing (and maybe the only thing) to educate framework users
-about ground rules and proper framework usage, and to expose
-other coding-related issues. As developers we sometimes have to
-make tough choices.
-
-### Updates
 
 The handling of framework updates is delicate enough to deserve a
 separate section. Updates are generally easier to manage for internal
@@ -154,41 +135,41 @@ changes do we look into our toolbox and, always carefully, recon‐
 sider versioning.
 
 I> ### Test Bookmarklets
-I> 
+I>
 I> CSS bookmarklets are a great low-tech way of allowing users to test
 framework changes. A short example:
-I> 
+I>
 I> Framework:
-I> 
+I>
 I> ```css
 I> article {
 I>   margin: auto;
 I>   width: 50%;
 I> }
 I> ```
-I> 
+I>
 I> Framework after update:
-I> 
+I>
 I> ```css
 I> article {
 I>   width: 90%;
 I> }
 I> ```
-I> 
+I>
 I> To prepare a test for the update and make sure everything keeps
 working as intended, take all the changed declarations and all the
 removed declarations, set the removed declarations’ properties to
 their defaults, and on that basis, generate the testing rules:
-I> 
+I>
 I> Test style sheet:
-I> 
+I>
 I> ```css
 I> article {
 I>   margin: 0;
 I>   width: 90%;
 I> }
 I> ```
-I> 
+I>
 I> We’re simplifying here by assuming that <article> doesn’t pick up
 other margin values from anywhere else. margin has to be set
 because while it’s been removed from the new framework, it would
@@ -196,7 +177,7 @@ still be applied through the old framework, which is in effect on the
 pages where we want to test the new code. So the test style sheet
 needs to neutralize all old code—something we could in really
 tricky cases, as a last resort, also attempt through the all property.
-I> 
+I>
 I> Jesse Ruderman’s bookmarklet generator is minimal but a fine tool
 to turn test code into a bookmarklet (by pasting the test CSS and
 copying bookmarklet code). That bookmarklet can then be pro‐
@@ -267,14 +248,14 @@ framework and the problems it tries to solve.
 
 D> To repeat, for expert framework development, we need
 to pay special attention to:
-D> 
+D>
 D> * Principles
 D> * A prototype
 D> * Quality management
 D> * Maintenance
 D> * Documentation
 D> * Logistics
-D> 
+D>
 D> As these are ordered in descending order of impor‐
 tance, our frameworks can probably survive with poor
 support and gaping docs, but sacrifices in vision, test‐
