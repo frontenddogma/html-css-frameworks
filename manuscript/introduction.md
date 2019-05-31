@@ -1,6 +1,14 @@
 # Einleitung
 
-@@
+Frameworks prägen das Bild der Webentwicklung der letzten zehn Jahre. Fast jeder Entwickler hat mal ein Framework eingesetzt oder setzt eins ein, und von diesen haben die meisten auch einen Favoriten (Bootstrap?); einige Entwickler haben dazu bereits ein Framework (mit)entwickelt oder entwickeln eins.
+
+Zu einer Zeit, als nicht jedes Stylesheet gleich einen Namen und das Suffix »-Framework« erhielt, hatte ich für meinen Hausverlag O’Reilly 2015 alles zusammengetragen, was mir zur Entwicklung und dem Gebrauch von Frameworks einfiel. Dieses Wissen fußte vor allem auf meiner Erfahrung als Architekt der internen Frameworks von GMX (2003–2006) und Google (2008–2013).
+
+Das Ergebnis war etwas, mit dem ich recht zufrieden war – als jemand, der durchaus mal Dinge »husch-husch« herunterschreibt, ist das tatsächlich nicht mit jedem meiner Werke der Fall. Da O’Reilly sich strategisch aber neu ausgerichtet hatte und das Original, [_The Little Book of HTML/CSS Frameworks_](https://www.oreilly.com/library/view/the-little-book/9781492048121/), nicht für den deutschen Markt vorsah, bat ich O’Reilly 2018 um die Rechte, das Büchlein selbst auf Deutsch herauszubringen. Diesem Wunsch wurde entsprochen, und ich konnte mit Übersetzung und punktuellen Verbesserungen beginnen.
+
+Was Sie in der Hand halten, ist in erster Linie immer noch eine Übersetzung der 2015er Originalausgabe. Aber auch wenn diese hier und da mal hakt – die Jahre gingen nicht spurlos am Material vorüber, und mein Deutsch, siehe spätere Bemerkungen, ächzt auch hier und da –, handelt es sich dabei, ähnlich wie bei [_CSS Optimization Basics_](https://leanpub.com/css-optimization-basics), um ein »lebendes Buch«, und so werden Sie, wenn Sie dieses Buch über Leanpub bezogen haben, Aktualisierungen erhalten. Wenn Sie selbst [Berichtigungen oder Verbesserungen](https://github.com/j9t/html-css-frameworks/issues/new) vorschlagen wollen, sind diese jederzeit sehr willkommen, und würden in das Buch einfließen.
+
+Mehr, nun, vom Jens der früheren Jahre.
 
 ## Einleitung zur Originalausgabe
 
@@ -15,7 +23,7 @@ Während das Buch versucht, alles abzudecken, kratzt es so einiges aber auch nur
 Es ist dabei ebenso von einem Webentwickler geschrieben worden. Ich, Jens, habe während meiner Laufbahn Frameworks für [OPEN KNOWLEDGE](http://www.openknowledge.de/), [GMX](https://www.gmx.net/), [Aperto](http://www.aperto.de/) mit ihren Regierungs- und Geschäftskunden sowie für [Google](https://www.google.com/) entwickelt. In dieser Zeit ist es mir nicht gelungen, die Schnelllebigkeit unserer Branche zu überlisten, aber es sind mir einige Prinzipien, Methoden und Praktiken über den Weg gelaufen, die zu haltbarerem Code führen. Davon profitierten die Frameworks, an denen ich arbeitete, und ich hoffe, davon werden Sie in diesem Buch ebenfalls profitieren.
 
 I> ### Anmerkung zur Übersetzung
-I> 
+I>
 I> Da der Kern dieses Buches auf dem basiert, was ich ehemals für O’Reilly auf Englisch geschrieben habe, handelt es sich trotz einiger Ergänzungen und Neuerungen in weiten Teilen um eine Übersetzung. Wo es mir auffiel, habe ich Angleichungen vorgenommen, damit sich das Buch runder liest, aber aus Erfahrung mit dem Umgang mit zwei oder gar drei Sprachen (ich spreche auch regelmäßig Spanisch, aber das schlecht) weiß ich, dass manch eigenartige Formulierung solche Rückübersetzungen trotz vieler Schleifen überlebt. Über [Verbesserungsvorschläge](https://github.com/j9t/html-css-frameworks/issues/new) freue ich mich sehr.
 I>
 I> Allgemein benutze ich in meinen Publikationen gerne ein kollektives »wir«. In diesem Buch fiel es mir als etwas _sehr_ einschließend und umfassend auf, aber ich blieb in Schreibweise und Tonart nah am Original. Schließlich, ein Grund für diese Betonung der Gemeinschaft, _sind_ _wir_ hier technisch interessiert, und sehr wahrscheinlich eint uns sogar, dass wir nicht nur Entwickler, sondern Webentwickler sind. Denn das »wir« will nicht sagen, dass wir unbedingt alles gleich sehen – sondern dass wir ähnliche Berufungen und Leidenschaften haben.
