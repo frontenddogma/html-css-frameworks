@@ -95,26 +95,17 @@ Die Handhabung von Framework-Updates ist so wichtig, dass wir sie nochmal gesond
 
 Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
-@@
+* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Änderungen zu vermeiden. Updates sollten idealerweise nur in Styling- oder Skripting-Anpassungen bestehen und keine besonderen Arbeiten für Nutzer bedeuten (das umfasst Entwickler, die mit dem Framework arbeiten). Die Anpassung von Framework-Referenzen (URL-Anpassungen, Paketaktualisierungen) sind natürlich okay.
 
-* Try to avoid HTML changes because of their comparatively
-high cost. An update should only consist of styling or scripting
-changes and impart no actual work for users (which, to counter
-the aforementioned definition blurriness, also means developers
-who work with the framework). The update of framework refer‐
-ences can be OK.
-* Announce updates in advance.
-* Provide a way to test whether the update would have any ill
-effects. This can happen through something simple like book‐
-marklets (see “Test Bookmarklets” on page 23), or something
-more sophisticated like proxying (using a proxy to intercept and
-change requests to framework files in order to feed updated files
-for testing).
-* Inform users about possible side effects (and use this as an
-opportunity to educate them about, for example, the problems
-of overwrites, as explained in “2. Don’t overwrite framework
-code” on page 15).
-* Communicate the status of ongoing updates.
+* Kündigen Sie Aktualisierungen im Voraus an.
+
+* Bieten Sie eine Möglichkeit, Aktualisierungen im Vorfeld auf Nebeneffekte zu  prüfen. Dies kann durch etwas einfaches wie Bookmarklets geschehen (siehe Info-Kasten) oder durch etwas raffiniertes wie Proxying (wobei ein Proxy Requests abfängt, um Framework-Dateien zu ändern oder umzuleiten, um darüber dann zu testen).
+
+* Informieren Sie Nutzer über mögliche Nebeneffekte (und nutzen Sie die Gelegenheit, auf die bereits beschriebenen Probleme beim Überschreiben hinzuweisen).
+
+* Kommunizieren Sie den Status laufender Updates.
+
+@@
 
 What we’re assuming here is that we’re not just “versioning” frame‐
 works. That’s the practice of shipping a framework—let’s say, foo—
