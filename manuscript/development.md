@@ -99,32 +99,17 @@ Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
 * Kündigen Sie Aktualisierungen im Voraus an.
 
-* Bieten Sie eine Möglichkeit, Aktualisierungen im Vorfeld auf Nebeneffekte zu  prüfen. Dies kann durch etwas einfaches wie Bookmarklets geschehen (siehe Info-Kasten) oder durch etwas raffiniertes wie Proxying (wobei ein Proxy Requests abfängt, um Framework-Dateien zu ändern oder umzuleiten, um darüber dann zu testen).
+* Bieten Sie eine Möglichkeit, Aktualisierungen im Vorfeld auf Nebeneffekte zu prüfen. Dies kann durch etwas einfaches wie Bookmarklets geschehen (siehe Info-Kasten) oder durch etwas raffiniertes wie Proxying (wobei ein Proxy Requests abfängt, um Framework-Dateien zu ändern oder umzuleiten, um darüber dann zu testen).
 
 * Informieren Sie Nutzer über mögliche Nebeneffekte (und nutzen Sie die Gelegenheit, auf die bereits beschriebenen Probleme beim Überschreiben hinzuweisen).
 
 * Kommunizieren Sie den Status laufender Updates.
 
-@@
+Wovon wir hier ausgehen ist, dass wir nicht einfach nur Frameworks »versionieren«. Das ist die Praxis, ein Framework rauszubringen – sagen wir, `foo` – und bei der ersten Änderung nicht `foo` zu aktualisieren, sondern `foo-2` auszuliefern. Und dann `foo-3`. Und so weiter. Diese Praxis kann eine Option sein, muss aber nicht die Regel bilden. Die Regel sollte sein, das Framework selbst nach den hier vorgestellten Ideen zu aktualisieren. Der Grund dafür ist, dass Versionierung den Zweck und [Vorteil von CSS](https://meiert.com/en/blog/advantage-of-css/) unterminiert (und ähnlich so von JavaScript), was mittels der Trennung der Belange (_Separation of Concerns_) sofortige Updates bedeutet. Wir werden diese Vision, die sehr stark darauf aus ist, Updates sofort auszuspielen und Arbeit zu vermeiden, nochmal behandeln – vor allem, da dies aktuell, mehrere Jahre nach Schreiben des Buches etwas sehr strikt und wider dem gegenwärtigen Usus anmuten mag. Bei größeren, »Major«-Aktualisierungen sollte damals wie heute auf jeden Fall ein Versionssprung in Erwägung gezogen werden.
 
-What we’re assuming here is that we’re not just “versioning” frame‐
-works. That’s the practice of shipping a framework—let’s say, foo—
-and when the first changes come, not updating foo, but shipping
-foo-2. And then foo-3. And so on. This practice may be an option for
-us, but not a rule. The rule should be to update the framework itself,
-per the ideas listed here. The reason is that versioning defeats the
-purpose and advantage of CSS (similarly for JavaScript), which are
-immediate changes, supported by separation of concerns (HTML
-for structure, CSS for presentation, and JavaScript for behavior).
-We’ll touch on the vision behind this shortly, but we should strive to
-do all updates through what we already have. And only for major
-changes do we look into our toolbox and, always carefully, recon‐
-sider versioning.
-
-I> ### Test Bookmarklets
+I> ### Test-Bookmarklets
 I>
-I> CSS bookmarklets are a great low-tech way of allowing users to test
-framework changes. A short example:
+I> CSS-Bookmarklets sind immer noch eine schöne, Low-Tech-Methode, es zu ermöglichen, Frameworks-Neuerungen vorab zu testen.
 I>
 I> Framework:
 I>
@@ -135,7 +120,7 @@ I>   width: 50%;
 I> }
 I> ```
 I>
-I> Framework after update:
+I> Framework nach Update:
 I>
 I> ```css
 I> article {
@@ -143,12 +128,9 @@ I>   width: 90%;
 I> }
 I> ```
 I>
-I> To prepare a test for the update and make sure everything keeps
-working as intended, take all the changed declarations and all the
-removed declarations, set the removed declarations’ properties to
-their defaults, and on that basis, generate the testing rules:
+I> Um einen Test des Updates vorzubereiten, um zu prüfen, dass auch alles in Zukunft wie gehabt funktioniert, nimmt man alle geänderten sowie etwaige _entfernte_ Deklarationen, setzt die Eigenschaften der entfernten Deklarationen auf ihre _Initial_-Werte und generiert so die Testregeln:
 I>
-I> Test style sheet:
+I> Test-Stylesheet:
 I>
 I> ```css
 I> article {
@@ -157,20 +139,13 @@ I>   width: 90%;
 I> }
 I> ```
 I>
-I> We’re simplifying here by assuming that <article> doesn’t pick up
-other margin values from anywhere else. margin has to be set
-because while it’s been removed from the new framework, it would
-still be applied through the old framework, which is in effect on the
-pages where we want to test the new code. So the test style sheet
-needs to neutralize all old code—something we could in really
-tricky cases, as a last resort, also attempt through the all property.
+I> Wir vereinfachen das hier etwas mit der Annahme, dass `<article>` keine `margin`-Werte von woanders aufschnappt. `margin` muss gesetzt werden, da auch wenn es in der Framework-Aktualisierung entfernt wurde, es immer noch durch das alte Framework angewandt wird, welches ja wiederum noch auf den Seiten greift, auf denen wir den neuen Code testen wollen. Entsprechend muss das Test-Stylesheet diesen vorherigen Code neutralisieren – etwas was wir in sehr kniffligen Fällen zur Not auch noch durch die [`all`-Eigenschaft](https://www.w3.org/TR/css3-cascade/#all-shorthand) probieren könnten.
 I>
-I> Jesse Ruderman’s bookmarklet generator is minimal but a fine tool
-to turn test code into a bookmarklet (by pasting the test CSS and
-copying bookmarklet code). That bookmarklet can then be pro‐
-vided to any framework user, along with a way to report problems.
+I> Jesse Rudermans [Bookmarklet-Generator](https://www.squarefree.com/userstyles/make-bookmarklet.html) ist ein sehr einfaches aber funktionsfähiges Werkzeug, um solchen Test-Code in ein Bookmarklet zu überführen (indem man das Test-CSS einfügt und den entsprechenden Bookmarklet-Code kopiert). Das Bookmarklet kann dann jedem Framework-Nutzer zusammen mit einem Weg, Probleme zu melden, zur Verfügung gestellt werden.
 
-## Documentation
+## Dokumentation
+
+@@
 
 Though not technically a part of the development process, docu‐
 mentation must be discussed. Anchoring documentation where the
