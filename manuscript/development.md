@@ -145,13 +145,9 @@ I> Jesse Rudermans [Bookmarklet-Generator](https://www.squarefree.com/userstyles
 
 ## Dokumentation
 
-@@
+Obwohl dies streng genommen kein Teil des Entwicklungsprozesses ist, darf hier auch Dokumentation nicht fehlen. Dokumentation dort aufzuhängen, wo die Entwicklung passiert, hat viele Vorteile, vom Erhöhen der Wahrscheinlichkeit, dass tatsächlich dokumentiert wird bis hin zur Verbesserung von Umfang und Genauigkeit, weil dann dokumentiert wird, wenn gerade noch alles frisch im Kopf ist.
 
-Though not technically a part of the development process, docu‐
-mentation must be discussed. Anchoring documentation where the
-development happens has many advantages, from increasing the
-chances that it’s actually done, to being more comprehensive and
-accurate because it’s fresh on the mind.
+Es gibt viele Arten, zu dokumentieren, aber eine der effektivsten ist, einen bzw. den Prototypen auch für diese Zwecke einzusetzen. @@
 
 There are several ways to document, but one of the more effective
 ones is using a prototype for this purpose too. Sample contents can
