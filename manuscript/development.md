@@ -147,28 +147,15 @@ I> Jesse Rudermans [Bookmarklet-Generator](https://www.squarefree.com/userstyles
 
 Obwohl dies streng genommen kein Teil des Entwicklungsprozesses ist, darf hier auch Dokumentation nicht fehlen. Dokumentation dort aufzuhängen, wo die Entwicklung passiert, hat viele Vorteile, vom Erhöhen der Wahrscheinlichkeit, dass tatsächlich dokumentiert wird bis hin zur Verbesserung von Umfang und Genauigkeit, weil dann dokumentiert wird, wenn gerade noch alles frisch im Kopf ist.
 
-Es gibt viele Arten, zu dokumentieren, aber eine der effektivsten ist, einen bzw. den Prototypen auch für diese Zwecke einzusetzen. @@
+Es gibt viele Arten, zu dokumentieren, aber eine der effektivsten ist, einen bzw. den Prototypen auch für diese Zwecke einzusetzen. Beispielinhalte können in Dokumentation umgewandelt werden, die die Seitentypen und -elemente erklären, die sie selbst bilden, und es ist ebenso möglich, Informationskästen auf Hover anzuzeigen, die Hintergrundinformationen und zugehörigen Code beschreiben. (Ein sauber gewarteter Prototyp, der auf diese Weise aufgewertet wird, kann wirklich das Rückgrat eines Frameworks bilden. Manches Designsystem ging in den letzten Jahren in diese Richtung, und [Storybook](https://storybook.js.org/), kann man sagen, greift dies nochmals auf.)
 
-There are several ways to document, but one of the more effective
-ones is using a prototype for this purpose too. Sample contents can
-be turned into documentation describing the page types and ele‐
-ments they’re forming, but it’s also possible to use hover-style info
-boxes that share background information and explain the code. (A
-properly maintained prototype enriched this way may even do most
-of the lifting of any framework site!)
+Dokumentation fängt jedoch bereits im Code an, und dort müssen wir ebenfalls Disziplin an den Tag legen. Unsere Code-Richtlinien sollten dies unterstreichen und unterstützen; Dokumentationsstandards wie [CSSDOC](https://web.archive.org/web/20130701094049/http://cssdoc.net/) ([CSSdoc](https://github.com/Paratron/CSSdoc)?) und [JSDoc](https://devdocs.io/jsdoc/), ebenso wie Werkzeuge, die Dokumentation automatisch aus unserem Code generieren, sind hier von großer Hilfe.
 
-Documentation begins in the code, however, and there, too, we need
-to exercise discipline. Our coding guidelines should underline this;
-documentation standards like CSSDOC and JSDOC, as well as tools
-that automatically pull such documentation from our code, can be
-of great help.
+Die Idee hinter Dokumentation ist, dass wir uns, dem Team, den Framework-Nutzern sowie Interessierten das Leben etwas einfacher machen. Sie Teil des gesamten Entwicklungsprozesses zu machen ist in der Framework-Entwicklung genauso wichtig wie in der Entwicklung allgemein.
 
-The idea behind documentation is to make life easier for ourselves,
-our colleagues, framework users, and any people interested in the
-work. Thus, making it part of the development process goes a long
-way.
+## Logistik
 
-## Logistics
+@@
 
 Our journey, now that we diligently worked through everything rel‐
 evant to frameworks, is soon over. A bonus aspect concerns logis‐
