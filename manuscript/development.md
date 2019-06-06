@@ -155,53 +155,35 @@ Die Idee hinter Dokumentation ist, dass wir uns, dem Team, den Framework-Nutzern
 
 ## Logistik
 
-@@
+Da wir uns emsig durch alle relevanten Framework-Themen durchhangeln, ist unsere Reise auch schon fast vorbei. Ein wichtiger Aspekt ist noch die Framework-Logistik. Wir haben davon bereits ein paar Teile behandelt:
 
-Our journey, now that we diligently worked through everything rel‐
-evant to frameworks, is soon over. A bonus aspect concerns logis‐
-tics. We have covered a few pieces that can be considered logistics:
+* Code-Richtlinien
+* Werkzeuge zur Qualitätskontrolle
+* Dokumentation
 
-* Coding guidelines
-* Quality-control tools
-* Documentation
+Was wir noch nicht berührt haben:
 
-What we haven’t touched are:
+* Pläne und Roadmaps zur Framework-Entwicklung
+* Versionskontrollsysteme (oftmals [Git](https://git-scm.com/), ehemals auch gerne [Mercurial](https://www.mercurial-scm.org/), [Subversion](https://subversion.apache.org/), [CVS](https://www.nongnu.org/cvs/))
+* Request- und Bug-Management-Systeme (wie [JIRA](https://www.atlassian.com/software/jira) oder [Bugzilla](https://www.bugzilla.org/))
+* Framework-Websites mit Feeds und weiteren Features (öffentlich bei externen Frameworks)
+* Mailing-Listen für
+** Entwickler (ob für das Team oder Interessierte)
+** Nutzer (offen für jeden)
+** Ankündigungen (die wichtigsten Neuigkeiten, die auch an die Entwickler- und Nutzerlisten gehen sollten)
+* Übersichten für Live-Implementierungen (primär für Tests und Samples, aber auch für Referenzen)
 
-* Framework development plans or roadmaps
-* Version control systems (like Git, Mercurial, or Subversion)
-* Request and bug management systems (like Bugzilla)
-* Framework sites (public for external frameworks) with news feeds
-* Mailing lists for
-** Developers (framework development team)
-** Users (open to everyone interested)
-** Announcements (low-volume essentials which should go to
-the developers and users lists, too)
-* Trackers for live implementations
+Eine Website für das Framework und eine Liste für Ankündigungen sind besonders erwähnenswert, weil sie Framework-Inhabern und -Entwicklern gute Dividende bringen. Die Website dient dabei als Hub für Informationen und Dokumentation. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Veröffentlichungen auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken.
 
-A framework site and an announcements list are particularly note‐
-worthy, as they can pay good dividends to framework owners and
-developers. The site serves as a hub for information and documenta‐
-tion. An announcements list is indispensable to inform customers
-about new releases and guide framework users.
+Framework-Support fällt ebenfalls in die Kategorie Logistik. Er bekommt hier aber keine weitere Aufmerksamkeit weil wir Support zum einen an verschiedenen Stellen des Wegen »einbetten« können – in Prinzipien, Zielen, Dokumentation – und zum anderen, weil Support stark von Details und Komplexität des Frameworks abhängt, und den Problemen, die es zu lösen versucht.
 
-Support also falls into the logistics category. It does not get more
-attention here because, for one, we “embed” support at several land‐
-marks along the way—in quality goals and principles, in documen‐
-tation and logistics—and for another, support is more of a tangential
-topic that depends on the complexity and circumstances of the
-framework and the problems it tries to solve.
-
-D> To repeat, for expert framework development, we need
-to pay special attention to:
+D> Gehen wir noch einmal durch alles durch. Für die Entwicklung hochwertiger Frameworks sollte auf folgendes geachtet werden:
 D>
-D> * Principles
-D> * A prototype
-D> * Quality management
-D> * Maintenance
-D> * Documentation
-D> * Logistics
+D> * Prinzipien
+D> * Einen Prototyp
+D> * Qualitätsmanagement
+D> * Wartung
+D> * Dokumentation
+D> * Logistik
 D>
-D> As these are ordered in descending order of impor‐
-tance, our frameworks can probably survive with poor
-support and gaping docs, but sacrifices in vision, test‐
-ing, and commitment will break their necks.
+D> Da diese in absteigender Wichtigkeit geordnet sind, können Frameworks mit schlechtem Support und lückenhafter Dokumentation wahrscheinlich überleben, aber brechen sich alle Gräten, wenn es ihnen an Vision, Tests oder Hingabe mangelt.
