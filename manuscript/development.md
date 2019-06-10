@@ -1,54 +1,54 @@
 # Frameworks entwickeln
 
-Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht. Externe Frameworks haben dabei etwas von Draufgängertum (gepaart mit einem Schuss Naivität). Wie das gesamte Buch bisher festhält, es ist notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das vielzu viel ist.
+Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht, und externe Frameworks haben dabei etwas von Draufgängertum. Wie das Buch bisher festhält, ist es notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das viel zu viel ist.
 
-Der folgende Abschnitt beschreibt die Grundlagen für die Entwicklung eines Frameworks, mit speziellem Bezug für die Arbeit in einer größeren Organisation.
+Der folgende Abschnitt beschreibt die Grundlagen für die Entwicklung eines Frameworks, mit speziellem Bezug auf die Arbeit in einer größeren Organisation.
 
 ## Prinzipien
 
-Wir haben hierzu bereits alle Aufgaben erledigt und alle Prinzipien für die Framework-Entwicklung erarbeitet. Ein Framework sollte entsprechend die höchsten Qualitätsstandards anstreben, und:
+Wir haben hierzu bereits viele Aufgaben erledigt und die Prinzipien für die Framework-Entwicklung erarbeitet. Ein Framework sollte idealerweise die höchsten Qualitätsstandards anstreben, und:
 
 1. Ein Framework sollte maßgeschneidert sein.
 2. Ein Framework sollte benutzerfreundlich sein.
 3. Ein Framework sollte erweiterbar sein.
 
-Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und dazu können wir bereits auf Methoden zurückgreifen, die in vorherigen Abschnitten behandelt wurden.
+Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und zur Umsetzung können wir bereits auf Methoden zurückgreifen, die in vorherigen Abschnitten behandelt wurden.
 
-Anpassungs- und Konfigurationsmöglichkeiten, wie in Abschnitt »1. Ein Framework sollte maßgeschneidert sein« behandelt, spielt hier eine besondere Rolle, da diese die Geheimwaffe – und letzte Verteidigungslinie – des externen Framework-Entwicklers sind. Frameworks-Konfigurationsoptionen sind der einzige Weg, es fremden Nutzern, Nutzern, deren Projekte wir nie kennenlernen werden, möglich zu machen, zuzuschneiden.
+Anpassungs- und Konfigurationsmöglichkeiten, wie im Abschnitt »1. Ein Framework sollte maßgeschneidert sein« behandelt, spielt hier eine besondere Rolle, da diese eine Geheimwaffe – und letzte Verteidigungslinie – des externen Framework-Entwicklers sind. Framework-Konfigurationsoptionen sind der einzige Weg, es fremden Nutzern, Nutzern, deren Projekte wir nie kennenlernen werden, möglich zu machen, zuzuschneiden.
 
-Ich habe mich ursprünglich dagegen entschieden, einen Abschnitt speziell über die Konfiguration zu ergänzen (und auch für den Moment in dieser ergänzten deutschen Ausgabe). Zum einen stellt Konfiguration kein Allheilmittel für externe Frameworks dar, zum anderen erschafft sie so viele Probleme (Aufgaben) im Entwicklungsbereich, dass dieser in vielen Situation prohibitiv teuer wird. Dies liegt daran, dass je mehr Konfigurationsmöglichkeiten es gibt, desto komplexer ein Framework wird. Zu der Entwicklungsarbeit selbst gehören dann natürlich auch immer noch Tests, Qualitätsmanagement, Wartung, usw.
+Ich hatte mich ursprünglich dagegen entschieden, einen Abschnitt speziell zu Konfiguration zu schreiben (und auch für den Moment in dieser ergänzten deutschen Ausgabe). Zum einen stellt Konfiguration kein Allheilmittel für externe Frameworks dar, zum anderen bedeutet sie so viele zusätzliche Aufgaben im Entwicklungsbereich, dass die Entwicklung in vielen Situationen prohibitiv teuer werden kann. Dies liegt daran, dass je mehr Konfigurationsmöglichkeiten es gibt, desto komplexer ein Framework wird. Zu der Entwicklungsarbeit selbst gehören dann natürlich auch immer noch Tests, Qualitätsmanagement, Wartung, usw.
 
 ## Prototyp
 
-Das wichtigste, was für ein erfolgreiches Framework benötigt wird, ist ein Prototyp. Hierbei ist nochmal die Erkenntnis wichtig, dass wir es wirklich nur mit einfachen Stylesheets und Skripten zu tun haben. Große Projekte – Projekte, für die Frameworks wirklich gebraucht werden – haben immer schon von Prototypen profitiert.
+Das wichtigste, das für ein erfolgreiches Framework benötigt wird, ist ein Prototyp. Hierbei ist nochmal die Erkenntnis wichtig, dass wir es immer noch nur mit Stylesheets und Skripten zu tun haben. Große Projekte – Projekte, für die Frameworks wirklich gebraucht werden – haben immer schon von Prototypen profitiert.
 
-Was bedeutet denn Prototyp? In seiner einfachsten Form ist dies eine statische (interne) Website. Diese sollte alle Dokumenttypen und -elemente beinhalten, die wir in der Produktion benötigen, denn hier wird aller Code für Struktur (HTML), Präsentation (CSS) und Verhalten (JavaScript) zusammengetragen. Der Prototyp sollte realistische, wo wichtig auch »extreme« Beispielinhalte umfassen – dies dient dem Testen, dass alles funktioniert.
+Was bedeutet denn Prototyp? In seiner einfachsten Form eine statische Website. Diese sollte alle Dokumenttypen und -elemente beinhalten, die wir in der Produktion benötigen, denn hier wird aller Code für Struktur (HTML), Präsentation (CSS) und Verhalten (JavaScript) zusammengetragen. Der Prototyp sollte dabei realistische, wo wichtig auch extreme Beispielinhalte umfassen.
 
 Ein Prototyp ist unersetzlich, damit wir testen können, ob das Framework wirklich funktioniert und seinen Zweck erfüllt.
 
 Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal [skizziert](https://meiert.com/de/publications/talks/20070523/#toc-requirements) habe, folgendes sein oder anstreben:
 
-* Vollständig
-* Aktuell
-* Realistisch
-* Fokussiert
-* Zugänglich/verfügbar
-* Diszipliniert betrieben
-* Gewartet
-* Kommuniziert/beworben
-* Dokumentiert
+* vollständig
+* aktuell
+* realistisch
+* fokussiert
+* zugänglich/verfügbar
+* diszipliniert betrieben
+* gewartet
+* kommuniziert/beworben
+* dokumentiert
 
-(Ich glaube, diese nun mehr als 10 Jahre alten Punkte bedürfen der Revision und Restrukturierung.)
+(Ich glaube, diese nun mehr als zehn Jahre alten Punkte bedürfen der Revision und Restrukturierung.)
 
-Jeder dieser Punkte ist wichtig, aber die ersten drei kritisch. Ein Prototyp muss wirklich alles umfassen (alle Seitentypen und -elemente, auch wenn dies aus einer Content- und nicht App-Perspektive kommt), er muss aktuell sein (jegliche Änderungen müssen sofort angewendet werden und sichtbar sein) und er muss realistisch sein (Beispielinhalte müssen eine möglichst gute Annäherung daran sein, wie das Framework wahrscheinlich außerhalb des Prototypen verwendet wird).
+Jeder dieser Punkte ist wichtig, aber die ersten drei kritisch. Ein Prototyp muss wirklich alles umfassen (alle Seitentypen und -elemente, auch wenn dies einer Content- und nicht App-Perspektive entstammt), er muss aktuell sein (jegliche Änderungen müssen sofort angewendet werden können und sichtbar sein) und er muss realistisch sein (Beispielinhalte müssen eine möglichst gute Annäherung daran darstellen, wie das Framework wahrscheinlich außerhalb des Prototypen verwendet wird).
 
-Gute Prototypen sind auch eine Kunst und bedürfen einer wesentlich längeren Ausführung.
+Gute Prototypen sind wie Frameworks selbst eine Kunst und bedürften einer wesentlich längeren Ausführung.
 
 ## Qualitätsmanagement
 
-Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten oft verpflichten wollen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
+Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten verpflichten wollen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
 
-Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](https://uitest.com/analysis/#validation), [Barrierefreiheits-](https://uitest.com/analysis/#accessibility) und [Performance-Tests](https://uitest.com/analysis/#performance). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren durchaus spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
+Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](https://uitest.com/analysis/#validation), [Barrierefreiheits-](https://uitest.com/analysis/#accessibility) und [Performance-Tests](https://uitest.com/analysis/#performance). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren spezielle und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es hier eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
 
 Zur Qualitätssicherung ist es nützlich:
 
@@ -56,7 +56,7 @@ Zur Qualitätssicherung ist es nützlich:
 * Qualitätskriterien für den Output zu definieren;
 * regelmäßig Tests (über Prototyp und Live-Implementierung) laufen zu lassen.
 
-Zur Qualitätskontrolle sollte man folgendes testen:
+Bei der Qualitätskontrolle sollte man folgendes testen:
 
 * Barrierefreiheit
 * Links (wenn anwendbar)
@@ -64,12 +64,12 @@ Zur Qualitätskontrolle sollte man folgendes testen:
 * Responsiveness
 * Wartbarkeit
 * Validierung
-* Code-Qualität
 * Formatierung
+* allgemeine Code-Qualität
 
-(Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie gerne einen Blick auf [uitest.com/analysis/](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Website zu bauen und testen, sowie [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.)
+(Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie gerne einen Blick auf [uitest.com/analysis/](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu bauen und testen, sowie [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.)
 
-Es ist, um es im Geiste von Google – und Effizienz – auszudrücken, immer sinnvoll, solche Tests zu automatisieren. Die Dokumentation einzelner Tools gibt oft schon wichtige Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser ermöglichen. Wie bei vielen anderen komplexen Themen, kann hier nur grob in eine Richtung verwiesen werden.
+Ganz im Sinne der Effizienz ist es sinnvoll, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft schon wichtige Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
 
 ## Wartung
 
@@ -95,7 +95,7 @@ Die Handhabung von Framework-Updates ist so wichtig, dass wir sie nochmal gesond
 
 Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
-* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Änderungen zu vermeiden. Updates sollten idealerweise nur in Styling- oder Skripting-Anpassungen bestehen und keine besonderen Arbeiten für Nutzer bedeuten (das umfasst Entwickler, die mit dem Framework arbeiten). Die Anpassung von Framework-Referenzen (URL-Anpassungen, Paketaktualisierungen) sind natürlich okay.
+* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Änderungen zu vermeiden. Updates sollten bevorzugt nur in Styling- oder Skripting-Anpassungen bestehen und keine besonderen Arbeiten für Nutzer bedeuten (das umfasst Entwickler, die mit dem Framework arbeiten). Die Anpassung von Framework-Referenzen (URL-Anpassungen, Paketaktualisierungen) sind natürlich okay.
 
 * Kündigen Sie Aktualisierungen im Voraus an.
 
