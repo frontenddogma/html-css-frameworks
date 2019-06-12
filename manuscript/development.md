@@ -95,7 +95,7 @@ Die Handhabung von Framework-Updates ist so wichtig, dass sie nochmal gesondert 
 
 Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
-* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Anpassungen (selbst Klassenänderungen) zu vermeiden. Updates sollten bevorzugt nur in Styling- oder Skripting-Arbeiten bestehen und keine besonderen Aufwände für Nutzer und Entwickler bedeuten. Die Anpassung von Framework-Referenzen (URL-Anpassungen, Paketaktualisierungen) sind okay.
+* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Anpassungen (selbst Klassenänderungen) zu vermeiden. Updates sollten bevorzugt nur in Styling- oder Scripting-Arbeiten bestehen und keine besonderen Aufwände für Nutzer und Entwickler bedeuten. Die Anpassung von Framework-Referenzen (URL-Anpassungen, Paketaktualisierungen) sind okay.
 
 * Kündigen Sie Aktualisierungen im Voraus an.
 

@@ -12,7 +12,7 @@ Das [Pure-Framework](https://purecss.io/) kennt beispielsweise die folgenden But
 * Inaktiv
 * Angepasst
 
-»Funktionalität« bezieht sich normalerweise auf Darstellung/Präsentation (das Styling über CSS) und manchmal auch auf Verhalten (Scripting über JavaScript).
+»Funktionalität« bezieht sich normalerweise auf Darstellung/Präsentation (das Styling über CSS) und manchmal auch auf Verhalten (Verhalten über JavaScript).
 
 Der Vorteil darin, eine solche Bibliothek zu verwenden, beruht darin, dass wir diese Funktionalität nicht selbst schreiben müssen, oder so wiederholt tun müssen. Wir folgen statt dessen den Anweisungen der Bibliothek, was die Struktur anbelangt (Markup über HTML).
 
