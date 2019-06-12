@@ -1,6 +1,6 @@
 # Nachwort
 
-Zum Abschluss dieses Buches ein Artikel, der einige Erfahrungen mit der Entwicklung von Frameworks wiederspiegelt; mit meiner eigenen Erfahrung als Entwickler der damals ersten Google-Web-Frameworks Go (2008) und Maia (2012). Der Bericht ist eine leicht modifizierte Variante der Fassung, die Sie auch unter [meiert.com/de/publications/articles/20171005/](https://meiert.com/de/publications/articles/20171005/) finden.
+Zum Abschluss dieses Buchs ein Artikel, der einige Erfahrungen mit der Entwicklung von Frameworks wiederspiegelt; mit meiner eigenen Erfahrung als Entwickler der damals ersten Google-Web-Frameworks Go (2008) und Maia (2012). Der Bericht ist eine leicht modifizierte Variante der Fassung, die Sie auch unter [meiert.com/de/publications/articles/20171005/](https://meiert.com/de/publications/articles/20171005/) finden.
 
 ## Was ich beim Entwickeln von Googles Frameworks gelernt habe
 
