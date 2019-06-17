@@ -7,10 +7,9 @@
 Das [Pure-Framework](https://purecss.io/) kennt beispielsweise die folgenden Button-Typen:
 
 * Default
-* Primär
-* Aktiv
 * Inaktiv
-* Angepasst
+* Aktiv
+* Primär
 
 »Funktionalität« bezieht sich normalerweise auf Darstellung/Präsentation (das Styling über CSS) und manchmal auch auf Verhalten (Scripting über JavaScript).
 
