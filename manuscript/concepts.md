@@ -6,9 +6,9 @@ Zuerst einmal gibt es ein paar Begriffe, die in anderen Kontexten mitunter ander
 
 Extern (auch öffentlich, offen oder frei): Alles, das von außerhalb von uns oder unserer Organisation kommt und nicht unserer Kontrolle unterliegt. In der Webentwicklung sind Widgets für bestimmte Dienste (wie soziale Netzwerke) oder auch Frameworks oft extern.
 
-Intern (oder »in-house«): Alles, was seinen Ursprung innerhalb unserer Organisation hat und unter unserer Kontrolle ist. In der Webentwicklung sind Website-Designs und -Stylesheets häufig intern.
+Intern (oder »in-house«): Alles, was seinen Ursprung innerhalb unserer Organisation hat und unter unserer Kontrolle ist. In der Webentwicklung sind Website-Designs und -Stylesheets in der Regel intern.
 
-Pattern: Ein klassisches Design-Pattern oder [Entwurfsmuster](https://de.wikipedia.org/wiki/Entwurfsmuster). In der Webentwicklung sind die individuellen Elemente eines Dokuments oder einer App Patterns, ebenso Seitentypen wie z.B. ein Artikel mit Header, Footer und drei Spalten für diverse Inhalte.
+Pattern: Ein klassisches Design-Pattern oder [Entwurfsmuster](https://de.wikipedia.org/wiki/Entwurfsmuster). In der Webentwicklung sind die individuellen Elemente eines Dokuments oder einer App Patterns, ebenso Seitentypen wie z.B. ein Artikel mit Header, Footer und Spalten für diverse Inhalte.
 
 Kosten: Ein Maß für jede negative Konsequenz. Typischerweise Ausgaben an Arbeit, Zeit oder Geld, aber möglicherweise auch negative Veränderungen in bspw. Wahrnehmung, Befriedigung oder Reputation. So bedeutet in der Webentwicklung jedes Element, das einer Seite hinzugefügt wird, Kosten in Bezug auf reduzierte Seiten-Performance.
 
