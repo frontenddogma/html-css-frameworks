@@ -6,7 +6,7 @@ Da Frameworks vor allem in größeren Projekten nützlich sind, sind hier die Pr
 
 Eine der größten Herausforderungen, die im Einsatz von Frameworks auftauchen, ist Mangel an Disziplin. Bei Nutzern bedeutet dies, dass diese Frameworks nicht wie vorgesehen benutzen und die beiden Grundregeln verletzen (Dokumentation beachten, keinen Code überschreiben). Bei Entwicklern heißt dies üblicherweise, dass sie bei der Qualität abreißen lassen, also Qualitätsstandards ignorieren, Prototypen vernachlässigen oder Dokumentation nicht mehr schreiben oder aktuell halten. Das Ergebnis ist dasselbe: Sabotage – das wollte ich aus der Originalausgabe stehen lassen –, bloß von unterschiedlichen Seiten.
 
-Die Lösung ist nicht einfach. Benutzern externer Frameworks steht es eh frei, zu tun, was sie wollen; ihnen mag gar nicht erst auffallen, dass sie das gewählte Framework nicht richtig zureiten. Die Situation ist bei internen Frameworks einfacher, da innerhalb von Organisationen leichter Regeln aufgestellt, kommuniziert und durchgesetzt werden können. Kein Mittel bringt aber _garantiert_ Heilung – Menschen sind gerne kreativ, und zu verfolgen, wie Frameworks in der Praxis genau verwendet werden, scheint nicht nur einen kleinen Einblick von Murphys Gesetz, sondern auch der menschlichen Natur zu geben.
+Die Lösung ist nicht einfach. Benutzern externer Frameworks steht es eh frei, zu tun, was sie wollen; ihnen mag gar nicht erst auffallen, dass sie das gewählte Framework nicht richtig zureiten. Die Situation ist bei internen Frameworks einfacher, da innerhalb von Organisationen leichter Regeln aufgestellt, kommuniziert und durchgesetzt werden können. Kein Mittel bringt aber _garantiert_ Heilung – Menschen sind gerne kreativ, und zu verfolgen, wie Frameworks in der Praxis genau verwendet werden, scheint nicht nur einen kleinen Eindruck von Murphys Gesetz, sondern auch der menschlichen Natur zu geben.
 
 ## Mangel an einem Prototypen
 
@@ -20,9 +20,9 @@ Wartung heißt nicht, ein Framework kontinuierlich zu _verändern_. Das kann sog
 
 I> ### Eine Vision für Webentwicklung
 I>
-I> Es gibt eine Sache, die jeder Webentwickler anstreben sollte: minimales, semantisch angemessenes, valides HTML zu schreiben und dieses nie zu ändern. »Nie« nicht im Sinne von Leugnen und Ablehnen, weil strukturelle Änderungen natürlich immer notwendig sein und Anpassungen erfordern können, sondern im Sinne eines Leitsatzes. Die Idee minimalen, semantisch korrekten, validen Markups kitzelt das Optimimum aus uns heraus. Es führt uns dabei nicht nur zu hoher Qualität, sondern treibt uns an, größere Kräfte in unseren Stylesheets und Skripten zu erwerben und freizusetzen. Die Vision ist eine von höchster Effizienz, um präsentationsbezogene Anpassugen nur durch CSS- und verhaltensbezogene nur durch JavaScript-Änderungen vorzunehmen. HTML zu schreiben, designagnostisch wie dieses sein sollte, wurde schon immer unterschätzt – und tatsächlich ist es am schwersten, wirklich gut zu schreiben.
+I> Es gibt eine Sache, die jeder Webentwickler anstreben sollte: minimales, semantisch angemessenes, valides HTML zu schreiben und dieses nie zu ändern. »Nie« nicht im Sinne von Leugnen und Ablehnen, weil strukturelle Änderungen natürlich immer notwendig sein und Anpassungen erfordern können, sondern im Sinne eines Leitsatzes. Die Idee minimalen, semantisch korrekten, validen Markups kitzelt das Optimimum aus uns heraus. Es führt uns dabei nicht nur zu hoher Qualität, sondern treibt uns an, größere Kräfte in unseren Stylesheets und Skripten zu erwerben und freizusetzen. Die Vision ist eine von höchster Effizienz, um präsentationsbezogene Anpassungen nur durch CSS- und verhaltensbezogene nur durch JavaScript-Änderungen vorzunehmen. HTML zu schreiben, designagnostisch wie dieses sein sollte, wurde schon immer unterschätzt – und tatsächlich ist es am schwersten, wirklich gut zu schreiben.
 I>
-I> Ob diese Art des Handwerks im aktuellen Paradigma komponentenbasierter Entwicklung noch so große Bedeutung hat wie noch vor Jahren, kann angezweifelt werden, aber das widerlegt nicht gleich den Nutzen [minimalen, änderungsresistenteren Codes](https://meiert.com/en/blog/minimal-web-development/).
+I> Ob diese Art des Handwerks im aktuellen Paradigma komponentenbasierter Entwicklung noch so große Bedeutung hat wie noch vor Jahren, kann angezweifelt werden, aber das negiert nicht gleich alle Vorteile [minimalen, änderungsresistenteren Codes](https://meiert.com/en/blog/minimal-web-development/).
 
 ## Mangel an Genauigkeit
 
@@ -30,8 +30,8 @@ Eine Annahme, die wir bisher getroffen haben, ist dass was unsere Frameworks mac
 
 ## Mangel an Mut
 
-Die letzte große Herausforderung ist, nicht in der Lage zu sein, harte Entscheidungen zu treffen oder den Stecker zu ziehen – selbst wenn das nur die Rückendeckung durch Vorgesetzte erfordert. Sich an etwas zu hängen, das nicht mehr relevant ist. Das nicht mehr verwendet wird. Das falsch verwendet wird. Das eine Bauruine ist. Das nicht mehr gewartet oder erweitert werden kann. Etwas in dieser Art.
+Die letzte große Herausforderung ist, nicht in der Lage zu sein, harte Entscheidungen zu treffen oder den Stecker zu ziehen – selbst wenn das nur die Rückendeckung durch Vorgesetzte erfordert. Sich an etwas zu hängen, das nicht mehr relevant ist. Das nicht mehr verwendet wird. Das falsch verwendet wird. Das eine Bauruine ist. Das nicht mehr gewartet oder erweitert werden kann. Etwas in der Art.
 
-Einem kaputten, fehlgeschlagenen, aber vielleicht nach ersten Erfolgen glorifizierten Framework die ewige Treue zu schwören kann wirklich ein Problem sein. Wenn das passiert, müssen wir irgendwie darüber hinwegkommen und uns den Mund abwischen. Als Profis haben wir ein ambitioniertes Ziel, wenn unser Code lange halten soll – und manchmal scheitern wir damit, und das ist okay.
+Einem kaputten, fehlgeschlagenen, aber vielleicht nach ersten Erfolgen glorifizierten Framework die ewige Treue zu schwören kann wirklich ein Problem sein. Wenn das passiert, müssen wir irgendwie darüber hinwegkommen. Als Profis haben wir ein ambitioniertes Ziel, wenn unser Code lange halten soll – und manchmal scheitern wir damit, und das ist okay.
 
 Glücklicherweise, mag man sagen, gibt es immer mehr Code auszuprobieren und zu schreiben. Das nächste Framework – oder Stylesheet, oder Skript – wartet schon auf uns.

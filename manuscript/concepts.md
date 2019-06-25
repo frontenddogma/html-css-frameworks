@@ -1,6 +1,6 @@
 # Schlüsselkonzepte
 
-Bevor wir in die Welt der Frameworks tauchen, sollten wir noch ein paar allgemeine Punkte durchgehen. Wir müssen dabei nicht immer einer Meinung sein; es geht hier lediglich darum, Missverständnisse zu vermeiden.
+Bevor wir in die Welt der Frameworks tauchen, sollten wir ein paar allgemeine Punkte durchgehen. Wir müssen dabei nicht immer einer Meinung sein; es geht hier lediglich darum, Missverständnisse zu vermeiden.
 
 Zuerst einmal gibt es ein paar Begriffe, die in anderen Kontexten mitunter andere Bedeutung erfahren:
 
@@ -16,14 +16,14 @@ Maßschneidern: Das Produzieren und Anpassen auf genaue Maße und Bedürfnisse. 
 
 Dann einige Annahmen:
 
-* Code verursacht Kosten. Er verursacht Kosten in Bezug auf Entwicklung, Performance, Wartung, Dokumentation, Prozesse, Qualität und Konversion (wenn auch nicht alles gleichzeitig, und nicht jeden gleichermaßen betreffend). Nicht notwendiger Code bedeutet nicht notwendige Kosten.
+Code verursacht Kosten. Er verursacht Kosten in Bezug auf Entwicklung, Performance, Wartung, Dokumentation, Prozesse, Qualität und Konversion (wenn auch nicht alles gleichzeitig, und nicht jeden gleichermaßen betreffend). Nicht notwendiger Code bedeutet nicht notwendige Kosten.
 
-* Website-Betreiber und -Entwickler wollen Kosten sparen. Insbesondere wollen sie nicht notwendige Kosten vermeiden.
+Website-Betreiber und -Entwickler wollen Kosten sparen. Insbesondere wollen sie nicht notwendige Kosten vermeiden.
 
-* Code maßschneidern bedeutet, nicht notwendigen Code zu entfernen oder besser gar nicht erst zu schreiben oder einzubinden.
+Code maßschneidern bedeutet, nicht notwendigen Code zu entfernen oder besser gar nicht erst zu schreiben oder einzubinden.
 
-* Guter Code ist Code, der von messbar oder argumentativ hoher Qualität ist, wo argumentativ heißt, dass er gemeinen guten Entwicklungspraktiken entspricht.
+Guter Code ist Code, der von messbar oder argumentativ hoher Qualität ist, wo argumentativ heißt, dass er gemeinen guten Entwicklungspraktiken entspricht.
 
-* Code von hoher Qualität ist maßgeschneidert, und auch wenn hohe Qualität eine Investition darstellt, spart maßgeschneiderter Code auch Kosten.
+Code von hoher Qualität ist maßgeschneidert, und auch wenn hohe Qualität eine Investition darstellt, spart maßgeschneiderter Code auch Kosten.
 
 Mit diesen ersten Bemerkungen können wir beginnen.

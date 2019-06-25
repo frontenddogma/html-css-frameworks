@@ -1,17 +1,17 @@
 # Frameworks benutzen
 
-Die zwei Arten, auf die wir normalerweise mit Frameworks zu tun haben, haben wir mit »Benutzen« und »Entwickeln« bestimmt (mit ein wenig notwendiger Überschneidung). Die anfängliche Definition betrachtet dies aus einem interessanten Blickwinkel, da wir wie besprochen prinzipiell _jedes_ Stylesheet oder Skript als »Framework« deklarieren können. Und in diesem Sinne hätte auch schon jeder, der mal mit Stylesheets oder Skripten gearbeitet hat, ein _grundsätzliches_ Verständnis davon, wie man mit Frameworks arbeitet.
+Die zwei Arten, auf die wir normalerweise mit Frameworks zu tun haben, haben wir mit »Benutzen« und »Entwickeln« bestimmt (mitsamt ein wenig notwendiger Überschneidung). Die anfängliche Definition betrachtet dies aus einem speziellen Blickwinkel, da wir wie besprochen theoretisch _jedes_ Stylesheet oder Skript als »Framework« deklarieren könnten. Und in diesem Sinne hätte auch schon jeder, der mal mit Stylesheets oder Skripten gearbeitet hat, ein _grundsätzliches_ Verständnis davon, wie man mit Frameworks arbeitet.
 
-Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwickeln, und muss wenn überhaupt vom Framework abhängen. Benutzung erfordert also die Wahl eines Frameworks – und dann die Befolgung von Grundregeln.
+Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwickeln, und muss wenn überhaupt vom Framework abhängen. Benutzen erfordert also die Wahl eines Frameworks – und dann die Befolgung von Grundregeln.
 
 ## Ein Framework auswählen
 
-Die Entscheidung »pro Qualität« sollte dahin führen, ein _internes_ Framework zu benutzen oder zu entwickeln. Die _Auswahl_ eines Frameworks bezieht sich zwangsläufig auf externe Frameworks, und sie hängt von zwei Faktoren ab:
+Die Entscheidung »pro Qualität« sollte dahin führen, ein _internes_ Framework zu benutzen oder zu entwickeln. Die _Auswahl_ eines Frameworks bezieht sich fast ausschließlich auf externe Frameworks, und sie hängt von zwei Faktoren ab:
 
-1. Befriedigt es unsere Bedürfnisse?
+1. Befriedigt es die Bedürfnisse?
 2. Ist es von hoher Qualität? (Ist es maßgeschneidert – zumindest zuschneidbar –, benutzerfreundlich und erweiterbar?)
 
-An dieser Stelle wird also nochmals die Wichtigkeit betont, unsere genauen Bedürfnisse zu kennen. Dies ist selbst bei der _Wahl_ eines Frameworks wichtig, da nur Kenntnis unserer Anforderungen hilft, sagen zu können, welches Framework besser passt (Stichwort Maßschneiderung) und unseren Ansprüchen im Hinblick auf Erweiterbarkeit genügt (wobei die Komplexität unserer Bedürfnisse in der Regel mit dem Bedarf nach Erweiterbarkeit korreliert). 
+An dieser Stelle wird also nochmals die Wichtigkeit betont, unsere genauen Bedürfnisse zu kennen. Dies ist auch bei der _Wahl_ eines Frameworks wichtig, da nur Kenntnis unserer Anforderungen hilft, sagen zu können, welches Framework passt (Stichwort Maßschneiderung) und unseren Ansprüchen im Hinblick auf Erweiterbarkeit genügt (wobei die Komplexität unserer Bedürfnisse in der Regel mit dem Bedarf nach Erweiterbarkeit korreliert). 
 
 ## Die zwei Grundregeln für den Gebrauch eines Frameworks
 
@@ -29,7 +29,7 @@ Diese Regel scheint so offensichtlich wie unbedeutend, ist aber kritisch, da nac
 
 Aus Gründen, auf die wir noch näher eingehen, sollte framework-eigener Code nie einfach überschrieben werden.
 
-Was externe Frameworks anbelangt – Teil des Dilemmas des Experten –, kann das Überschreiben von Framework-Code unvorhersehbare Konsequenzen haben und leicht Probleme mit zukünftigen Updates nach sich ziehen. Hier ist ein kleines Beispiel:
+Was externe Frameworks anbelangt, kann das Überschreiben von Framework-Code unvorhersehbare Konsequenzen haben und leicht Probleme mit zukünftigen Updates nach sich ziehen. Hier ist ein kleines Beispiel:
 
 ```css
 header {
@@ -42,7 +42,7 @@ Unschuldiges Überschreiben:
 ```css
 header {
   position: relative;
-  top: 1em;
+  top: 1rem;
 }
 ```
 
@@ -56,9 +56,9 @@ header {
 }
 ```
 
-Das Beispiel, einfach wie es ist, zeigt wie eine scheinbar triviale Änderung gravierende Folgen haben kann. Hier wird ein Header einfach ein `em` verschoben. (Da der Framework-Header implizit statisch »positioniert« war, handelt es sich tatsächlich um ein Überschreiben.) Das nächste Framework-Update stellt jedoch auf absolute Positionierung um. Da die überschreibenden Deklarationen später in der Kaskade folgen, verhindern sie das Update (mit der Ausnahme von `left: 0;`). In Fällen wie diesen sind die Effekte von Überschreibungen unvorhersehbar, und sie sollten aus diesem Grund so weit es geht vermieden werden.
+Das Beispiel, einfach wie es ist, zeigt wie eine scheinbar triviale Änderung gravierende Folgen haben kann. Hier wird ein Header einfach ein `rem` verschoben. (Da der Framework-Header implizit statisch »positioniert« war, handelt es sich tatsächlich um ein Überschreiben.) Das nächste Framework-Update stellt jedoch auf absolute Positionierung um. Da die überschreibenden Deklarationen später in der Kaskade folgen, verhindern sie das Update (mit der Ausnahme von `left: 0;`). In Fällen wie diesen sind die Effekte von Überschreibungen unvorhersehbar, und sie sollten aus diesem Grund so weit es geht vermieden werden.
 
-Was sollte man tun? Bei internen Frameworks sollte man selbstverständlich nicht irgendwo Dinge überschreiben, sondern entweder das Framework direkt anpassen oder die Dinge so lassen, wie sie sind. Bei externen Frameworks sollte man entweder dasselbe tun – die Dinge so lassen – oder ein separates Pattern, ein anderes Element entwickeln, dass die entsprechende Aufgabe übernimmt (wie z.B. ein alternativer Header, mit anderem Markup). Framework-Forks oder -Patches sollte man vermeiden. Es ist besser, wenn wir versuchen, die Dinge direkt an der Wurzel zu lösen – oder gar nicht, was uns evtl. irgendwann zu Handlungen zwingt, die _auf lange Sicht besser_ sind, wie das Framework doch direkt zu verbessern, es zu wechseln oder eins zu bauen, das auf uns zugeschnitten ist. 
+Was sollte man tun? Bei internen Frameworks sollte man selbstverständlich nicht irgendwo Dinge überschreiben, sondern entweder das Framework direkt anpassen oder die Dinge so lassen, wie sie sind. Bei externen Frameworks sollte man entweder dasselbe tun – die Dinge so lassen – oder ein separates Pattern, ein anderes Element entwickeln, das die entsprechende Aufgabe übernimmt (wie z.B. ein alternativer Header, mit anderem Markup). Framework-Forks oder -Patches sollte man vermeiden. Es ist besser, wenn wir versuchen, die Dinge direkt an der Wurzel zu lösen – oder gar nicht, was uns evtl. irgendwann zu Handlungen zwingt, die _auf lange Sicht besser_ sind, wie das Framework doch direkt zu verbessern, es zu wechseln oder eins zu bauen, das auf uns zugeschnitten ist. 
 
 D> Je komplexer das Projekt und je größer die Organisation, desto schwieriger ist es, die hier nötige Disziplin aufzubringen. Aber jeder, der mit einem Framework arbeitet, tut gut daran, diese Regeln in Erinnerung zu behalten und wenn irgend möglich zu befolgen, um höchstmögliche Konsistenz und Qualität zu erreichen.
 
@@ -70,7 +70,7 @@ I> Überschreiben:
 I>
 I> * A → B: Code A zu Code B geändert oder durch diesen ersetzt.
 I> * A1 → A2: Code A, z.B. Regel oder Funktion, die eine Sache 1 macht, angepasst, so dass sie Sache 2 macht.
-I> * \[A1 + B1]: Code A, der 1 macht, erweitert durch Code B, der in derselben Datei 1 auf dieselbe oder eine andere Weise macht (das ist Überschreiben, weil sich der ursprüngliche Code nun anders verhält).
+I> * \[A1 + B1]: Code A, der 1 macht, erweitert durch Code B, der in derselben Datei 1 auf dieselbe oder eine andere Weise macht (das ist Überschreiben, weil der ursprüngliche Code nun nicht mehr greift).
 I> * \[A1] + \[B1]: Code A, der 1 macht, erweitert durch Code B, der in einer anderen _Datei_ 1 auf dieselbe oder eine andere Weise macht.
 I> * (A1 + B2: kein Überschreiben oder Erweitern, weil nur ein Beispiel dafür, wie unterschiedlicher Code unterschiedliche Sachen macht.) 
 I> 
