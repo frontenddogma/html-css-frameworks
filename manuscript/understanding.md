@@ -2,7 +2,7 @@
 
 ## Was ist ein Framework?
 
-»Framework« ist ein weitgefasster Begriff, der manchmal auch missverstanden wird. Konzeptionell und im Sinne der Webentwicklung kann ein Framework mit einer Bibliothek verglichen werden: eine Bibliothek nicht von Büchern, sondern von Design-Patterns, zusammen mit der entsprechenden Funktionalität. 
+»Framework« ist ein weit gefasster Begriff, der manchmal auch missverstanden wird. Konzeptionell und im Sinne der Webentwicklung kann ein Framework mit einer Bibliothek verglichen werden: eine Bibliothek nicht von Büchern, sondern von Design-Patterns, zusammen mit der entsprechenden Funktionalität. 
 
 Das [Pure-Framework](https://purecss.io/) kennt beispielsweise die folgenden Button-Typen:
 
@@ -27,7 +27,7 @@ So erfordert beispielsweise [YAML](http://www.yaml.de/) den folgenden HTML-Code 
 </nav>
 ```
 
-Das fehlende Puzzlestück, oder schon buchstäblich Verbindungsstück, ist, diese Bilbliothek zu verknüpfen, um über das vorgegebene Markup die Funktionalität auch auf die ausgewählten Patterns anzuwenden.
+Das fehlende Puzzlestück, oder schon buchstäblich Verbindungsstück, ist, diese Bibliothek zu verknüpfen, um über das vorgegebene Markup die Funktionalität auch auf die ausgewählten Patterns anzuwenden.
 
 Eine der einfachsten Arten, Bootstrap zu verwenden, besteht beispielsweise darin, etwas wie folgendes zu referenzieren:
 
@@ -81,7 +81,7 @@ Die Entwicklung eines externen Frameworks ist am besten bei einem (oder natürli
 
 I> ### Kompilierte Frameworks
 I>
-I> Kompilierte, zusammengestellte Frameworks sind solche, die auch Stylesheets und Skripte von Dritten umfassen. Dies mögen öffentliche Reset-Stylesheets sein, kann aber auch durchaus umfangreiche UI-Elemente einschließen. Skeleton band ursprünglich z.B. [Normalize.css](https://necolas.github.io/normalize.css/) ein, während Blueprint auf [Eric Meyers CSS-Reset](https://meyerweb.com/eric/tools/css/reset/) aufsetzt. Vor ein paar Jahren waren [WrapBootstrap](https://wrapbootstrap.com/) and [Flat UI Pro](https://designmodo.com/flat/) eher einfache Beispiele für kompilierte Frameworks, weil sie schlicht Bootstrap erweiterten (wie so einige andere, nun, Stylesheets). Generell aber finden wir die Gattung der kompilierten Frameworks am häufigsten intern, wenn Organisationen ihre eigenen Frameworks auf der Basis extierender öffentlicher Lösungen zusammenschrauben.
+I> Kompilierte, zusammengestellte Frameworks sind solche, die auch Stylesheets und Skripte von Dritten umfassen. Dies mögen öffentliche Reset-Stylesheets sein, kann aber auch durchaus umfangreiche UI-Elemente einschließen. Skeleton band ursprünglich z.B. [Normalize.css](https://necolas.github.io/normalize.css/) ein, während Blueprint auf [Eric Meyers CSS-Reset](https://meyerweb.com/eric/tools/css/reset/) aufsetzt. Vor ein paar Jahren waren [WrapBootstrap](https://wrapbootstrap.com/) and [Flat UI Pro](https://designmodo.com/flat/) eher einfache Beispiele für kompilierte Frameworks, weil sie schlicht Bootstrap erweiterten (wie so einige andere, nun, Stylesheets). Generell aber finden wir die Gattung der kompilierten Frameworks am häufigsten intern, wenn Organisationen ihre eigenen Frameworks auf der Basis existierender öffentlicher Lösungen zusammenschrauben.
 I>
 I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich externen Frameworks gleichzusetzen sind, die wir behandeln. Um aber auf der sicheren Seite zu sein: Zusammengesetzte Frameworks bedeuten zusammengesetzte Probleme, und bedeuten zusätzliche Arbeit, was Tests und Wartung anbelangt. Erhöhte Aufmerksamkeit ist gefragt. 
 

@@ -171,7 +171,7 @@ Was wir noch nicht berührt haben:
 * Versionskontrollsysteme (oftmals [Git](https://git-scm.com/), in früheren Zeiten auch [Mercurial](https://www.mercurial-scm.org/), [Subversion](https://subversion.apache.org/) und [CVS](https://www.nongnu.org/cvs/))
 * Request- und Bug-Management-Systeme (wie [JIRA](https://www.atlassian.com/software/jira) oder [Bugzilla](https://www.bugzilla.org/))
 * Framework-Websites mit Feeds und weiteren Features (öffentlich bei externen Frameworks)
-* Mailing-Listen für
+* Mailinglisten für
   * Entwickler (ob für Team oder Interessierte)
   * Nutzer (offen für jeden)
   * Ankündigungen (für die wichtigsten Neuigkeiten, die gleichzeitig auch an die Entwickler- und Nutzerlisten gehen sollten)
@@ -179,7 +179,7 @@ Was wir noch nicht berührt haben:
 
 Eine Website für das Framework und eine Liste für Ankündigungen sind besonders empfehlenswert, weil sie Framework-Inhabern und -Entwicklern gute Dividende abwerfen. Die Website dient als Hub für Informationen und Dokumentation. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Veröffentlichungen auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken. Durch beides wird das Framework benutzbarer und gleichzeitig die Support-Last der Entwickler reduziert.
 
-Framework-Support fällt entsprechend ebenfalls in die Kategorie Logistik. Er bekommt hier aber keine weitere Aufmerksamkeit, weil wir Support zum einen an verschiedenen Stellen des Wegen unterstützen können – in Prinzipien, Zielen, Dokumentation – und zum anderen, weil Support stark von Details und Komplexität des Frameworks abhängt, und den Problemen, die es zu lösen versucht.
+Framework-Support fällt entsprechend ebenfalls in die Kategorie Logistik. Er bekommt hier aber keine weitere Aufmerksamkeit, weil wir Support zum einen an verschiedenen Stellen des Weges unterstützen können – in Prinzipien, Zielen, Dokumentation – und zum anderen, weil Support stark von Details und Komplexität des Frameworks abhängt, und den Problemen, die es zu lösen versucht.
 
 D> Gehen wir noch einmal durch alles durch. Für die Entwicklung hochwertiger Frameworks sollte auf folgendes geachtet werden:
 D>

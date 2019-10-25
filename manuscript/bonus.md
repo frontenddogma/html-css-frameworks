@@ -39,7 +39,7 @@ Diese Chance resultierte dann in etwas, das ich auswendig illustrieren möchte, 
 <p>Das ist nur ein Test [mit validem HTML].
 ```
 
-Ebenso auswendig hervorgekramt, Go setzte dann so wenig Klassen und IDs wie möglich ein – und zwar die folgenden: [`.rtl`](https://meiert.com/en/blog/5-rtl-tips/), `.compact`, `#about`, `#nav` und `#aux`. Die Grundseitentypen waren ganze (aber dennoch limitierte) Breite, ganze Breite mit Navigation, kompakte Seite (schmal) und kompakte Seite mit Navigation. Zentrierung wurde durch die `.compact`-Klasse erzielt (auf `body`); das Hinzufügen einer Navigationsliste (`#nav`) erzeugte »automatisch« die Navigationsseitentypen; &c. Alle Seitentypen waren liquid und inhärent mobil-bereit. Soviel, um einen Eindruck von der Simplizität und Benutzerfreundlichkeit zu geben. (Als HTML&nbsp;5 noch weiter keimte und es noch keine [logischen Eigenschaften](https://www.w3.org/TR/css-logical-1/) in CSS gab, beruhte `#about` auf meiner [Präferenz gegenüber `#footer`](https://lists.w3.org/Archives/Public/public-html/2007Sep/0177.html), und `#nav` spiegelte das sich dann noch in Planung befindliche [`nav`-Element](https://html.spec.whatwg.org/multipage/semantics.html#the-nav-element) wider.)
+Ebenso auswendig hervorgekramt, Go setzte dann so wenig Klassen und IDs wie möglich ein – und zwar die folgenden: [`.rtl`](https://meiert.com/en/blog/5-rtl-tips/), `.compact`, `#about`, `#nav` und `#aux`. Die Grundseitentypen waren ganze (aber dennoch limitierte) Breite, ganze Breite mit Navigation, kompakte Seite (schmal) und kompakte Seite mit Navigation. Zentrierung wurde durch die `.compact`-Klasse erzielt (auf `body`); das Hinzufügen einer Navigationsliste (`#nav`) erzeugte »automatisch« die Navigationsseitentypen; &c. Alle Seitentypen waren liquid und inhärent mobil-bereit. Das nur, um einen Eindruck von der Simplizität und Benutzerfreundlichkeit zu geben. (Als HTML&nbsp;5 noch weiter keimte und es noch keine [logischen Eigenschaften](https://www.w3.org/TR/css-logical-1/) in CSS gab, beruhte `#about` auf meiner [Präferenz gegenüber `#footer`](https://lists.w3.org/Archives/Public/public-html/2007Sep/0177.html), und `#nav` spiegelte das sich dann noch in Planung befindliche [`nav`-Element](https://html.spec.whatwg.org/multipage/semantics.html#the-nav-element) wider.)
 
 Wie befriedigte Go dann die vielen Bedürfnisse, die in den Projekten mit unseren internen Kunden aufkamen? Wie auch schon durchscheinen mag: Go tat das nicht. Eines der Designziele war tatsächlich, das gar nicht erst zu probieren. Go definierte den Kern von Googles Websites auf eine Weise, die so einfach wie möglich gehalten wurde, und erkannte die Einzigartigkeit und systemische Nicht-Managebarkeit all der unterschiedlichen Google-Sites durch zwei andere Entscheidungen an:
 
@@ -50,8 +50,8 @@ Wie befriedigte Go dann die vielen Bedürfnisse, die in den Projekten mit unsere
 Auf rasche Annahme und Akzeptanz hoffte ich nicht nur durch Benutzerfreundlichkeit – die Stylesheet-URL verinnerlichen und in ein einfaches HTML-Dokument mit Google-Logo packen –, sondern auch durch ein paar weitere Faktoren, die an [qualitätsverwandte Logistik](https://meiert.com/en/blog/quality-logistics/) erinnern:
 
 * ein Template-Generator (da dies prä-CMS war, half er dem Team, konsistente Go-Vorlagen zu erstellen);
-* eine Mailing-Liste für Ankündigungen, auf der das ganze Team angemeldet war;
-* eine Mailing-Liste für die Framework-Entwicklung;
+* eine Mailingliste für Ankündigungen, auf der das ganze Team angemeldet war;
+* eine Mailingliste für die Framework-Entwicklung;
 * Dokumentation;
 * improvisierte Videos ([Asim Janjua](http://asimjanjua.com/) und mir machten diese besondere Freude);
 * [Code-Richtlinien](https://www.oreilly.com/library/view/the-little-book/9781492048459/), die die Verwendung steuerten.
@@ -78,7 +78,7 @@ Die Geschichte von Maia ist sehr anders als die von Go, dadurch dass Maia eine o
 * das Definieren von Framework-Designzielen und -Entwicklungsprinzipien;
 * das Zusammenstellen und Organisieren eines kleinen Teams von Entwicklern und Designern (mit den wunderbaren [Tony Ruscoe](http://ruscoe.net/) und [Zacky Ma](http://marchbox.com/));
 * das Aufsetzen eines funktionierenden Prototypen, der auch alle Framework-Dokumentation beinhaltete (eine [wichtige und bewährte Vorgehensweise](https://meiert.com/de/publications/talks/20070523/));
-* das Einrichten von Mailing-Listen für Entwickler und Benutzer, für wichtige Ankündigungen.
+* das Einrichten von Mailinglisten für Entwickler und Benutzer, für wichtige Ankündigungen.
 
 Abgesehen von den komplexeren visuellen und technischen Anforderungen war die Entwicklung von Maia _als Team_ der größte Unterschied zur Arbeit an Go, und zusammen mit umfangreicherem Management-Support wohl der wesentliche Faktor dabei, weitreichende Akzeptanz zu gewährleisten und gar zu beschleunigen.
 
