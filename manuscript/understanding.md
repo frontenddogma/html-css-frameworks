@@ -90,6 +90,7 @@ I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich ex
 Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Frameworks, die Webentwickler bisher als nützlich empfunden haben. Hier ist eine Auswahl, um einen Eindruck davon zu vermitteln, wie groß die Welt der Frameworks geworden ist:
 
 * [960 Grid System](https://960.gs/)
+* [Base](https://getbase.org/)
 * [Basscss](https://basscss.com/)
 * [Beard](http://buildwithbeard.com/)
 * [Bijou](https://andhart.github.io/bijou/)
@@ -113,8 +114,12 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Kube](https://imperavi.com/kube/)
 * [Layers CSS](http://labs.jerryjappinen.com/layers/)
 * [Less Framework](http://lessframework.com/)
+* [Materialize](https://materializecss.com/)
 * [Metro](https://metroui.org.ua/)
+* [Milligram](https://milligram.io/)
+* [mini.css](https://minicss.org/)
 * [Mueller Grid System](https://muellergridsystem.com/)
+* [Picnic CSS](https://picnicss.com/)
 * [Profound Grid](https://www.profoundgrid.com/)
 * [Pure](https://purecss.io/)
 * [Responsee](https://www.myresponsee.com/)
@@ -122,16 +127,19 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Responsive Grid System](https://www.bigdropinc.com/blog/responsive-gs/)
 * [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
 * [Skeleton](http://getskeleton.com/)
+* [Spectre.css](https://picturepan2.github.io/spectre/)
 * [Susy](https://www.oddbird.net/susy/)
 * [Tachyons](http://tachyons.io/)
 * [Tacit](https://yegor256.github.io/tacit/)
+* [Tailwind](https://tailwindcss.com/)
 * [turretcss](https://turretcss.com/)
+* [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
 
 (Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals eher grob war.)
 
 Die dargestellten Frameworks sind z.T. sehr unterschiedlich und variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
-Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das recht schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _17_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen 8 neuen gegenüber.
+Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das recht schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _16_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen 15 neuen gegenüber.
 
 Der Nutzen der Liste hat sich damit zwar immer noch langlebiger erwiesen als erwartet, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir ein paar der technischen Gründe dafür.
