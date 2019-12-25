@@ -1,5 +1,5 @@
-prologue.md
-introduction.md
+acknowledgments.md
+intro.md
 concepts.md
 understanding.md
 attributes.md
