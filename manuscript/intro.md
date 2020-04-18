@@ -1,3 +1,4 @@
+{sample: true}
 # Einleitung
 
 Frameworks prägen das Bild der Webentwicklung der letzten zehn Jahre. Fast jeder Entwickler hat mal ein Framework eingesetzt oder setzt eins ein, und von diesen haben die meisten auch einen Favoriten (Bootstrap?); einige Entwickler haben dazu bereits ein Framework (mit)entwickelt oder entwickeln eins.

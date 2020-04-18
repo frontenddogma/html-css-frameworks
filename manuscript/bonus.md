@@ -1,3 +1,4 @@
+{sample: true}
 # Nachwort
 
 Den Abschluss dieses Buchs bildet ein Artikel, der einige meiner konkreten Erfahrungen mit der Entwicklung von Frameworks widerspiegelt, und zwar der als Ideengeber und leitender Entwickler der damals ersten Google-Web-Frameworks Go (2008) und Maia (2012). Der Bericht ist eine leicht modifizierte Variante der Fassung, die Sie auch unter [meiert.com/de/publications/articles/20171005](https://meiert.com/de/publications/articles/20171005/) finden.

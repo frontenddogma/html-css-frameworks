@@ -1,3 +1,4 @@
+{sample: true}
 # Über den Autor
 
 Jens Oliver Meiert ist auf technische Leitung und Kommunikation in den Bereichen Webentwicklung und -design spezialisiert. Er war technischer Leiter in Unternehmen wie [GMX](https://gmx.de/), [Aperto](https://www.aperto.com/) und [Google](https://www.google.com/) sowie verantwortlich für technische Kommunikation bei [sum.cumo](https://www.sumcumo.com/).
