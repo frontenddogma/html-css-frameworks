@@ -94,7 +94,7 @@ Um ein Framework für Entwickler benutzerfreundlicher zu machen sollte man:
 * »Best Practices« für Wartbarkeit befolgen;
 * Dokumentation speziell für Framework-Entwickler bieten.
 
-### 3. Ein Framework sollte erweiterbar sein
+## 3. Ein Framework sollte erweiterbar sein
 
 Das letzte zu betonende Attribut guter Frameworks ist Erweiterbarkeit. Erweiterbarkeit bedeutet bei Frameworks, dass es nicht nur möglich, sondern gut definiert und einfach ist, zu erweitern oder ergänzen – nicht inhärent im Sinne eines neuen Framework-Bestandteils, sondern als sich wie ein solcher Teil anfühlende Ergänzung. 
 
