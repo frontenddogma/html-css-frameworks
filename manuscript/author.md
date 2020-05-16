@@ -9,6 +9,10 @@ Für mehr zu hochwertiger Webentwicklung und einen kritischen Blick auf aktuelle
 
 Weitere Werke von Jens Oliver Meiert:
 
+* [_The Web Development Glossary_](https://leanpub.com/web-development-glossary) (2020):
+
+  What is a BHO? Goanna? Hooking? How about a principal box? Or the Ten-Second Rule? Covering about 2,000 terms ranging from A11Y to Zsh, and including explanations from Wikipedia and the Mozilla Developer Network (MDN), _The Web Development Glossary_ is a comprehensive compendium rich in information for both novice and expert developers.
+
 * [_Upgrade Your HTML_](https://www.amazon.de/dp/B07ZNSZX49/?tag=j9t-21) (2019):
 
   HTML is super-popular. Everyone can write HTML. Or can they? In the spirit that everything can be tweaked and optimized, _Upgrade Your HTML_ is a first light book in a playful series to review and improve real-life examples of HTML.
@@ -16,10 +20,6 @@ Weitere Werke von Jens Oliver Meiert:
 * [_CSS Optimization Basics_](https://leanpub.com/css-optimization-basics) (2018):
 
   Are you unsure about your style sheets’ quality, or whether you’ve maxed out your options? _CSS Optimization Basics_ covers the necessary mindsets, discusses the main optimization methods, and presents useful resources to write higher quality CSS.
-
-* [_The Little Book of HTML/CSS Coding Guidelines_](https://learning.oreilly.com/library/view/the-little-book/9781492048459/) (2015):
-
-  A proper plan can improve your code, including your HTML documents and CSS style sheets. Jens Oliver Meiert explores the theory and practice of coding guidelines and shows, using Google’s HTML and CSS standards as a particular example, how consistency and care can make the code base you create today much easier to deal with when you—or someone else—work on it later.
 
 * [_On Web Development_](https://www.amazon.de/dp/B010PQPT90/?tag=j9t-21) (2015):
 
