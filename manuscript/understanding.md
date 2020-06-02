@@ -102,7 +102,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [CSS Smart Grid](http://origin.css.gd/)
 * [Foundation](https://foundation.zurb.com/)
 * [Gantry](http://gantry.org/)
-* [Golden Grid System](http://goldengridsystem.com/)
+* [Golden Grid System](https://goldengridsystem.com/)
 * [Gridless](https://thatcoolguy.github.io/gridless-boilerplate/)
 * [HiQ](https://jonathanharrell.github.io/hiq/)
 * [HTML KickStart](http://www.99lime.com/elements/)
