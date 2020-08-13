@@ -11,9 +11,9 @@ Das [Pure-Framework](https://purecss.io/) kennt beispielsweise die folgenden But
 * Aktiv
 * Primär
 
-»Funktionalität« bezieht sich normalerweise auf Darstellung/Präsentation (das Styling über CSS) und manchmal auch auf Verhalten (Scripting über JavaScript).
+»Funktionalität« bezieht sich normalerweise auf Darstellung und Präsentation (das Styling über CSS) und manchmal auch auf Verhalten (Scripting über JavaScript).
 
-Der Vorteil darin, eine solche Bibliothek zu verwenden, beruht darin, dass wir diese Funktionalität nicht selbst schreiben müssen, oder so wiederholt tun müssen. Wir folgen statt dessen den Anweisungen der Bibliothek, was die Struktur anbelangt (Markup über HTML).
+Der Vorteil, eine solche Bibliothek zu verwenden, besteht darin, dass wir diese Funktionalität nicht selbst schreiben müssen, oder so wiederholt tun müssen. Wir folgen statt dessen den Anweisungen der Bibliothek, was die Struktur anbelangt (Markup über HTML).
 
 So erfordert beispielsweise [YAML](http://www.yaml.de/) den folgenden HTML-Code für ein horizontales Navigationsmenü:
 
@@ -29,13 +29,13 @@ So erfordert beispielsweise [YAML](http://www.yaml.de/) den folgenden HTML-Code 
 
 Das fehlende Puzzlestück, oder schon buchstäblich Verbindungsstück, ist, diese Bibliothek zu verknüpfen, um über das vorgegebene Markup die Funktionalität auch auf die ausgewählten Patterns anzuwenden.
 
-Eine der einfachsten Arten, Bootstrap zu verwenden, besteht beispielsweise darin, etwas wie folgendes zu referenzieren:
+Eine der einfachsten Arten, Bootstrap zu verwenden, beruht beispielsweise darauf, etwas wie folgendes zu referenzieren:
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 ```
 
-Nachdem wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, kommt hier noch eine andere Perspektive. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als _geteilte_ Stylesheets und Skripte, denen ein höhere Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript (oder beides) herauspicken und es zum Framework deklarieren! 
+Nachdem wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, folgt hier noch eine andere Perspektive. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als _geteilte_ Stylesheets und Skripte, denen ein höherer Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript (oder beides) herauspicken und es zum Framework deklarieren! 
 
 Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen. 
 
@@ -49,7 +49,7 @@ Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes
 
 ## Arten und Einsatzfälle von Frameworks
 
-Alle Frameworks bilden Design-Patterns ab, aber trotzdem müssen wir erstmal allgemeinere Unterscheidungen treffen. Zum einen gibt es einen Unterschied zwischen internen und externen Frameworks – wobei mit »Framework« öfter die externen bezeichnet werden. Zum anderen gibt es, offensichtlich aber dennoch wichtig, einen Unterschied zwischen der Benutzung und der Entwicklung von Frameworks (auch wenn Entwickler selbst oft auch Nutzer sind, was für eine gewisse Unschärfe sorgt). Und dann gibt es noch den Unterschied zwischen Neulingen und Experten.
+Alle Frameworks bilden Design-Patterns ab, aber trotzdem müssen wir erstmal allgemeinere Unterscheidungen treffen. Zum einen gibt es einen Unterschied zwischen internen und externen Frameworks – auch wenn mit »Framework« öfter die externen bezeichnet werden. Zum anderen gibt es, offensichtlich aber dennoch wichtig, einen Unterschied zwischen der _Benutzung_ und der _Entwicklung_ von Frameworks (gleichwohl Entwickler selbst oft auch Nutzer sind, was für eine gewisse Unschärfe sorgt). Und dann gibt es noch den Unterschied zwischen Neulingen und Experten.
 
 Das sollten wir einmal skizzieren.
 
@@ -69,15 +69,15 @@ Hier sind meine Gedanken. Lassen Sie uns vergleichen.
 | Internes Framework | ✅ ja | ✅ ja | ✅ ja | ✅ ja |
 | Externes Framework | ⛔ nein️ | ✅ ja | ✅ ja | ⛔ nein |
 
-Beachten Sie, dass das Entwickeln eines internen Frameworks und dessen Veröffentlichung (eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte) hier nicht als Entwicklung eines externen Frameworks betrachtet wird. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern zu machen, würde jedoch eine solche Entwicklungsphase darstellen und damit akzeptabel im Sinne dieser Kriterien sein. 
+Beachten Sie, dass das Entwickeln eines internen Frameworks und dessen Veröffentlichung (eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte) hier nicht als Entwicklung eines externen Frameworks betrachtet wird. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern verfügbar zu machen, würde jedoch eine solche Entwicklungsphase darstellen und damit akzeptabel im Sinne dieser Kriterien sein. 
 
 Was die Tabelle zeigt, ist die Idee, dass Frameworks mit lediglich zwei Ausnahmen liberal verwendet und entwickelt werden können. Eine Ausnahme ist, dass Experten keine externen Frameworks _benutzen_ sollten; die andere, dass Anfänger keine externen Frameworks _bauen_ sollten.
 
 Beiden Ausnahmen, von denen die erste vor allem heute, einige Jahre nach Erscheinen der Originalausgabe dieses Buchs, sehr hart wirken muss, liegt eine Verletzung von Qualitätsstandards oder der Annahme solcher Standards zugrunde: Während ein externes Framework den Idealen eines Experten (welche ich später beschreibe) widersprechen sollte, hätte ein Neuling zwangsläufig noch gar keine Ideale, um überhaupt ein hochwertiges Framework entwerfen zu können.
 
-Ein internes Framework ist immer sicher zu verwenden oder entwickeln, weil es dem bevorzugten Weg entspricht, Websites und -Apps zu bauen. Intern ist immer besser als extern, weil eine externe Lösung nie alle Bedürfnisse eines fremden Projekts kennen kann und sie damit in einem entscheidenden Punkt _per se_ schon qualitativ inferior ist. Dazu kommt, dass interne Lösungen sowohl für Experten als auch Neulinge die effektivere Route darstellen, in Übung zu bleiben und sich weiterzuentwickeln, und das nicht nur, weil hier Fehler, die jeder von uns begeht, eine kleinere Reichweite haben.
+Ein internes Framework ist immer sicher zu verwenden und entwickeln, weil es dem bevorzugten Weg entspricht, Websites und -Apps zu bauen. Intern ist immer besser als extern, weil eine externe Lösung nie alle Bedürfnisse eines fremden Projekts kennen kann und sie damit in einem entscheidenden Punkt _per se_ schon qualitativ inferior ist. Dazu kommt, dass interne Lösungen sowohl für Experten als auch Neulinge die effektivere Route darstellen, in Übung zu bleiben und sich weiterzuentwickeln, und das nicht nur, weil hier Fehler, die jeder von uns begeht, eine kleinere Tragweite haben.
 
-Die Entwicklung eines externen Frameworks ist am besten bei einem (oder natürlich mehreren) erfahrenen Webentwickler aufgehoben, einem der entsprechend der Prinzipien, die in diesem Buch aufgezeigt werden, selbiges Framework so bauen und dokumentieren kann, dass es tatsächlich nützlich ist, und das bei einem annehmbaren Verhältnis von Kosten zu Nutzen. Dem weniger erfahrenen Entwickler oder dem, der in Eile ist, wird der Gebrauch eines externen Frameworks nur deshalb angeraten, weil ihm manche Aspekte weniger wichtig sind; er mag weniger auf Qualität achten und vielleicht geht es ihm auch gar nicht um eine langfristige Vision für das entsprechende Projekt.
+Die Entwicklung eines externen Frameworks ist am besten bei einem (oder natürlich mehreren) erfahrenen Webentwickler aufgehoben, einem der entsprechend der Prinzipien, die in diesem Buch aufgezeigt werden, selbiges Framework so bauen und dokumentieren kann, dass es tatsächlich nützlich ist, und das bei einem angemessenen Verhältnis von Kosten zu Nutzen. Dem weniger erfahrenen Entwickler oder dem, der in Eile ist, wird der Gebrauch eines externen Frameworks nur deshalb angeraten, weil ihm manche Aspekte weniger wichtig sind; er mag weniger auf Qualität achten und vielleicht geht es ihm auch gar nicht um eine langfristige Vision für das entsprechende Projekt.
 
 I> ### Kompilierte Frameworks
 I>
@@ -136,10 +136,10 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
 
-(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals eher grob war.)
+(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals recht grob war.)
 
 Die dargestellten Frameworks sind z.T. sehr unterschiedlich und variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
-Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das recht schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _16_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen 15 neuen gegenüber.
+Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _16_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen 15 neuen gegenüber.
 
 Der Nutzen der Liste hat sich damit zwar immer noch langlebiger erwiesen als erwartet, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir ein paar der technischen Gründe dafür.
