@@ -1,6 +1,6 @@
 # Frameworks entwickeln
 
-Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht, und externe Frameworks haben dabei was von Draufgängertum. Wie das Buch bisher festhält, ist es notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das zuviel ist.
+Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht, und externe Frameworks haben dabei etwas von Draufgängertum. Wie das Buch bisher konstatiert, ist es notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das zuviel bietet.
 
 Der folgende Abschnitt beschreibt die Grundlagen für die Entwicklung eines Frameworks, mit speziellem Bezug auf die Arbeit in einer größeren Organisation.
 
@@ -14,17 +14,17 @@ Wir haben hierzu bereits viele Aufgaben erledigt und schon Prinzipien für die F
 
 sein.
 
-Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und zur Umsetzung können wir bereits auf Methoden zurückgreifen, die in vorherigen Abschnitten behandelt wurden.
+Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und zur Umsetzung können wir ebenfalls bereits auf Methoden zurückgreifen, die in den vorherigen Abschnitten behandelt wurden.
 
 Anpassungs- und Konfigurationsmöglichkeiten, wie im Abschnitt »1. Ein Framework sollte maßgeschneidert sein« behandelt, spielen hier eine besondere Rolle, da diese eine Geheimwaffe – und letzte Verteidigungslinie – des externen Framework-Entwicklers sind. Framework-Konfigurationsoptionen sind der einzige Weg, es fremden Nutzern, Nutzern, deren Projekte wir nie kennenlernen werden, möglich zu machen, zuzuschneiden.
 
-Ich hatte mich ursprünglich dagegen entschieden, einen Abschnitt speziell zu Konfiguration zu schreiben (und das gilt für den Moment auch in dieser ergänzten deutschen Ausgabe). Zum einen stellt Konfiguration kein Allheilmittel für externe Frameworks dar, zum anderen bedeutet sie so viele zusätzliche Aufgaben im Entwicklungsbereich, dass die Entwicklung in vielen Situationen prohibitiv teuer werden kann. Dies liegt daran, dass je mehr Konfigurationsmöglichkeiten es gibt, desto komplexer ein Framework wird. Zur Entwicklungsarbeit selbst gehören dann natürlich auch immer noch Tests, Qualitätsmanagement, Wartung, usw.
+D> Ich hatte mich ursprünglich dagegen entschieden, einen Abschnitt speziell zu Konfiguration zu schreiben, was für den Moment auch in dieser ergänzten deutschen Ausgabe gilt. Zum einen stellt Konfiguration kein Allheilmittel für externe Frameworks dar, zum anderen bedeutet sie so viele zusätzliche Aufgaben im Entwicklungsbereich, dass die Entwicklung in vielen Situationen prohibitiv teuer werden kann. Dies liegt daran, dass je mehr Konfigurationsmöglichkeiten es gibt, desto komplexer ein Framework wird. Zur Entwicklungsarbeit selbst gehören dann natürlich auch immer noch Tests, Qualitätsmanagement, Wartung, usw.
 
 ## Prototyp
 
-Das Wichtigste, das aus praktischer Sicht für ein erfolgreiches Framework benötigt wird, ist ein Prototyp. Hierbei ist nochmal die Erkenntnis wichtig, dass wir es immer noch mit Stylesheets und Skripten zu tun haben. Große Projekte – Projekte, für die Frameworks wirklich gebraucht werden – haben immer schon von Prototypen profitiert.
+Das Wichtigste, das aus praktischer Sicht für ein erfolgreiches Framework benötigt wird, ist ein Prototyp. Hierbei ist nochmal die Erkenntnis relevant, dass wir es immer noch mit Stylesheets und Skripten zu tun haben. Große Projekte – Projekte, für die Frameworks wirklich gebraucht werden – haben immer schon von Prototypen profitiert.
 
-Was umfasst ein Prototyp? In seiner einfachsten Form eine statische Website. Diese sollte alle Dokumenttypen und -elemente beinhalten, die wir in der Produktion benötigen, denn hier wird aller Code für Struktur (HTML), Präsentation (CSS) und Verhalten (JavaScript) zusammengetragen. Der Prototyp sollte dabei realistische, wo wichtig auch extreme Beispielinhalte umfassen.
+Was umfasst ein Prototyp? In seiner einfachsten Form eine statische Website. Dieser sollte auf dem Framework basieren und alle Dokumenttypen und -elemente beinhalten, die wir in der Produktion benötigen, denn hier wird aller Code für Struktur (HTML), Präsentation (CSS) und Verhalten (JavaScript) zusammengetragen. Der Prototyp sollte realistische, zur Sicherheit auch extreme Beispielinhalte umfassen.
 
 Ein Prototyp ist unersetzlich, damit wir testen können, ob ein Framework wirklich funktioniert, es seinen Zweck erfüllt und auch robust genug ist.
 
@@ -40,13 +40,13 @@ Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal
 * kommuniziert/beworben
 * dokumentiert
 
-Auch wenn diese mehr als zehn Jahre alten Punkte mittlerweile der Revision und Restrukturierung bedürfen, ist jeder dieser Punkte wichtig, die ersten drei sogar kritisch. Ein Prototyp muss wirklich alles umfassen (alle Seitentypen und -elemente, auch wenn dies einer Content- und nicht App-Perspektive entspringt), er muss aktuell sein (jegliche Änderungen müssen sofort angewendet werden können und sichtbar sein) und er muss realistisch sein (Beispielinhalte müssen eine möglichst gute Annäherung daran darstellen, wie das Framework wahrscheinlich außerhalb des Prototypen verwendet wird).
+Auch wenn diese mehr als zehn Jahre alten Punkte mittlerweile der Revision bedürfen, ist jeder dieser Punkte wichtig, die ersten drei sogar kritisch. Ein Prototyp muss wirklich alles umfassen (alle Seitentypen und -elemente, auch wenn dies einer Content- und nicht App-Perspektive entspringt), er muss aktuell sein (jegliche Änderungen müssen sofort angewendet werden können und sichtbar sein) und er muss realistisch sein (Beispielinhalte müssen eine möglichst gute Annäherung daran darstellen, wie das Framework wahrscheinlich außerhalb des Prototypen verwendet wird).
 
-Gute Prototypen sind wie Frameworks selbst eine Kunst und bedürfen anderswo einer wesentlich längeren Ausführung.
+Gute Prototypen sind wie Frameworks an sich eine Kunst und bedürfen an anderer Stelle einer längeren Ausführung.
 
 ## Qualitätsmanagement
 
-Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten verpflichten wollen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
+Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten verpflichtet fühlen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
 
 Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](https://uitest.com/analysis/#conformance), [Barrierefreiheits-](https://uitest.com/analysis/#accessibility) und [Performance-Tests](https://uitest.com/analysis/#performance). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren spezialisierte und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
 
@@ -59,7 +59,7 @@ Zur Qualitätssicherung ist es nützlich:
 Bei der Qualitätskontrolle sollte man folgendes testen:
 
 * Barrierefreiheit
-* Verlinkungen (wenn anwendbar)
+* Verlinkungen (falls zutreffend)
 * Performance
 * Responsiveness
 * Wartbarkeit
@@ -67,9 +67,9 @@ Bei der Qualitätskontrolle sollte man folgendes testen:
 * Formatierung
 * allgemeine Code-Qualität
 
-(Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu bauen und testen, sowie das seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.)
+D> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu bauen und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
 
-Ganz im Sinne der Effizienz ist es sinnvoll, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft wichtige Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
+Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
 
 ## Wartung
 
@@ -77,15 +77,15 @@ Wir haben bisher aufgeführt, wie wichtig Prinzipien, ein Prototyp und Qualität
 
 Zum einen ist Wartung entscheidend, weil der Gebrauch eines Frameworks ein Versprechen an seine Nutzer ist. Das sicher idealistische Versprechen umfasst, dass das verwendete Framework für immer gewartet wird. Es verlangt dazu sogar, dass wer auch immer es wartet, er alles in seiner Macht stehende tut, es einfach zu halten und somit keine strukturellen Änderungen vorzunehmen, sondern nach Möglichkeit nur präsentations- und verhaltensbezogene. Das ist ganz bestimmt Idealismus, aber wer soll uns an Ideale erinnern, wenn nicht wir selbst?
 
-Zum anderen ist Wartung wichtig, weil das Commitment hierzu eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (oder sollte sein), dass [HTML am wichtigsten ist](https://meiert.com/de/publications/articles/20091027/), wirklich gut zu schreiben, weil es am teuersten und im Vergleich zu CSS und JavaScript sogar _extrem_ teuer zu ändern ist – wir beachten unsere Kostendefinition. (Daran hat sich mit weiterem Tooling und neueren Frameworks erstmal nichts großartig geändert, aber konsequenter Einsatz von Komponenten rüttelt daran.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen, auslaufen zu lassen, um »einfach ein neues zu machen«, und ist damit wiederum auch näher an der Vision von Nur-CSS-Design-Iterationen. (Natürlich werden immer mal strukturelle Änderungen notwendig sein und damit HTML-Anpassungen, korrespondierende CSS- und JavaScript-Modifikationen und für das entsprechende Framework neue »Major«-Releases erfordern.)
+Zum anderen ist Wartung bedeutsam, weil das Commitment hierauf eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (oder sollte sein), dass [HTML am wichtigsten ist](https://meiert.com/de/publications/articles/20091027/), wirklich gut zu schreiben, weil es am teuersten und im Vergleich zu CSS und JavaScript sogar _extrem_ teuer zu ändern ist – wir beachten unsere Kostendefinition. (Daran hat sich mit weiterem Tooling und neueren Frameworks erstmal nichts großartig geändert, aber konsequenter Einsatz von Komponenten rüttelt daran.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen oder auslaufen zu lassen, um »einfach ein neues zu machen«, und bringt uns statt dessen näher an die Vision von Nur-CSS-Design-Iterationen. Das ist unabhängig davon, dass strukturelle Änderungen immer mal notwendig sein werden und damit HTML-Anpassungen, korrespondierende CSS- und JavaScript-Modifikationen und für das entsprechende Framework neue »Major«-Releases bedeuten.
 
-Ein Framework, das echte und sogar komplexe Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben die populäreren Frameworks über die Jahre selbst deutlich gezeigt – sie wurden nach meinem Kenntnisstand ausnahmslos alle gepflegt.
+Ein Framework, das echte und sogar komplexe Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben die populäreren Frameworks über die Jahre selbst angenommen und bewiesen – sie wurden nach meinem Kenntnisstand ausnahmslos alle gepflegt.
 
 I> ### Warten und was kaputt machen
 I>
 I> Hier ist etwas Ironisches: Auch wenn wir als Framework-Entwickler verantwortungsbewusst und sorgfältig vorgehen sollten, mit (ehemals bewusst nicht versionierten) Framework-Updates nichts unnötig kaputt zu machen, sollten wir uns davor auch nicht übermäßig sorgen und selbst paralysieren. Zur Frage, was das Wichtigste sei, wenn man Frameworks entwickelt, habe ich vor ein paar Jahren [folgendes entgegnet](https://plus.google.com/+JensOMeiert/posts/4aVAQhJvnh6):
 I>
-I> »Je häufiger ein Framework verwendet wird, je erfolgreicher es damit ist, desto wahrscheinlicher wird es, dass Updates und Wartungsarbeiten mal etwas kaputt machen. […] Wartung ist der Schlüssel, aber es ist unmöglich, sicherzustellen, dass nie etwas schief geht, und der Versuch allein schon unglaublich teuer. Dazu kommt, dass selbst wenn Dinge schief gehen, sie [nicht unbedingt katastrophal] schief gehen. Das führt wieder zum Setzen von Erwartungen: […] die Leute sollten Updates nicht fürchten, sondern schätzen.«
+I> »Je häufiger ein Framework verwendet wird, je erfolgreicher es damit ist, desto wahrscheinlicher wird es, dass Updates und Wartungsarbeiten mal etwas kaputt machen. […] Wartung ist der Schlüssel, aber es ist unmöglich, sicherzustellen, dass nie etwas schief geht, und der Versuch allein schon unglaublich kostspielig. Dazu kommt, dass selbst wenn Dinge schief gehen, sie [nicht unbedingt katastrophal] schief gehen. Das führt wieder zum Setzen von Erwartungen: […] die Leute sollten Updates nicht fürchten, sondern schätzen.«
 I>
 I> Ich denke, dass diese Einschätzung noch immer gilt. Code kann mit Furcht nichts anfangen. Wenn wir als Entwickler unsere Hausarbeiten machen, können gelegentliche Probleme sogar eine gute (und vielleicht die einzige) Sache sein, Framework-Nutzer im Umgang mit Grundregeln und ordentlichem Framework-Gebrauch zu schulen, und eventuelle Code-Probleme aufzuzeigen – zumindest bei internen Frameworks. Als Entwickler müssen wir manchmal auch unangenehme Entscheidungen treffen.
 
@@ -105,11 +105,11 @@ Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
 * Kommunizieren Sie den Status laufender Updates.
 
-Wovon wir hier ausgehen ist, dass wir nicht einfach nur Frameworks »versionieren«. Das ist die Praxis, ein Framework rauszubringen – sagen wir, `foo` – und bei der ersten Änderung nicht `foo` zu aktualisieren, sondern `foo-2` auszuliefern. Und dann `foo-3`. Und so weiter. Diese Praxis ist eine Option, muss aber nicht die Regel bilden. Die Regel sollte sein, das Framework nach den hier vorgestellten Ideen zu aktualisieren. Der Grund dafür ist, dass Versionierung den Zweck und [Vorteil von CSS](https://meiert.com/en/blog/advantage-of-css/) unterminiert (und ähnlich so von JavaScript), was mittels der Trennung der Belange (_Separation of Concerns_) sofortige Updates ermöglicht. Wir werden diese Vision, die sehr stark darauf aus ist, Updates sofort auszuspielen und unnötige Arbeit zu vermeiden, nochmal behandeln – vor allem, da dies aktuell, mehrere Jahre nach Schreiben des Buchs etwas sehr strikt und wider dem gegenwärtigen Usus anmuten mag. Bei größeren, [»Major«-Aktualisierungen](https://semver.org/) sollte damals wie heute auf jeden Fall ein Versionssprung in Erwägung gezogen werden.
+Wovon wir hier ausgehen ist, dass wir nicht einfach nur Frameworks »versionieren«. Das ist die Praxis, ein Framework rauszubringen – sagen wir, `foo` – und bei der ersten Änderung nicht `foo` zu aktualisieren, sondern `foo-2` auszuliefern. Und dann `foo-3`. Und so weiter. Diese Praxis ist eine Option, muss aber nicht die Regel bilden. Die Regel sollte sein, das Framework nach den hier vorgestellten Ideen zu aktualisieren. Der Grund dafür ist, dass Versionierung den Zweck und [Vorteil von CSS](https://meiert.com/en/blog/advantage-of-css/) unterminiert (und ähnlich so von JavaScript), was mittels der Trennung der Belange (_Separation of Concerns_) sofortige Updates ermöglicht. Wir werden diese Vision, die sehr stark darauf aus ist, Updates sofort auszuspielen und unnötige Arbeit zu vermeiden, nochmal behandeln – vor allem, da dies aktuell, mehrere Jahre nach Schreiben des Buchs etwas sehr strikt und wider dem gegenwärtigen Usus anmuten muss. Bei größeren, [»Major«-Aktualisierungen](https://semver.org/) sollte damals wie heute immer ein Versionssprung vorgenommen werden.
 
 D> Ich musste überlegen, wie ich mit den letzten Abschnitten am besten umgehe: Mittlerweile hat sich die Versionierung aller Arten von Software so stark eingebürgert, und das aus gutem Grund, dass der ehemalige Ansatz fast antiquiert wirken muss. Er unterlag aber der großen Motivation, durch das Auskosten eines bzw. _des_ Vorteils von CSS den Komfort zu bieten, _Updates sofort auszuspielen_ oder zu erhalten, ohne auf andere warten zu müssen oder anderswo tätig zu werden. 
 D> 
-D> Ehemals sahen viele im Feld, mich definitiv eingeschlossen, das als ganz entscheidenden Vorteil an; kollektiv haben wir uns in den letzten Jahren letztlich für den zwar aufwendigeren aber zumindest aus Sicht unerwarteter und unerwünschter Nebeneffekte sichereren Weg der Versionierung entschieden.
+D> Ehemals sahen viele im Feld, mich offensichtlich und sehr bestimmt eingeschlossen, das als ganz entscheidenden Vorteil an; kollektiv haben wir uns in den letzten Jahren letztlich für den zwar aufwendigeren aber zumindest aus Sicht unerwarteter und unerwünschter Nebeneffekte sichereren Weg der Versionierung entschieden.
 
 I> ### Test-Bookmarklets
 I>
@@ -155,11 +155,11 @@ Es gibt viele Arten, zu dokumentieren, aber eine der effektivsten ist, einen bzw
 
 Dokumentation fängt ansonsten bereits im Code an, und dort müssen wir ebenfalls Disziplin an den Tag legen. Unsere Code-Richtlinien sollten dies unterstreichen und unterstützen; Dokumentationsstandards wie [CSSDOC](https://web.archive.org/web/20130701094049/http://cssdoc.net/) ([CSSdoc](https://github.com/Paratron/CSSdoc)?) und [JSDoc](https://devdocs.io/jsdoc/), ebenso wie Werkzeuge, die Dokumentation automatisch aus unserem Code generieren, können hier von großer Hilfe sein.
 
-Die Idee hinter Dokumentation ist, dass wir uns, dem Team, den Framework-Nutzern sowie Interessierten das Leben etwas einfacher machen. Sie Teil des gesamten Entwicklungsprozesses zu machen ist in der Framework-Entwicklung genauso wichtig wie in der Entwicklung allgemein.
+Die Idee hinter Dokumentation ist, dass wir uns, dem Team, den Framework-Nutzern sowie Interessierten das Leben etwas einfacher machen. Diese Teil und Ziel des gesamten Entwicklungsprozesses zu machen ist in der Framework-Entwicklung genauso wichtig wie in der Entwicklung allgemein.
 
 ## Logistik
 
-So emsig wie wir uns durch alle relevanten Framework-Themen hangeln, ist die Skizze auch fast vollständig. Der finale Aspekt ist die Framework-Logistik. Wir haben davon bereits ein paar Teile behandelt:
+So emsig wie wir uns durch alle relevanten Framework-Themen hangeln, ist die Skizze auch bereits nahezu vollständig. Der finale Aspekt ist die Framework-Logistik. Wir haben davon bereits ein paar Teile behandelt:
 
 * Code-Richtlinien
 * Werkzeuge zur Qualitätskontrolle
@@ -168,16 +168,16 @@ So emsig wie wir uns durch alle relevanten Framework-Themen hangeln, ist die Ski
 Was wir noch nicht berührt haben:
 
 * Pläne und Roadmaps zur Framework-Entwicklung
-* Versionskontrollsysteme (oftmals [Git](https://git-scm.com/), in früheren Zeiten auch [Mercurial](https://www.mercurial-scm.org/), [Subversion](https://subversion.apache.org/) und [CVS](https://www.nongnu.org/cvs/))
-* Request- und Bug-Management-Systeme (wie [JIRA](https://www.atlassian.com/software/jira) oder [Bugzilla](https://www.bugzilla.org/))
+* Versionsverwaltung (aktuell üblicherweise mit [Git](https://git-scm.com/))
+* Request- und Bug-Management-Systeme (wie [Jira](https://www.atlassian.com/software/jira) oder [Bugzilla](https://www.bugzilla.org/))
 * Framework-Websites mit Feeds und weiteren Features (öffentlich bei externen Frameworks)
 * Mailinglisten für
   * Entwickler (ob für Team oder Interessierte)
   * Nutzer (offen für jeden)
-  * Ankündigungen (für die wichtigsten Neuigkeiten, die gleichzeitig auch an die Entwickler- und Nutzerlisten gehen sollten)
+  * Ankündigungen (für maßgebliche Neuigkeiten, die gleichzeitig auch an die Entwickler- und Nutzerlisten gehen sollten)
 * Übersichten für Live-Implementierungen (primär für Tests und Stichproben, aber auch für Referenzen)
 
-Eine Website für das Framework und eine Liste für Ankündigungen sind besonders empfehlenswert, weil sie Framework-Inhabern und -Entwicklern gute Dividende abwerfen. Die Website dient als Hub für Informationen und Dokumentation. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Veröffentlichungen auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken. Durch beides wird das Framework benutzbarer und gleichzeitig die Support-Last der Entwickler reduziert.
+Eine Website für das Framework und eine Mailingliste für Ankündigungen sind besonders empfehlenswert, weil sie Nutzern sehr effektiv helfen und dadurch Framework-Inhabern und -Entwicklern hohe Dividenden abwerfen können. Die Website dient als Hub für alle wichtigen Informationen und für Dokumentation. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Releases und Features auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken. Durch beides wird das Framework benutzbarer und gleichzeitig die Support-Last der Entwickler reduziert.
 
 Framework-Support fällt entsprechend ebenfalls in die Kategorie Logistik. Er bekommt hier aber keine weitere Aufmerksamkeit, weil wir Support zum einen an verschiedenen Stellen des Weges unterstützen können – in Prinzipien, Zielen, Dokumentation – und zum anderen, weil Support stark von Details und Komplexität des Frameworks abhängt, und den Problemen, die es zu lösen versucht.
 
