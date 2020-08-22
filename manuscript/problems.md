@@ -32,6 +32,6 @@ Eine Annahme, die wir bisher getroffen haben, ist dass was unsere Frameworks mac
 
 Die letzte große Herausforderung ist, nicht in der Lage zu sein, harte Entscheidungen zu treffen oder den Stecker zu ziehen – selbst wenn das nur die Rückendeckung durch Vorgesetzte erfordert. Sich an etwas zu hängen, das nicht mehr relevant ist. Das nicht mehr verwendet wird. Das falsch verwendet wird. Das nicht mehr gewartet oder erweitert werden kann. Das eine Bauruine ist. Etwas in der Art.
 
-Einem vielleicht nach ersten Erfolgen glorifizierten, aber ansonsten kaputten und fehlgeschlagenen Framework die ewige Treue zu schwören kann wirklich unser Problem werden. Wenn das passiert, müssen wir darüber hinwegkommen und handeln. Als Profis haben wir ein ambitioniertes Ziel, wenn unser Code lange halten soll, aber manchmal scheitern wir damit. Das ist okay.
+Einem vielleicht nach ersten Erfolgen glorifizierten, aber ansonsten kaputten und fehlgeschlagenen Framework die ewige Treue zu schwören kann wirklich zu unserem Problem werden. Wenn das passiert, müssen wir darüber hinwegkommen und handeln. Als Profis haben wir ein ambitioniertes Ziel, wenn unser Code lange halten soll, aber manchmal scheitern wir damit. Das ist okay.
 
 Glücklicherweise, mag man sagen, gibt es immer mehr Code auszuprobieren und zu schreiben. Das nächste Framework – oder Stylesheet, oder Skript – wartet schon auf uns.
