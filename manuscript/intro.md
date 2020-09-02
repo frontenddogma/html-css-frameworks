@@ -15,7 +15,7 @@ Mehr, nun, vom Jens der früheren Jahre. Viel Vergnügen.
 
 Dieser Tage basieren viele kommerzielle Websites auf Frameworks, und viele private Websites setzen ebenfalls Frameworks ein. Was aber sind Frameworks, warum und wann benötigen wir sie, und wie gebrauchen und bauen wir sie am besten?
 
-Dieses kleine Buch dreht sich um Frameworks, die auf HTML und CSS basieren. Es konzentriert sich auf HTML und CSS, weil diese auch heute und auch weiterhin am Herzen jedes Web-Projekts liegen. Die Prinzipien, die aufgezeigt werden, können jedoch auch auf andere Arten von Frameworks angewandt werden.
+Dieses kleine Buch dreht sich um Frameworks, die auf HTML und CSS basieren. Es konzentriert sich auf HTML und CSS, weil diese auch heute und auch weiterhin am Herzen jedes Webprojekts liegen. Die Prinzipien, die aufgezeigt werden, können jedoch auch auf andere Arten von Frameworks angewandt werden.
 
 Das Ziel dieses Buchs ist, robuste und grundlegende Ideen zu Frameworks zu teilen, wobei etwas Spezifität für langfristigeren Nutzen eingetauscht wird. Wir könnten all die Frameworks analysieren, die dort draußen gerade rumschwirren, aber wie nützlich wäre eine solche Review, wenn es darum geht, sich zu entscheiden, was man für ein Framework benutzen oder schreiben möchte – in fünf Jahren?
 
