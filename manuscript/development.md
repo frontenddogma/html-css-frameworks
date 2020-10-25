@@ -67,7 +67,7 @@ Bei der Qualitätskontrolle sollte man folgendes testen:
 * Formatierung
 * allgemeine Code-Qualität
 
-D> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu bauen und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
+T> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu bauen und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
 
 Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
 
@@ -181,13 +181,13 @@ Eine Website für das Framework und eine Mailingliste für Ankündigungen sind b
 
 Framework-Support fällt entsprechend ebenfalls in die Kategorie Logistik. Er bekommt hier aber keine weitere Aufmerksamkeit, weil wir Support zum einen an verschiedenen Stellen des Weges unterstützen können – in Prinzipien, Zielen, Dokumentation – und zum anderen, weil Support stark von Details und Komplexität des Frameworks abhängt, und den Problemen, die es zu lösen versucht.
 
-D> Gehen wir noch einmal durch alles durch. Für die Entwicklung hochwertiger Frameworks sollte auf folgendes geachtet werden:
-D>
-D> * Prinzipien
-D> * Prototyp
-D> * Qualitätsmanagement
-D> * Wartung
-D> * Dokumentation
-D> * Logistik
-D>
-D> Da diese in absteigender Wichtigkeit geordnet sind, können Frameworks mit schlechtem Support und lückenhafter Dokumentation wahrscheinlich überleben, aber brechen sich alle Gräten, wenn es ihnen an Vision, Hingabe und Tests mangelt.
+I> Gehen wir noch einmal durch alles durch. Für die Entwicklung hochwertiger Frameworks sollte auf folgendes geachtet werden:
+I>
+I> * Prinzipien
+I> * Prototyp
+I> * Qualitätsmanagement
+I> * Wartung
+I> * Dokumentation
+I> * Logistik
+I>
+I> Da diese in absteigender Wichtigkeit geordnet sind, können Frameworks mit schlechtem Support und lückenhafter Dokumentation wahrscheinlich überleben, aber brechen sich alle Gräten, wenn es ihnen an Vision, Hingabe und Tests mangelt.
