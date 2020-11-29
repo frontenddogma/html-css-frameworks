@@ -110,7 +110,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [IceCream](http://html5-ninja.com/icecream/)
 * [Ingrid](http://piira.se/projects/ingrid/)
 * [KNACSS](https://www.knacss.com/)
-* [kouto swiss](http://kouto-swiss.io/)
+* [kouto swiss](https://web.archive.org/web/20200220061116/http://kouto-swiss.io/)
 * [Kube](https://imperavi.com/kube/)
 * [Layers CSS](http://labs.jerryjappinen.com/layers/)
 * [Less Framework](https://lessframework.com/)
