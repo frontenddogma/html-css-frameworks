@@ -113,7 +113,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [kouto swiss](http://kouto-swiss.io/)
 * [Kube](https://imperavi.com/kube/)
 * [Layers CSS](http://labs.jerryjappinen.com/layers/)
-* [Less Framework](http://lessframework.com/)
+* [Less Framework](https://lessframework.com/)
 * [Materialize](https://materializecss.com/)
 * [Metro](https://metroui.org.ua/)
 * [Milligram](https://milligram.io/)
