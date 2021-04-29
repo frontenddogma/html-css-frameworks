@@ -9,24 +9,34 @@ Für mehr zu hochwertiger Webentwicklung und einen kritischen Blick auf aktuelle
 
 Weitere Werke von Jens Oliver Meiert:
 
-## [_The Web Development Glossary_](https://leanpub.com/web-development-glossary) (2020)
+## [_The Web Development Glossary_](https://meiert.com/en/blog/the-web-development-glossary/) (2020)
 
-What is a BHO? Goanna? Hooking? How about a principal box? Or the Ten-Second Rule? Covering more than 2,000 terms ranging from A11Y to Zsh, and including explanations from Wikipedia and the MDN Web Docs, _The Web Development Glossary_ is a comprehensive compendium rich in information for both novice and expert developers.
+> What is a BHO? Goanna? Hooking? How about a principal box? Or the Ten-Second Rule? Covering more than 2,000 terms ranging from A11Y to Zsh, and including explanations from Wikipedia and the MDN Web Docs, _The Web Development Glossary_ is a comprehensive compendium rich in information for both novice and expert developers.
 
-## [_Upgrade Your HTML_](https://www.amazon.de/dp/B07ZNSZX49/?tag=j9t-21) (2019)
+Erhältlich bei [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_The_Web_Development_Glossary?id=nYjhDwAAQBAJ) und [Leanpub](https://leanpub.com/web-development-glossary).
 
-HTML is super-popular. Everyone can write HTML. Or can they? In the spirit that everything can be tweaked and optimized, _Upgrade Your HTML_ is a first light book in a playful series to review and improve real-life examples of HTML.
+## [_Upgrade Your HTML_](https://meiert.com/en/blog/upgrade-your-html/) (2019)
 
-## [_CSS Optimization Basics_](https://leanpub.com/css-optimization-basics) (2018)
+> HTML is super-popular. Everyone can write HTML. Or can they? In the spirit that everything can be tweaked and optimized, _Upgrade Your HTML_ is a first light book in a playful series to review and improve real-life examples of HTML.
 
-Are you unsure about your style sheets’ quality, or whether you’ve maxed out your options? _CSS Optimization Basics_ covers the necessary mindsets, discusses the main optimization methods, and presents useful resources to write higher quality CSS.
+Erhältlich bei [Amazon](https://www.amazon.com/dp/B07ZNSZX49/?tag=j9t-21-20), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_Upgrade_Your_HTML?id=sYjhDwAAQBAJ) und [Leanpub](https://leanpub.com/upgrade-your-html).
 
-## [_On Web Development_](https://www.amazon.de/dp/B010PQPT90/?tag=j9t-21) (2015)
+## [_CSS Optimization Basics_](https://meiert.com/en/blog/css-optimization-basics/) (2018)
 
-_On Web Development_ bundles 134 articles and the last 11 years of technical writings by Jens Oliver Meiert (meiert.com). Freshly reordered and commented, the articles cover processes and maintenance, HTML and CSS, standards, as well as development and design in general; they range from coding basics and principles, to carefully scathing criticism, to tips and tricks and trivia.
+> Are you unsure about your style sheets’ quality, or whether you’ve maxed out your options? _CSS Optimization Basics_ covers the necessary mindsets, discusses the main optimization methods, and presents useful resources to write higher quality CSS.
 
-## [_100 Things I Learned as an Everyday Adventurer_](https://www.amazon.de/dp/B00GAC2SJI/?tag=j9t-21) (2013)
+Erhältlich bei [Amazon](https://www.amazon.com/dp/B07TVW1ZT8/?tag=j9t-21-20), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ) und [Leanpub](https://leanpub.com/css-optimization-basics).
 
-This is the book that the most boring person would write when they discovered life’s possibilities. Meet Jens, a hectic, neurotic self-proclaimed adventurer, and his very individual account of one hundred different activities he tried over the course of three years (2010–2013). From rafting to security guard certifications to crocheting, everything had a lesson, and these lessons are shared in this book. Look forward to the German answer to Winston Wolfe explaining one way to live life.
+## [_On Web Development_](https://meiert.com/en/blog/on-web-development/) (2015)
 
-[1.1.7]
+> _On Web Development_ bundles 134 articles and the last 11 years of technical writings by Jens Oliver Meiert (meiert.com). Freshly reordered and commented, the articles cover processes and maintenance, HTML and CSS, standards, as well as development and design in general; they range from coding basics and principles, to carefully scathing criticism, to tips and tricks and trivia.
+
+Erhältlich bei [Amazon](https://www.amazon.com/dp/B010PQPT90/?tag=j9t-21-20).
+
+## [_100 Things I Learned as an Everyday Adventurer_](https://meiert.com/en/blog/everyday-adventurer/) (2013)
+
+> This is the book that the most boring person would write when they discovered life’s possibilities. Meet Jens, a hectic, neurotic self-proclaimed adventurer, and his very individual account of one hundred different activities he tried over the course of three years (2010–2013). From rafting to security guard certifications to crocheting, everything had a lesson, and these lessons are shared in this book. Look forward to the German answer to Winston Wolfe explaining one way to live life.
+
+Erhältlich bei [Amazon](https://www.amazon.com/dp/B00GAC2SJI/?tag=j9t-21-20), [Google Play Books](https://play.google.com/store/books/details?id=gGcKEAAAQBAJ) und [Leanpub](https://leanpub.com/100-things-i-learned-as-an-everyday-adventurer).
+
+[1.1.8]
