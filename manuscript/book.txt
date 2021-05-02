@@ -9,3 +9,4 @@ problems.md
 summary.md
 bonus.md
 author.md
+book.md

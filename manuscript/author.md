@@ -38,5 +38,3 @@ Erhältlich bei [Amazon](https://www.amazon.com/dp/B010PQPT90/?tag=j9t-21-20).
 > This is the book that the most boring person would write when they discovered life’s possibilities. Meet Jens, a hectic, neurotic self-proclaimed adventurer, and his very individual account of one hundred different activities he tried over the course of three years (2010–2013). From rafting to security guard certifications to crocheting, everything had a lesson, and these lessons are shared in this book. Look forward to the German answer to Winston Wolfe explaining one way to live life.
 
 Erhältlich bei [Amazon](https://www.amazon.com/dp/B00GAC2SJI/?tag=j9t-21-20), [Google Play Books](https://play.google.com/store/books/details?id=gGcKEAAAQBAJ) und [Leanpub](https://leanpub.com/100-things-i-learned-as-an-everyday-adventurer).
-
-[1.1.8]
