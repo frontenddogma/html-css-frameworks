@@ -69,7 +69,7 @@ Hier sind meine Gedanken. Lassen Sie uns vergleichen.
 | Internes Framework | ✅ ja | ✅ ja | ✅ ja | ✅ ja |
 | Externes Framework | ⛔ nein️ | ✅ ja | ✅ ja | ⛔ nein |
 
-Beachten Sie, dass das Entwickeln eines internen Frameworks und dessen Veröffentlichung (eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte) hier nicht als Entwicklung eines externen Frameworks betrachtet wird. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern verfügbar zu machen, würde jedoch eine solche Entwicklungsphase darstellen und damit akzeptabel im Sinne dieser Kriterien sein. 
+Das Entwickeln eines internen Frameworks und dessen Veröffentlichung (eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte) wird hier nicht als Entwicklung eines externen Frameworks betrachtet. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern verfügbar zu machen, würde jedoch eine solche Entwicklungsphase darstellen und damit akzeptabel im Sinne dieser Kriterien sein. 
 
 Was die Tabelle zeigt, ist die Idee, dass Frameworks mit lediglich zwei Ausnahmen liberal verwendet und entwickelt werden können. Eine Ausnahme ist, dass Experten keine externen Frameworks _benutzen_ sollten; die andere, dass Anfänger keine externen Frameworks _bauen_ sollten.
 
