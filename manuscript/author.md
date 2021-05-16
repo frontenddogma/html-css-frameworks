@@ -19,7 +19,7 @@ Erhältlich bei [Google Play Books](https://play.google.com/store/books/details/
 
 > The _Upgrade Your HTML_ series is about one thing: Picking examples of HTML in the wild, and explaining how to make that code better. Kindly. Constructively. Thoroughly, as finding a balance between detail and brevity permits.
 
-Erhältlich bei [Amazon](https://www.amazon.com/dp/B08NLMLXC9?tag=j9t-21-20), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM) und [Leanpub](https://leanpub.com/b/upgrade-your-html-123).
+Erhältlich bei [Amazon](https://www.amazon.de/dp/B08NLMLXC9?tag=j9t-21), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM) und [Leanpub](https://leanpub.com/b/upgrade-your-html-123).
 
 ## [_CSS Optimization Basics_](https://meiert.com/de/publications/books/css-optimization-basics/) (2018)
 
