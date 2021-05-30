@@ -23,7 +23,7 @@ Eine Herausforderung wie auch Gelegenheit war die Diversität der Sites und Seit
 
 Go war speziell, was schlicht den einmaligen Umständen geschuldet ist. Go ist, und selbst [in minifizierter Form](https://www.google.com/css/go.css) kriegt man davon einen Eindruck, ein kompaktes Framework. Das ist _by design_. Aber wie wurde es entworfen, und warum? Dazu sollten wir nochmal auf Googles Landschaft an Websites blicken – ein Blick, der tatsächlich [Pflicht](https://meiert.com/en/blog/tailoring-frameworks/) ist, wenn wir Frameworks entwerfen (aber auch [benutzen](https://meiert.com/en/blog/framework-rules/)).
 
-Besagte Landschaft bestand aus einem international verteilten Team – dem Webmaster-Team – mit bunt gemischten internen Kunden, die von Google Corporate Communications über Legal bis hin zu Marketing reichten, das eine große Zahl von sehr unterschiedlichen, lokalisierten – bis zu 40, manchmal 50 Sprachen – Websites betrieb. Das erschuf einiges an Einzigartigkeit. Gleichzeitig geschah alle Arbeit unter dem Schirm von Google, einige Designaspekte wurden also von allen Seiten geteilt.
+Besagte Landschaft bestand aus einem international verteilten Team – dem Webmaster-Team – mit bunt gemischten internen Kunden, die von Google Corporate Communications über Legal bis hin zu Marketing reichten, das eine große Zahl von unterschiedlichen und lokalisierten – bis zu 40, manchmal 50 Sprachen – Websites betrieb. Das erschuf einiges an Einzigartigkeit. Gleichzeitig geschah alle Arbeit unter dem Schirm von Google, einige Designaspekte wurden also von allen Seiten geteilt.
 
 Sie nehmen sicher schon wahr, dass dieser übereinstimmende Teil klein war, und dass das, und nicht die hohe Zahl von Unterschieden, einen zentralen Teil von Gos Vision ausmachen musste: Go sollte nicht versuchen, »alles« abzudecken, was wir taten, sondern _gut an der Basis funktionieren_. Den kleinsten gemeinsamen Nenner finden und abbilden, das war die Idee.
 
@@ -44,7 +44,7 @@ Ebenso auswendig hervorgekramt, Go setzte dann so wenig Klassen und IDs wie mög
 
 Wie befriedigte Go dann die vielen Bedürfnisse, die in den Projekten mit unseren internen Kunden aufkamen? Wie auch schon durchscheinen mag: Go tat das nicht. Eines der Designziele war tatsächlich, dies gar nicht erst zu probieren. Go definierte den Kern von Googles Websites auf eine Weise, die so einfach wie möglich gehalten wurde, und erkannte die Einzigartigkeit und systemische Nicht-Managebarkeit all der unterschiedlichen Google-Sites durch zwei andere Entscheidungen an:
 
-1. das Definieren anderer populärer Seitenelemente (wie Formulare) in einer Bibliothekserweiterung, »Go X« (man importierte in diesem Fall [go-x.css](https://www.google.com/css/go-x.css), was sehr wenig kognitive Zusatzbelastung bedeutete);
+1. das Definieren anderer populärer Seitenelemente (wie Formulare) in einer Bibliothekserweiterung, »Go X« (man importierte in diesem Fall [go-x.css](https://www.google.com/css/go-x.css), was wenig kognitive Zusatzbelastung bedeutete);
 
 2. das Teilen der Verantwortung und das Überlassen von allem anderen an den Webentwickler, der an dem jeweiligen Projekt arbeitete (so dass diese Go oder Go X in ihrem [default.css](https://meiert.com/en/blog/stupidest-style-sheet-name/)-Projekt-Stylesheet importierten und ihr eigenes Ding machten).
 
@@ -57,7 +57,7 @@ Auf rasche Akzeptanz und Annahme hoffte ich nicht nur durch Benutzerfreundlichke
 * improvisierte Videos ([Asim Janjua](https://twitter.com/asimjanj) und mir machten diese besondere Freude);
 * [Code-Richtlinien](https://www.oreilly.com/library/view/the-little-book/9781492048459/), die die Verwendung steuerten.
 
-Aus technischer Sicht halte ich Go für eines der elegantesten Dinge, die ich bisher entwickelt habe. Go war einfach, leicht, robust, erweiterbar, skalierbar und wartbar. Bis heute erscheint es basal und unspektakulär, und genau das war sehr sorgfältig überlegt und funktionierte außerordentlich gut. Fast ein Jahrzehnt später gibt es wenig, das ich ändern würde (ich würde neuere HTML- und CSS-Features einsetzen, um Go noch kompakter zu machen).
+Aus technischer Sicht halte ich Go für eines der elegantesten Dinge, die ich bisher entwickelt habe. Go war einfach, leicht, robust, erweiterbar, skalierbar und wartbar. Bis heute erscheint es basal und unspektakulär, und genau das war sorgfältig überlegt und funktionierte außerordentlich gut. Fast ein Jahrzehnt später gibt es wenig, das ich ändern würde (ich würde neuere HTML- und CSS-Features einsetzen, um Go noch kompakter zu machen).
 
 Bei alldem aber muss ich auch sagen, dass ich aus technischer und leitender Perspektive damit gescheitert war, größere Akzeptanz für Go zu finden. Ich hatte Fehler gemacht, andere erfahrene Entwickler im Team einzubeziehen und besser mit ihnen zusammenzuarbeiten. Ich hatte versäumt, Gos Vorteile näher zu erläutern und damit mehr Unterstützung in Team und Management zu gewinnen. Manche Reibung im Team und einige verlorene Zeit dabei, Go zum Standard zu machen, waren das Ergebnis davon. Ich musste lernen.
 
@@ -83,7 +83,7 @@ Die Geschichte von Maia ist anders als die von Go, insbesondere dadurch, dass Ma
 
 Abgesehen von den komplexeren visuellen und technischen Anforderungen war die Entwicklung von Maia _als Team_ der größte Unterschied zur Arbeit an Go, und zusammen mit stärkerem Management-Support wohl der wesentliche Faktor dabei, weitreichende Akzeptanz zu gewährleisten und gar zu beschleunigen.
 
-Es fällt auf, dass ich Maias Geschichte sehr knapp halte, sie gar abrupt beende; aber genau der Umstand, dass Maia Teamarbeit war, lässt es mich bevorzugen, hierüber – wenn das möglich wäre – _mit_ dem Team zu schreiben.
+Es fällt auf, dass ich Maias Geschichte knapp halte, sie gar abrupt beende; aber genau der Umstand, dass Maia Teamarbeit war, lässt es mich bevorzugen, hierüber – wenn das möglich wäre – _mit_ dem Team zu schreiben.
 
 ### Erkenntnisse
 
