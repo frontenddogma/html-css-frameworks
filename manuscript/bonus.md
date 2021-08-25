@@ -70,7 +70,7 @@ Als wir – immer noch Googles Webmaster-Team – an einem neuen Design für all
 * Die _Struktur_ unserer Anforderungen und unserer Seiten war dabei, sich stark zu ändern.
 * Die _Komplexität_ unserer Seiten würde sich vergrößern.
 * Es konnte nützlich und legitim sein, ein leichtes Framework (Go) als _Fallback_ in der Hinterhand zu haben.
-* Ich wollte die Designphilosophie und Integrität von Go schützen, was sicher nicht meinen vertrauensvollsten und team-orientiertesten Schritt bedeutete (ich befürchtete, dass ich einen wichtigen Erfolg und Verantwortung verlieren würde).
+* Ich wollte die Designphilosophie und Integrität von Go schützen, was sicher nicht meinen vertrauensvollsten und teamorientiertesten Schritt bedeutete (ich befürchtete, dass ich einen wichtigen Erfolg und Verantwortung verlieren würde).
 
 Diese Punkte führten mich dazu, Bemühungen zu unterstützen und dann anzuführen, ein neues Google-Web-Framework zu entwickeln, ein Framework, dass ich »Maia« taufte (es ist ebenfalls [noch in Gebrauch](https://www.google.com/css/maia.css), obwohl ich nicht weiß, ob es gewartet und wie sehr es modifiziert wurde) – »Maia« wegen eines Faibles für griechische Mythologie: [Maia](https://de.wikipedia.org/wiki/Maia_(Tochter_des_Atlas)), Mutter von [Hermes](https://de.wikipedia.org/wiki/Hermes).
 
