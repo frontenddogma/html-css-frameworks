@@ -13,19 +13,19 @@ Weitere Werke von Jens Oliver Meiert:
 
 > What is a BHO? Goanna? Hooking? How about a principal box? Or the Ten-Second Rule? Covering more than 2,000 terms ranging from A11Y to Zsh, and including explanations from Wikipedia and the MDN Web Docs, _The Web Development Glossary_ is a comprehensive compendium rich in information for both novice and expert developers.
 
-Erhältlich bei [Apple Books](https://books.apple.com/de/book/the-web-development-glossary/id1571261882?ls=1), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_The_Web_Development_Glossary?id=nYjhDwAAQBAJ) und [Leanpub](https://leanpub.com/web-development-glossary).
+Erhältlich bei [Apple Books](https://books.apple.com/de/book/the-web-development-glossary/id1571261882?ls=1), [Kobo](https://www.kobo.com/de/de/ebook/the-web-development-glossary), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_The_Web_Development_Glossary?id=nYjhDwAAQBAJ) und [Leanpub](https://leanpub.com/web-development-glossary).
 
 ## _Upgrade Your HTML_ (2019–2021)
 
 > The _Upgrade Your HTML_ series is about one thing: Picking examples of HTML in the wild, and explaining how to make that code better. Kindly. Constructively. Thoroughly, as finding a balance between detail and brevity permits.
 
-Erhältlich bei [Amazon](https://www.amazon.de/dp/B08NLMLXC9?tag=j9t-21), [Apple Books](https://books.apple.com/de/author/jens-oliver-meiert/id1569607039), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM) und [Leanpub](https://leanpub.com/b/upgrade-your-html-123).
+Erhältlich bei [Amazon](https://www.amazon.de/dp/B08NLMLXC9?tag=j9t-21), [Apple Books](https://books.apple.com/de/author/jens-oliver-meiert/id1569607039), [Kobo](https://www.kobo.com/de/de/search?query=upgrade+your+html), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM) und [Leanpub](https://leanpub.com/b/upgrade-your-html-123).
 
 ## [_CSS Optimization Basics_](https://meiert.com/de/publications/books/css-optimization-basics/) (2018)
 
 > Are you unsure about your style sheets’ quality, or whether you’ve maxed out your options? _CSS Optimization Basics_ covers the necessary mindsets, discusses the main optimization methods, and presents useful resources to write higher quality CSS.
 
-Erhältlich bei [Amazon](https://www.amazon.de/dp/B07TVW1ZT8/?tag=j9t-21), [Apple Books](https://books.apple.com/de/book/css-optimization-basics/id1571260941?ls=1), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ) und [Leanpub](https://leanpub.com/css-optimization-basics).
+Erhältlich bei [Amazon](https://www.amazon.de/dp/B07TVW1ZT8/?tag=j9t-21), [Apple Books](https://books.apple.com/de/book/css-optimization-basics/id1571260941?ls=1), [Kobo](https://www.kobo.com/de/de/ebook/css-optimization-basics), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ) und [Leanpub](https://leanpub.com/css-optimization-basics).
 
 ## [_On Web Development_](https://meiert.com/de/publications/books/on-web-development/) (2015)
 
@@ -37,4 +37,4 @@ Erhältlich bei [Amazon](https://www.amazon.de/dp/B010PQPT90/?tag=j9t-21).
 
 > This is the book that the most boring person would write when they discovered life’s possibilities. Meet Jens, a hectic, neurotic self-proclaimed adventurer, and his very individual account of one hundred different activities he tried over the course of three years (2010–2013). From rafting to security guard certifications to crocheting, everything had a lesson, and these lessons are shared in this book. Look forward to the German answer to Winston Wolfe explaining one way to live life.
 
-Erhältlich bei [Amazon](https://www.amazon.de/dp/B00GAC2SJI/?tag=j9t-21), [Apple Books](https://books.apple.com/de/book/100-things-i-learned-as-an-everyday-adventurer/id1572786010?ls=1), [Google Play Books](https://play.google.com/store/books/details?id=gGcKEAAAQBAJ) und [Leanpub](https://leanpub.com/100-things-i-learned-as-an-everyday-adventurer).
+Erhältlich bei [Amazon](https://www.amazon.de/dp/B00GAC2SJI/?tag=j9t-21), [Apple Books](https://books.apple.com/de/book/100-things-i-learned-as-an-everyday-adventurer/id1572786010?ls=1), [Kobo](https://www.kobo.com/de/de/ebook/100-things-i-learned-as-an-everyday-adventurer), [Google Play Books](https://play.google.com/store/books/details?id=gGcKEAAAQBAJ) und [Leanpub](https://leanpub.com/100-things-i-learned-as-an-everyday-adventurer).
