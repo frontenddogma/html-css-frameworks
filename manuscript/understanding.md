@@ -104,6 +104,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Foundation](https://foundation.zurb.com/)
 * [Gantry](http://gantry.org/)
 * [Golden Grid System](https://goldengridsystem.com/)
+* [Gridiculous](http://gridiculo.us/)
 * [Gridless](https://thatcoolguy.github.io/gridless-boilerplate/)
 * [HiQ](https://jonathanharrell.github.io/hiq/)
 * [HTML KickStart](http://www.99lime.com/elements/)
@@ -124,7 +125,6 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Profound Grid](https://www.profoundgrid.com/)
 * [Pure](https://purecss.io/)
 * [Responsee](https://www.myresponsee.com/)
-* [Responsive Aeon](http://newaeonweb.com.br/responsiveaeon/)
 * [Responsive Grid System](https://www.bigdropinc.com/blog/responsive-gs/)
 * [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
 * [Skeleton](http://getskeleton.com/)
@@ -133,14 +133,15 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Tachyons](http://tachyons.io/)
 * [Tacit](https://yegor256.github.io/tacit/)
 * [Tailwind](https://tailwindcss.com/)
+* [Toast](https://daneden.github.io/Toast/)
 * [turretcss](https://turretcss.com/)
 * [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
 
 (Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals recht grob war.)
 
-Die dargestellten Frameworks sind z.T. sehr unterschiedlich und variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
+Die dargestellten Frameworks variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
-Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _15_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen genauso vielen neuen gegenüber.
+Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _14_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen 15 neuen gegenüber.
 
 Der Nutzen der Liste hat sich damit zwar immer noch langlebiger erwiesen als erwartet, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir ein paar der technischen Gründe dafür.
