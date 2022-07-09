@@ -1,12 +1,12 @@
 # Frameworks entwickeln
 
-Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht, und externe Frameworks haben dabei etwas von Draufgängertum. Wie das Buch bisher konstatiert, ist es notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, etwas auszuliefern, dem es irgendwo mangelt – oder das zuviel bietet.
+Frameworks zu entwickeln ist eine Kunst, die mit einer Menge Verantwortung einhergeht, und externe Frameworks muten dabei wie Draufgängertum an. Wie dieses Buch bisher festhält, ist es notwendigerweise am schwierigsten, ein externes Framework zu bauen, weil wir die Bedürfnisse anderer Projekte nicht kennen _können_. Aus diesem Grund kommen Entwickler von externen Frameworks zwangsläufig in die Lage, ein Framework auszuliefern, dem es irgendwo an etwas mangelt – oder das zuviel bietet.
 
 Der folgende Abschnitt beschreibt die Grundlagen für die Entwicklung eines Frameworks, mit speziellem Bezug auf die Arbeit in einer größeren Organisation.
 
 ## Prinzipien
 
-Wir haben hierzu bereits viele Aufgaben erledigt und schon Prinzipien für die Framework-Entwicklung erarbeitet. Ein Framework sollte idealerweise die höchsten Qualitätsstandards anstreben und dazu
+Wir haben bereits Aufgaben erledigt und Prinzipien für die Framework-Entwicklung erarbeitet. Ein Framework sollte idealerweise die höchsten Qualitätsstandards anstreben und dazu
 
 1. maßgeschneidert,
 2. benutzerfreundlich und
@@ -16,7 +16,7 @@ sein.
 
 Diese Prinzipien sollten die Hauptwerte für jedes Framework darstellen, und zur Umsetzung können wir ebenfalls bereits auf Methoden zurückgreifen, die in den vorherigen Abschnitten behandelt wurden.
 
-Anpassungs- und Konfigurationsmöglichkeiten, wie im Abschnitt »1. Ein Framework sollte maßgeschneidert sein« behandelt, spielen hier eine besondere Rolle, da diese eine Geheimwaffe – und letzte Verteidigungslinie – des externen Framework-Entwicklers sind. Framework-Konfigurationsoptionen sind der einzige Weg, es fremden Nutzern, Nutzern, deren Projekte wir nie kennenlernen werden, möglich zu machen, zuzuschneiden.
+Anpassungs- und Konfigurationsmöglichkeiten, wie im Abschnitt »1. Ein Framework sollte maßgeschneidert sein« erläutert, spielen hier eine besondere Rolle, da diese eine Geheimwaffe – und letzte Verteidigungslinie – des externen Framework-Entwicklers sind. Framework-Konfigurationsoptionen sind der einzige Weg, es fremden Nutzern, Nutzern, deren Projekte wir nie kennenlernen werden, möglich zu machen, zuzuschneiden.
 
 D> Ich hatte mich ursprünglich dagegen entschieden, einen Abschnitt speziell zu Konfiguration zu schreiben, was für den Moment auch in dieser ergänzten deutschen Ausgabe gilt. Zum einen stellt Konfiguration kein Allheilmittel für externe Frameworks dar, zum anderen bedeutet sie so viele zusätzliche Aufgaben im Entwicklungsbereich, dass die Entwicklung in vielen Situationen prohibitiv teuer werden kann. Dies liegt daran, dass je mehr Konfigurationsmöglichkeiten es gibt, desto komplexer ein Framework wird. Zur Entwicklungsarbeit selbst gehören dann natürlich auch immer noch Tests, Wartung und Optimierung.
 
@@ -37,18 +37,18 @@ Prototypen unterliegen eigenen Kriterien. Sie müssen, wie ich vor Jahren einmal
 * zugänglich/verfügbar
 * diszipliniert betrieben
 * gewartet
-* kommuniziert/beworben
+* kommuniziert
 * dokumentiert
 
 Auch wenn diese mehr als zehn Jahre alten Punkte mittlerweile der Revision bedürfen, ist jeder dieser Punkte wichtig, die ersten drei sogar kritisch. Ein Prototyp muss alles umfassen (alle Seitentypen und -elemente, auch wenn dies einer Content- und nicht App-Perspektive entspringt), er muss aktuell sein (jegliche Änderungen müssen sofort angewendet werden können und sichtbar sein) und er muss realistisch sein (Beispielinhalte müssen eine möglichst gute Annäherung daran darstellen, wie das Framework wahrscheinlich außerhalb des Prototypen verwendet wird).
 
-Gute Prototypen sind wie Frameworks an sich eine Kunst und bedürfen an anderer Stelle einer längeren Ausführung.
+Gute Prototypen sind wie Frameworks eine Kunst und bedürfen an anderer Stelle einer längeren Ausführung.
 
 ## Qualitätsmanagement
 
 Um sicherzustellen, dass wir die Qualität liefern, zu der wir uns als Experten verpflichtet fühlen, müssen wir diese überprüfen. Dies wird durch Qualitätssicherung (die darauf abzielt, Probleme über den Prozess zu verhindern) und Qualitätskontrolle (die Probleme im Produkt sucht und behebt) erzielt.
 
-Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](https://uitest.com/analysis/#conformance), [Barrierefreiheits-](https://uitest.com/analysis/#accessibility) und [Performance-Tests](https://uitest.com/analysis/#performance). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren spezialisierte und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich eher auf Web- denn auf Softwareentwicklung, denn in der Softwareentwicklung gibt es eine stärkere Historie und Tradition, mit Tests zu arbeiten. Auch hier gab es gerade nach 2015 noch viele weitere Verbesserungen.)
+Das immer noch eher junge Feld der Webentwicklung kennt mehr Qualitätskontrolle als -sicherung. Ein gutes Beispiel dafür sind die vielen [Validierer](https://uitest.com/analysis/#conformance), [Barrierefreiheits-](https://uitest.com/analysis/#accessibility) und [Performance-Tests](https://uitest.com/analysis/#performance). Auf der Qualitätssicherungsseite ist das prominenteste Beispiel die Erstellung und Verfolgung von Code-Richtlinien, wobei manche Organisationen und Einzelpersonen vor allem in den letzten Jahren spezialisierte und ausgefeilte Infrastruktur aufgebaut haben, um ihren Code zu testen und zu verbessern. (Dies alles bezieht sich mehr auf Web- als auf Softwareentwicklung, denn in der Softwareentwicklung gibt es eine größere Historie und Tradition, mit Tests zu arbeiten. Es gab in der Webentwicklung nach erstem Erscheinen dieses Buchs aber auch viele Verbesserungen.)
 
 Zur Qualitätssicherung ist es nützlich:
 
@@ -67,19 +67,19 @@ Bei der Qualitätskontrolle sollte man folgendes testen:
 * Formatierung
 * allgemeine Code-Qualität
 
-T> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu bauen und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
+T> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu entwickeln und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
 
 Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
 
 ## Wartung
 
-Wir haben bisher aufgeführt, wie wichtig Prinzipien, ein Prototyp und Qualitätsmanagement für die Frameworks-Entwicklung sind. Ein weiterer Schlüssel ist Wartung. Wartung bedeutet (wie bei Prototypen) vor allem das Commitment, die Hingabe zu einem Framework. Dies ist aus zwei Gründen von Bedeutung.
+Wir haben aufgeführt, wie wichtig Prinzipien, ein Prototyp und Qualitätsmanagement für die Frameworks-Entwicklung sind. Ein weiterer Schlüssel ist Wartung. Ähnlich zu Prototypen, bedeutet Wartung Commitment und Hingabe zu einem Framework. Dies ist aus zwei Gründen von Bedeutung.
 
 Zum einen ist Wartung entscheidend, weil der Gebrauch eines Frameworks ein Versprechen an seine Nutzer ist. Das sicher idealistische Versprechen umfasst, dass das verwendete Framework für immer gewartet wird. Es verlangt dazu sogar, dass wer auch immer es wartet, er alles in seiner Macht stehende tut, es einfach zu halten und somit keine strukturellen Änderungen vorzunehmen, sondern nach Möglichkeit nur präsentations- und verhaltensbezogene. Das ist ganz bestimmt Idealismus, aber wer soll uns an Ideale erinnern, wenn nicht wir selbst?
 
-Zum anderen ist Wartung bedeutsam, weil das Commitment hierauf eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (oder sollte sein), dass [HTML am wichtigsten ist](https://meiert.com/de/publications/articles/20091027/), gut zu schreiben, weil es am teuersten und im Vergleich zu CSS und JavaScript sogar _extrem_ teuer zu ändern ist – wir beachten unsere Kostendefinition. (Daran hat sich mit weiterem Tooling und neueren Frameworks erstmal nichts großartig geändert, aber konsequenter Einsatz von Komponenten rüttelt daran.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen oder auslaufen zu lassen, um »einfach ein neues zu machen«, und bringt uns statt dessen näher an die Vision von Nur-CSS-Design-Iterationen. Das ist unabhängig davon, dass strukturelle Änderungen immer mal notwendig sein werden und damit HTML-Anpassungen, korrespondierende CSS- und JavaScript-Modifikationen und für das entsprechende Framework neue »Major«-Releases bedeuten.
+Zum anderen ist Wartung bedeutsam, weil das Commitment hierauf eine weitere Sicherheitsmaßnahme darstellt. Die Idee in der Webentwicklung ist (oder sollte sein), dass [HTML am wichtigsten ist](https://meiert.com/de/publications/articles/20091027/), gut zu schreiben, weil es am teuersten und im Vergleich zu CSS und JavaScript sogar _extrem_ teuer zu ändern ist – wir beachten unsere Kostendefinition. (Daran hat sich mit weiterem Tooling und neueren Frameworks erstmal nichts großartig geändert, aber konsequenter Einsatz von Komponenten rüttelt daran.) Ein ausdrückliches Commitment hält uns davon ab, ein Framework zu verwerfen oder auslaufen zu lassen, um »einfach ein neues zu bauen«, und bringt uns statt dessen näher an die Vision von rein CSS-basierten Designiterationen. Das ist unabhängig davon, dass strukturelle Änderungen immer mal notwendig sein und damit HTML-Anpassungen, korrespondierende CSS- und JavaScript-Modifikationen und für das entsprechende Framework neue »Major«-Releases bedeuten können.
 
-Ein Framework, das echte und sogar komplexe Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben die populäreren Frameworks über die Jahre selbst angenommen und bewiesen – sie wurden nach meinem Kenntnisstand ausnahmslos alle gepflegt.
+Ein Framework, das echte und sogar komplexe Design- und Entwicklungsprobleme löst, kommt mit einer ganz expliziten Verpflichtung zu Wartung. Das haben populäre Frameworks über die Jahre genauso angenommen und bewiesen – und sie wurden nach meinem Kenntnisstand ausnahmslos alle gepflegt.
 
 I> ### Warten und was kaputt machen
 I>

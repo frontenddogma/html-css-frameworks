@@ -8,20 +8,20 @@ Nach allem, was wir wissen, kann Benutzen nicht so kompliziert sein wie Entwicke
 
 Die Entscheidung »pro Qualität« sollte dahin führen, ein _internes_ Framework zu benutzen oder zu entwickeln. Die _Auswahl_ eines Frameworks bezieht sich fast ausschließlich auf externe Frameworks, und sie hängt von zwei Faktoren ab:
 
-1. Befriedigt es die Bedürfnisse?
+1. Erfüllt es unsere Bedürfnisse und Anforderungen?
 2. Ist es von hoher Qualität? (Ist es maßgeschneidert – zumindest zuschneidbar –, benutzerfreundlich und erweiterbar?)
 
 An dieser Stelle wird also wiederholt die Wichtigkeit betont, unsere genauen Bedürfnisse zu kennen. Dies ist auch bei der _Wahl_ eines Frameworks wichtig, da nur Kenntnis unserer Anforderungen hilft, sagen zu können, welches Framework passt (Stichwort Maßschneiderung) und unseren Ansprüchen im Hinblick auf Erweiterbarkeit genügt (wobei die Komplexität unserer Bedürfnisse in der Regel mit dem Bedarf nach Erweiterbarkeit korreliert). 
 
 ## Die zwei Grundregeln für den Gebrauch eines Frameworks
 
-…&nbsp;und _jeden_ Frameworks. Diese beiden Regeln sind golden:
+…&nbsp;und _jedes_ Frameworks. Diese beiden Regeln sind golden:
 
 ### 1. Befolgen Sie die Dokumentation
 
 Ob internes oder externes Framework, ob Experte oder Anfänger, lesen und folgen Sie der Dokumentation.
 
-Diese Regel scheint so offensichtlich wie unbedeutend, ist aber kritisch, da nach Framework-Bloat die zweitgrößte Ursache für Qualitätsprobleme mit Frameworks und den damit erstellten Arbeiten Bedienfehler sind – oder Bedienfehlverhalten. Beispiele dafür sind oft erst unschuldig wirkende »Hacks« für Seitenelemente oder Eigenentwicklungen für Funktionen, die _bereits Teil_ des Frameworks sind.
+Diese Regel scheint so offensichtlich wie unbedeutend, ist aber kritisch. Bedienfehler (oder Bedienfehlverhalten) sind nach Framework-Bloat die zweitgrößte Ursache für Qualitätsprobleme mit Frameworks und den damit erstellten Arbeiten. Beispiele dafür sind oft unschuldig wirkende »Hacks« für Seitenelemente oder Eigenentwicklungen für Funktionen, die _bereits Teil_ des Frameworks sind.
 
 [»RTFM«](https://de.wikipedia.org/wiki/Liste_von_Abk%C3%BCrzungen_(Netzjargon)#R) gilt auch bei Frameworks: Sobald wir ein Framework verwenden, sollten wir die Dokumentation beachten.
 
@@ -58,7 +58,7 @@ header {
 
 Das Beispiel, einfach wie es ist, zeigt wie eine scheinbar triviale Änderung gravierende Folgen haben kann. Hier wird ein Header einfach ein `rem` verschoben. (Da der Framework-Header implizit statisch »positioniert« war, handelt es sich tatsächlich um ein Überschreiben.) Das nächste Framework-Update stellt jedoch auf absolute Positionierung um. Da die überschreibenden Deklarationen später in der Kaskade folgen, verhindern sie das Update (mit der Ausnahme von `left: 0`). In Fällen wie diesen sind die Effekte von Überschreibungen unvorhersehbar, und sie sollten aus diesem Grund so weit es geht vermieden werden.
 
-Was kann man statt dessen tun? Bei internen Frameworks sollte man selbstverständlich nicht irgendwo Dinge überschreiben, sondern entweder das Framework direkt anpassen oder die Dinge so lassen, wie sie sind. Bei externen Frameworks sollte man entweder dasselbe tun – die Dinge so lassen – oder ein separates Pattern, ein anderes Element entwickeln, das die entsprechende Aufgabe übernimmt (wie z.B. ein alternativer Header, mit anderem Markup). Framework-Forks oder -Patches sollte man vermeiden. Es ist besser, wenn wir versuchen, die Dinge direkt an der Wurzel zu lösen – oder überhaupt nicht, was uns eher zu Handlungen motivieren kann, die _auf lange Sicht besser_ sind, wie das Framework doch direkt zu verbessern, es zu wechseln oder eins zu bauen, das auf uns zugeschnitten ist. 
+Was kann man statt dessen tun? Bei internen Frameworks sollte man selbstverständlich nicht irgendwo Dinge überschreiben, sondern entweder das Framework direkt anpassen oder die Dinge so lassen, wie sie sind. Bei externen Frameworks sollte man entweder dasselbe tun – die Dinge so lassen – oder ein separates Pattern, ein anderes Element entwickeln, das die entsprechende Aufgabe übernimmt (wie z.B. ein alternativer Header, mit anderem Markup). Framework-Forks oder -Patches sollte man vermeiden. Es ist besser, wenn wir versuchen, die Dinge direkt an der Wurzel zu lösen – oder überhaupt nicht, was uns zu Handlungen motivieren kann, die _auf lange Sicht besser_ sind (wie das Framework doch direkt zu verbessern, es zu wechseln oder eins zu bauen, das auf uns zugeschnitten ist).
 
 D> Je komplexer das Projekt und je größer die Organisation, desto schwieriger ist es, die hier nötige Disziplin aufzubringen. Aber jeder, der mit einem Framework arbeitet, tut gut daran, diese Regeln in Erinnerung zu behalten und zu befolgen, um höchstmögliche Konsistenz und Qualität zu erreichen.
 
