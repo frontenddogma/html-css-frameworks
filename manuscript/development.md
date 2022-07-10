@@ -69,7 +69,7 @@ Bei der Qualitätskontrolle sollte man folgendes testen:
 
 T> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [uitest.com/analysis](https://uitest.com/analysis/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu entwickeln und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
 
-Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können, über eine API verfügen oder andersartig wie über npm eingesetzt werden können. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
+Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können oder über eine API verfügen. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
 
 ## Wartung
 
@@ -95,7 +95,7 @@ Die Handhabung von Framework-Updates ist so wichtig, dass sie nochmal gesondert 
 
 Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
-* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Anpassungen (selbst Klassenänderungen) zu vermeiden. Updates sollten bevorzugt nur in Styling- oder Scripting-Arbeiten bestehen und keine besonderen Aufwände für Nutzer und Entwickler bedeuten. Die Anpassung von Framework-Referenzen (URL-Anpassungen, Paketaktualisierungen) sind okay.
+* Versuchen Sie, wegen der vergleichsweise hohen Kosten HTML-Anpassungen (selbst Klassenänderungen) zu vermeiden. Updates sollten bevorzugt nur in Styling- oder Scripting-Arbeiten bestehen und keine besonderen Aufwände für Nutzer und Entwickler bedeuten. Die Anpassung von Framework-Referenzen (URL-Anpassungen oder – dieses Buch wurde zu einer Zeit geschrieben, als das JavaScript-Ökosystem noch nicht so stark war wie heute – Paketaktualisierungen) sind okay.
 
 * Kündigen Sie Aktualisierungen im Voraus an.
 
@@ -105,7 +105,7 @@ Hier sind ein paar Tricks, die Framework-Aktualisierungen einfacher machen:
 
 * Kommunizieren Sie den Status laufender Updates.
 
-Wovon wir hier ausgehen ist, dass wir nicht einfach nur Frameworks »versionieren«. Das ist die Praxis, ein Framework rauszubringen – sagen wir, `foo` – und bei der ersten Änderung nicht `foo` zu aktualisieren, sondern `foo-2` auszuliefern. Und dann `foo-3`. Und so weiter. Diese Praxis ist eine Option, muss aber nicht die Regel bilden. Die Regel sollte sein, das Framework nach den hier vorgestellten Ideen zu aktualisieren. Der Grund dafür ist, dass Versionierung den Zweck und [Vorteil von CSS](https://meiert.com/en/blog/advantage-of-css/) unterminiert (und ähnlich so von JavaScript), was mittels der Trennung der Belange (_Separation of Concerns_) sofortige Updates ermöglicht. Wir werden diese Vision, die stark darauf aus ist, Updates sofort auszuspielen und unnötige Arbeit zu vermeiden, nochmal behandeln – vor allem, da dies aktuell, mehrere Jahre nach Schreiben des Buchs etwas strikt und wider dem gegenwärtigen Usus anmuten muss. Bei größeren, [»Major«-Aktualisierungen](https://semver.org/) sollte damals wie heute immer ein Versionssprung vorgenommen werden.
+Wovon wir hier ausgehen ist, dass wir nicht einfach nur Frameworks »versionieren«. Das ist die Praxis, ein Framework rauszubringen – sagen wir, `foo` – und bei der ersten Änderung nicht `foo` zu aktualisieren, sondern `foo-2` auszuliefern. Und dann `foo-3`. Und so weiter. Diese Praxis ist eine Option, muss aber nicht die Regel bilden. Die Regel sollte sein, das Framework nach den hier vorgestellten Ideen zu aktualisieren. Der Grund dafür ist, dass Versionierung den Zweck und [Vorteil von CSS](https://meiert.com/en/blog/advantage-of-css/) unterminiert (und ähnlich so von JavaScript), was mittels der Trennung der Belange (_Separation of Concerns_) sofortige Updates ermöglicht. Wir werden diese Vision, die stark darauf aus ist, Updates sofort auszuspielen und unnötige Arbeit zu vermeiden, nochmal behandeln – vor allem, da dies aktuell, mehrere Jahre nach Schreiben des Buchs strikt und wider dem gegenwärtigen Usus anmuten muss. Bei größeren, [»Major«-Aktualisierungen](https://semver.org/) sollte damals wie heute immer ein Versionssprung vorgenommen werden.
 
 D> Ich musste überlegen, wie ich mit den letzten Abschnitten am besten umgehe: Mittlerweile hat sich die Versionierung aller Arten von Software so stark eingebürgert, und das aus gutem Grund, dass der ehemalige Ansatz fast antiquiert wirken muss. Er unterlag aber der großen Motivation, durch das Auskosten eines bzw. _des_ Vorteils von CSS den Komfort zu bieten, _Updates sofort auszuspielen_ oder zu erhalten, ohne auf andere warten zu müssen oder anderswo tätig zu werden. 
 D> 
@@ -143,13 +143,13 @@ I>   width: 90%;
 I> }
 I> ```
 I>
-I> Wir vereinfachen das hier etwas mit der Annahme, dass `<article>` keine `margin`-Werte von woanders aufschnappt. `margin` muss gesetzt werden, da auch wenn es in der Framework-Aktualisierung entfernt wurde, es immer noch durch das alte Framework angewandt wird, welches ja wiederum noch auf den Seiten greift, auf denen wir den neuen Code testen wollen. Entsprechend muss das Test-Stylesheet diesen vorherigen Code neutralisieren – etwas was man in kniffligen Fällen auch noch durch die [`all`-Eigenschaft](https://www.w3.org/TR/css3-cascade/#all-shorthand) probieren kann.
+I> Wir vereinfachen das hier mit der Annahme, dass `<article>` keine `margin`-Werte von woanders aufschnappt. `margin` muss gesetzt werden, da auch wenn es in der Framework-Aktualisierung entfernt wurde, es immer noch durch das alte Framework angewandt wird, welches ja wiederum noch auf den Seiten greift, auf denen wir den neuen Code testen wollen. Entsprechend muss das Test-Stylesheet diesen vorherigen Code neutralisieren – etwas, das man in kniffligen Fällen auch durch die [`all`-Eigenschaft](https://www.w3.org/TR/css3-cascade/#all-shorthand) probieren kann.
 I>
 I> Jesse Rudermans [Bookmarklet-Generator](https://www.squarefree.com/userstyles/make-bookmarklet.html) ist ein einfaches aber funktionsfähiges Werkzeug, um solchen Test-Code in ein Bookmarklet zu überführen – man fügt das Test-CSS ein und kopiert den entsprechenden Bookmarklet-Code. Das Bookmarklet kann dann jedem Framework-Nutzer zusammen mit einem Weg, Probleme zu melden, zur Verfügung gestellt werden.
 
 ## Dokumentation
 
-Obwohl streng genommen kein Teil des Entwicklungsprozesses, darf auch Dokumentation nicht fehlen. Dokumentation dort aufzuhängen, wo die Entwicklung passiert, hat viele Vorteile, vom Erhöhen der Wahrscheinlichkeit, dass tatsächlich dokumentiert wird bis hin zur Verbesserung von Umfang und Genauigkeit, weil dann dokumentiert wird, wenn gerade noch alles frisch im Kopf ist.
+Obwohl streng genommen kein Teil des Entwicklungsprozesses, darf auch Dokumentation nicht fehlen. Dokumentation dort aufzuhängen, wo die Entwicklung passiert, hat viele Vorteile, vom Erhöhen der Wahrscheinlichkeit, dass tatsächlich dokumentiert wird, bis hin zur Verbesserung von Umfang und Genauigkeit, weil dokumentiert wird, wenn gerade noch alles frisch im Kopf ist.
 
 Es gibt viele Arten, zu dokumentieren, aber eine der effektivsten ist, einen bzw. den Prototypen auch für diese Zwecke einzusetzen. Beispielinhalte können in Dokumentation umgewandelt werden, die die Seitentypen und -elemente erklären, die sie selbst bilden, und es ist ebenso möglich, Informationskästen auf Hover oder andersartig anzuzeigen, die Hintergrundinformationen und zugehörigen Code beschreiben. (Ein sauber gewarteter Prototyp, der auf diese Weise aufgewertet wird, bildet ein äußerst belastbares Rückgrat eines Frameworks. Manches Designsystem ging in den letzten Jahren in diese Richtung, und [Storybook](https://storybook.js.org/), kann man sagen, treibt dies nochmal weiter.)
 
@@ -177,7 +177,7 @@ Was wir noch nicht berührt haben:
   * Ankündigungen (für maßgebliche Neuigkeiten, die gleichzeitig auch an die Entwickler- und Nutzerlisten gehen sollten)
 * Übersichten für Live-Implementierungen (primär für Tests und Stichproben, aber auch für Referenzen)
 
-Eine Website für das Framework und eine Mailingliste für Ankündigungen sind besonders empfehlenswert, weil sie Nutzern effektiv helfen und dadurch Framework-Inhabern und -Entwicklern Dividenden abwerfen können. Eine Website ist dabei hilfreich, wichtige Informationen und Dokumentation bereitzustellen. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Releases und Features auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken. Durch beides wird ein Framework leichter zu bedienen und gleichzeitig die Support-Last der Entwickler reduziert.
+Eine Website für das Framework und eine Mailingliste für Ankündigungen sind besonders empfehlenswert, weil sie Nutzern effektiv helfen und Framework-Inhabern und -Entwicklern Dividenden abwerfen können. Eine Website ist dabei hilfreich, wichtige Informationen und Dokumentation bereitzustellen. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Releases und Features auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken. Durch beides wird ein Framework leichter zu bedienen und gleichzeitig die Support-Last der Entwickler reduziert.
 
 Framework-Support fällt entsprechend ebenfalls in die Kategorie Logistik. Er bekommt hier aber keine weitere Aufmerksamkeit, weil wir Support zum einen an verschiedenen Stellen des Weges unterstützen können – in Prinzipien, Zielen, Dokumentation – und zum anderen, weil Support stark von Details und Komplexität des Frameworks abhängt, und den Problemen, die es zu lösen versucht.
 
