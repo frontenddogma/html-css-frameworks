@@ -89,28 +89,37 @@ I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich ex
 
 Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Frameworks, die Webentwickler bisher als nützlich empfunden haben. Hier ist eine Auswahl, um einen Eindruck davon zu vermitteln, wie groß die Welt der Frameworks geworden ist:
 
-* [960 Grid System](https://960.gs/)
 * [1140 CSS Grid](https://www.ramotion.com/agency/web-design/cssgrid/)
+* [960 Grid System](https://960.gs/)
 * [Base](https://getbase.org/)
 * [Basscss](https://basscss.com/)
-* [Beard](http://buildwithbeard.com/)
+* [Beard](https://web.archive.org/web/20190302021244/http://buildwithbeard.com/)
 * [Bijou](https://andhart.github.io/bijou/)
 * [Blueprint](http://www.blueprintcss.org/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Brutalist Framework](http://www.brutalistframework.com/)
 * [Bulma](https://bulma.io/)
+* [Cascade Framework](https://web.archive.org/web/20150810101841/http://www.cascade-framework.com/)
+* [Columnal](https://web.archive.org/web/20141219115531/http://www.columnal.com/)
 * [Compass](http://compass-style.org/)
 * [CSS Smart Grid](http://origin.css.gd/)
+* [Fluid Baseline Grid](https://web.archive.org/web/20150814012147/http://fluidbaselinegrid.com/)
 * [Foundation](https://foundation.zurb.com/)
 * [Gantry](http://gantry.org/)
 * [Golden Grid System](https://goldengridsystem.com/)
+* [Goldilocks](https://web.archive.org/web/20150726220247/http://goldilocksapproach.com/)
 * [Gridiculous](http://gridiculo.us/)
 * [Gridless](https://thatcoolguy.github.io/gridless-boilerplate/)
+* [Gridlock](https://web.archive.org/web/20140314154038/http://www.benplum.com/projects/gridlock/)
+* [Groundwork](https://web.archive.org/web/20130525142949/http://groundwork.sidereel.com/)
+* [Gumby](https://web.archive.org/web/20150205011420/http://gumbyframework.com/)
 * [HiQ](https://jonathanharrell.github.io/hiq/)
 * [HTML KickStart](http://www.99lime.com/elements/)
 * [HTML5 Boilerplate](https://html5boilerplate.com/)
 * [IceCream](http://html5-ninja.com/icecream/)
 * [Ingrid](http://piira.se/projects/ingrid/)
+* [InuitCSS](https://web.archive.org/web/20121212050418/http://inuitcss.com/)
+* [IVORY Framework](https://web.archive.org/web/20150812002524/http://weice.in/ivory/)
 * [KNACSS](https://www.knacss.com/)
 * [kouto swiss](https://web.archive.org/web/20200220061116/http://kouto-swiss.io/)
 * [Kube](https://imperavi.com/kube/)
@@ -121,11 +130,16 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Milligram](https://milligram.io/)
 * [mini.css](https://minicss.org/)
 * [Mueller Grid System](https://muellergridsystem.com/)
+* [new.css](https://github.com/xz/new.css)
 * [Picnic CSS](https://picnicss.com/)
+* [Pico.css](https://picocss.com/)
 * [Profound Grid](https://www.profoundgrid.com/)
 * [Pure](https://purecss.io/)
 * [Responsee](https://www.myresponsee.com/)
+* [Responsive Aeon](https://web.archive.org/web/20150811075719/http://www.newaeonweb.com.br/responsiveaeon/)
 * [Responsive Grid System](https://www.bigdropinc.com/blog/responsive-gs/)
+* [Salsa](https://tsi.github.io/Salsa/)
+* [Semantic Grid System](https://web.archive.org/web/20150316133000/http://semantic.gs/)
 * [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
 * [Skeleton](http://getskeleton.com/)
 * [Spectre.css](https://picturepan2.github.io/spectre/)
@@ -133,7 +147,9 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Tachyons](http://tachyons.io/)
 * [Tacit](https://yegor256.github.io/tacit/)
 * [Tailwind](https://tailwindcss.com/)
+* [Titan](https://web.archive.org/web/20130511013059/http://titanthemes.com/titan-framework-a-css-framework-for-responsive-web-designs)
 * [Toast](https://daneden.github.io/Toast/)
+* [Tuktuk](https://web.archive.org/web/20150613115431/http://tuktuk.tapquo.com/)
 * [turretcss](https://turretcss.com/)
 * [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
@@ -142,6 +158,6 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 
 Die dargestellten Frameworks variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
-Auch wenn ihr Fundament noch immer auf 2015 basiert (sorgfältig geprüft und ergänzt), ist eine Aufzählung wie die obige etwas, das schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – selbst aus der erst 2015 aufgenommenen Übersicht sind ganze _14_ Frameworks weggefallen (die meisten davon ersatzlos gestorben); sie stehen 15 neuen gegenüber.
+Auch wenn ihr Fundament noch immer auf 2015 basiert, ist eine Aufzählung wie die obige etwas, das schnell veraltet. Während Frameworks wie ganz besonders YAML (nicht zu verwechseln mit [_YAML Ain’t Markup Language_](https://yaml.org/)) schon über ein Jahrzehnt alt sind, sind andere schon lange wieder in der Versenkung verschwunden – 15 der obigen Frameworks gibt es nur noch im Internet Archive.
 
-Der Nutzen der Liste hat sich damit zwar immer noch langlebiger erwiesen als erwartet, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft einfach zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir ein paar der technischen Gründe dafür.
+Der Nutzen der Liste hat sich damit zwar immer noch als langlebiger erwiesen als erwartet, dennoch geht es hier mehr um besagten Eindruck, einen raschen Schnappschuss, ganz vielleicht noch einen Ausgangspunkt zum Experimentieren, aber nicht um eine verlässliche Peilung für die gesamte Frameworks-Landschaft. Dazu ist diese Landschaft zu groß und schnelllebig – und wenn manche der folgenden Thesen richtig sind, kennen wir ein paar der technischen Gründe dafür.
