@@ -2,7 +2,7 @@
 
 ## Was ist ein Framework?
 
-»Framework« ist ein weit gefasster Begriff, der manchmal auch missverstanden wird. Konzeptionell und im Sinne der Webentwicklung kann ein Framework mit einer Bibliothek verglichen werden: eine Bibliothek nicht von Büchern, sondern von Design-Patterns, zusammen mit der entsprechenden Funktionalität. 
+»Framework« ist ein weit gefasster Begriff, der manchmal auch missverstanden wird. Konzeptionell und im Sinne der Webentwicklung kann ein Framework mit einer Bibliothek verglichen werden: eine Bibliothek nicht von Büchern, sondern von Design-Patterns, zusammen mit der entsprechenden Funktionalität.
 
 Das [Pure-Framework](https://purecss.io/) kennt beispielsweise die folgenden Button-Typen:
 
@@ -35,9 +35,9 @@ Eine der einfachsten Arten, Bootstrap zu verwenden, beruht beispielsweise darauf
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 ```
 
-Nachdem wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, folgt hier noch eine andere Perspektive. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als _geteilte_ Stylesheets und Skripte, denen ein höherer Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript (oder beides) herauspicken und es zum Framework deklarieren! 
+Nachdem wir Frameworks mit voll funktionalen Pattern-Libraries (-Bibliotheken) verglichen haben, folgt hier noch eine andere Perspektive. Frameworks können auch einfach als die Stylesheets und Skripte betrachtet werden, die sie sind; und externe Frameworks als _geteilte_ Stylesheets und Skripte, denen ein höherer Status zugestanden wird. Man könnte tatsächlich _jedwedes_ Stylesheet oder Skript (oder beides) herauspicken und es zum Framework deklarieren!
 
-Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen. 
+Die Konsequenzen dieser zweiten Erkenntnis sind weitreichend; und auch wenn sie erst trivial anmutet, ist sie doch ein Schlüssel dafür, Frameworks zu verstehen. Wir werden den Begriff »Framework« weiter verwenden, um die übliche Sprache im Feld zu gebrauchen, aber werden uns zwischendurch zur Orientierung durchaus auf die Idee erhabener Stylesheets und Skripte berufen.
 
 ## Warum Frameworks?
 
@@ -45,7 +45,7 @@ Frameworks versprechen sowohl Design- als auch Entwicklungszeit zu sparen. Die D
 
 Wenn Frameworks mit diesem Versprechen kommen, muss man die Frage stellen, ob sie es auch erfüllen. Die Antwort darauf läuft letztlich auf eine Kostenkalkulation hinaus, die unglücklicher- aber auch logischerweise für jedes Projekt und Framework anders ausfällt. Was für Entwicklungskosten wurden eingespart? Wieviel wurde im Gegenzug für Training, Anpassungen und Aktualisierungen ausgegeben?
 
-Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes Projekt entsprechend zu _durchdenken_, behandeln die nächsten Seiten Frameworks in dem Detail, das notwendig ist, um jedem zu ermöglichen, eine eigene Theorie von den _raisons d’être_ für Frameworks aufzustellen. 
+Ergänzend zum Vorschlag, diese Rechnungen tatsächlich durchzuführen und jedes Projekt entsprechend zu _durchdenken_, behandeln die nächsten Seiten Frameworks in dem Detail, das notwendig ist, um jedem zu ermöglichen, eine eigene Theorie von den _raisons d’être_ für Frameworks aufzustellen.
 
 ## Arten und Einsatzfälle von Frameworks
 
@@ -69,7 +69,7 @@ Hier sind meine Gedanken. Lassen Sie uns vergleichen.
 | Internes Framework | ✅ ja | ✅ ja | ✅ ja | ✅ ja |
 | Externes Framework | ⛔ nein️ | ✅ ja | ✅ ja | ⛔ nein |
 
-Das Entwickeln eines internen Frameworks und dessen Veröffentlichung (eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte) wird hier nicht als Entwicklung eines externen Frameworks betrachtet. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern verfügbar zu machen, würde jedoch eine solche Entwicklungsphase darstellen und damit akzeptabel im Sinne dieser Kriterien sein. 
+Das Entwickeln eines internen Frameworks und dessen Veröffentlichung (eine Auslegung, die sogar auf Blog-Themes angewandt werden könnte) wird hier nicht als Entwicklung eines externen Frameworks betrachtet. Der ausschlaggebende Punkt ist die Zielsetzung während der anfänglichen Entwicklungsphase. Eine grundlegende Revision und Überarbeitung eines Frameworks, um es extern oder ausschließlich intern verfügbar zu machen, würde jedoch eine solche Entwicklungsphase darstellen und damit akzeptabel im Sinne dieser Kriterien sein.
 
 Was die Tabelle zeigt, ist die Idee, dass Frameworks mit lediglich zwei Ausnahmen liberal verwendet und entwickelt werden können. Eine Ausnahme ist, dass Experten keine externen Frameworks _benutzen_ sollten; die andere, dass Anfänger keine externen Frameworks _bauen_ sollten.
 
@@ -83,7 +83,7 @@ I> ### Kompilierte Frameworks
 I>
 I> Kompilierte, zusammengestellte Frameworks sind solche, die auch Stylesheets und Skripte von Dritten umfassen. Dies mögen öffentliche Reset-Stylesheets sein, kann aber auch durchaus umfangreiche UI-Elemente einschließen. Skeleton band ursprünglich z.B. [Normalize.css](https://necolas.github.io/normalize.css/) ein, während Blueprint auf [Eric Meyers CSS-Reset](https://meyerweb.com/eric/tools/css/reset/) aufsetzt. Vor ein paar Jahren waren [WrapBootstrap](https://wrapbootstrap.com/) and [Flat UI Pro](https://designmodo.com/flat/) eher einfache Beispiele für kompilierte Frameworks, weil sie schlicht Bootstrap erweiterten (wie so einige andere, nun, Stylesheets). Generell aber finden wir die Gattung der kompilierten Frameworks am häufigsten intern, wenn Organisationen ihre eigenen Frameworks auf der Basis existierender öffentlicher Lösungen zusammenschrauben.
 I>
-I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich externen Frameworks gleichzusetzen sind, die wir behandeln. Um aber auf der sicheren Seite zu sein: Zusammengesetzte Frameworks bedeuten zusammengesetzte Probleme, und bedeuten zusätzliche Arbeit, was Tests und Wartung anbelangt. Erhöhte Aufmerksamkeit ist gefragt. 
+I> Wir gehen auf diese Art von Framework nicht weiter ein, weil sie letztlich externen Frameworks gleichzusetzen sind, die wir behandeln. Um aber auf der sicheren Seite zu sein: Zusammengesetzte Frameworks bedeuten zusammengesetzte Probleme, und bedeuten zusätzliche Arbeit, was Tests und Wartung anbelangt. Erhöhte Aufmerksamkeit ist gefragt.
 
 ## Beliebte Frameworks
 

@@ -11,7 +11,7 @@ Die Entscheidung »pro Qualität« sollte dahin führen, ein _internes_ Framewor
 1. Erfüllt es unsere Bedürfnisse und Anforderungen?
 2. Ist es von hoher Qualität? (Ist es maßgeschneidert – zumindest zuschneidbar –, benutzerfreundlich und erweiterbar?)
 
-An dieser Stelle wird also wiederholt die Wichtigkeit betont, unsere genauen Bedürfnisse zu kennen. Dies ist auch bei der _Wahl_ eines Frameworks wichtig, da nur Kenntnis unserer Anforderungen hilft, sagen zu können, welches Framework passt (Stichwort Maßschneiderung) und unseren Ansprüchen im Hinblick auf Erweiterbarkeit genügt (wobei die Komplexität unserer Bedürfnisse in der Regel mit dem Bedarf nach Erweiterbarkeit korreliert). 
+An dieser Stelle wird also wiederholt die Wichtigkeit betont, unsere genauen Bedürfnisse zu kennen. Dies ist auch bei der _Wahl_ eines Frameworks wichtig, da nur Kenntnis unserer Anforderungen hilft, sagen zu können, welches Framework passt (Stichwort Maßschneiderung) und unseren Ansprüchen im Hinblick auf Erweiterbarkeit genügt (wobei die Komplexität unserer Bedürfnisse in der Regel mit dem Bedarf nach Erweiterbarkeit korreliert).
 
 ## Die zwei Grundregeln für den Gebrauch eines Frameworks
 
@@ -65,5 +65,5 @@ D> Je komplexer das Projekt und je größer die Organisation, desto schwieriger 
 I> ### Überschreiben vs. Erweitern
 I>
 I> In früheren Fassungen dieses Buchs gab es hier einen Info-Kasten, der aufschlüsselte, welche Formen es gibt, Code zu überschreiben und zu erweitern. Dieser meinte es etwas sehr gut, und machte die Sache unnötig kompliziert. Der Info-Kasten schloss aber mit einem Absatz, der wenig verändert bleiben soll:
-I> 
+I>
 I> Der Punkt ist, dass besonders im Fall von CSS Überschreiben zu Nebeneffekten und Inkonsistenzen führen und unsere Arbeit erschweren kann. An anderer Stelle – in derselben oder einer anderen Datei – CSS-Regeln zu überschreiben führt leicht zu zwei Herausforderungen: Zum einen, was passiert genau (warum greift der ursprüngliche Code nicht mehr?); zum anderen, wo passiert was? Diesem Drang zu widerstehen, ansonsten aber möglichst nah an der Ursprungsstelle Anpassungen vorzunehmen, verursacht deutlich weniger Probleme.
