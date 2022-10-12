@@ -15,7 +15,7 @@ An dieser Stelle wird also wiederholt die Wichtigkeit betont, unsere genauen Bed
 
 ## Die zwei Grundregeln für den Gebrauch eines Frameworks
 
-…&nbsp;und _jedes_ Frameworks. Diese beiden Regeln sind golden:
+… und _jedes_ Frameworks. Diese beiden Regeln sind golden:
 
 ### 1. Befolgen Sie die Dokumentation
 

@@ -37,7 +37,7 @@ I> * fehlertolerant
 I> * selbstkorrigierend
 I> * »automagisch«
 I>
-I> …&nbsp;und dies umfasst noch nicht mal irgendwelche emotionalen Eigenschaften, die man noch mit Qualität in Verbindung bringen könnte, wie »angenehm« oder vielleicht »unterhaltsam«. Qualität hat viele Facetten.
+I> … und dies umfasst noch nicht mal irgendwelche emotionalen Eigenschaften, die man noch mit Qualität in Verbindung bringen könnte, wie »angenehm« oder vielleicht »unterhaltsam«. Qualität hat viele Facetten.
 
 ## 1. Ein Framework sollte maßgeschneidert sein
 
@@ -108,7 +108,7 @@ Neue und selten benutzte Funktionen stellen eine Herausforderung dar, die gewiss
 
 Frameworks-Entwickler sollten entsprechend versuchen, zu antizipieren, ob Code oder vielmehr die entsprechenden Funktionen erstmal selten gebraucht werden, um diese (und bei einem Komponentenansatz auch entsprechende Komponenten) in »Quarantäne« zu stecken. Frameworks-Nutzer wiederum können Vermerke für alles vornehmen, was nur in Sonderfällen mal zum Einsatz kommt. Ein dokumentierter Standard für eine solche Quarantäne kann effektivere Kontrolle und damit bessere Entscheidungen ermöglichen, ob Code behalten, umgezogen – oder entfernt wird.
 
-Dieses Prinzip war sehr erfolgreich bei Googles HTML-/CSS-Framework »Go« (nicht zu verwechseln mit der erst später entwickelten Programmiersprache). Go verfügte über ein »Rucksack«-Stylesheet, Go X, das alle Elemente beinhaltete, die nur selten verwendet wurden. Dies erlaubte, den Kern des Frameworks äußerst klein zu halten ([etwa 4&nbsp;KB](https://www.google.com/css/go.css), einschließlich des Google-Logos), aber auch, schnell weitere Funktionen einzubinden. Projektspezifischer Code, gewissermaßen die dritte Stufe nach Go-Kern und Go-X-Bibliothek, musste separat eingebunden werden, was dokumentiert – wie in diesem Kapitel empfohlen – aber dann Verantwortung jedes Google-Projekts selbst war. Am Ende dieses Buchs finden Sie ein paar weitere Details zu den Prinzipien hinter dem Go-Framework; was an dieser Stelle zu ergänzen ist, ist dass dies heute dank verstärkt komponentenbasierter Arbeit sowie weiterer Tooling-Optionen, die eine Art »CSS-Tree-Shaking« ermöglichen, eher _eine_ Option darstellt, mit selten benötigtem Code umzugehen.
+Dieses Prinzip war sehr erfolgreich bei Googles HTML-/CSS-Framework »Go« (nicht zu verwechseln mit der erst später entwickelten Programmiersprache). Go verfügte über ein »Rucksack«-Stylesheet, Go X, das alle Elemente beinhaltete, die nur selten verwendet wurden. Dies erlaubte, den Kern des Frameworks äußerst klein zu halten ([etwa 4 KB](https://www.google.com/css/go.css), einschließlich des Google-Logos), aber auch, schnell weitere Funktionen einzubinden. Projektspezifischer Code, gewissermaßen die dritte Stufe nach Go-Kern und Go-X-Bibliothek, musste separat eingebunden werden, was dokumentiert – wie in diesem Kapitel empfohlen – aber dann Verantwortung jedes Google-Projekts selbst war. Am Ende dieses Buchs finden Sie ein paar weitere Details zu den Prinzipien hinter dem Go-Framework; was an dieser Stelle zu ergänzen ist, ist dass dies heute dank verstärkt komponentenbasierter Arbeit sowie weiterer Tooling-Optionen, die eine Art »CSS-Tree-Shaking« ermöglichen, eher _eine_ Option darstellt, mit selten benötigtem Code umzugehen.
 
 Um ein Framework erweiterbar zu machen sollte man:
 
