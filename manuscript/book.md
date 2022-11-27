@@ -11,4 +11,4 @@ Kontaktieren Sie +49-157-50117717 oder info@frontenddogma.com für weitere Infor
 
 Folgen Sie Frontend Dogma [auf Mastodon](https://mas.to/@frontenddogma) oder [auf Twitter](https://twitter.com/frontenddogma).
 
-[1.3.10]
+[1.3.11]
