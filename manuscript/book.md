@@ -9,6 +9,6 @@ Dieses Buch und seine Inhalte wurden unter größter Sorgfalt erarbeitet. Dennoc
 
 Kontaktieren Sie +49-157-50117717 oder info@frontenddogma.com für weitere Informationen.
 
-Folgen Sie Frontend Dogma [auf Mastodon](https://mas.to/@frontenddogma) oder [auf Twitter](https://twitter.com/frontenddogma).
+Folgen Sie [Frontend Dogma auf Mastodon](https://mas.to/@frontenddogma).
 
-[1.3.11]
+[1.3.12]
