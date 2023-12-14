@@ -19,7 +19,7 @@ Erhältlich bei [Apple Books](https://books.apple.com/de/book/the-web-developmen
 
 > The _Upgrade Your HTML_ series is about one thing: Picking examples of HTML in the wild, and explaining how to make that code better. Kindly. Constructively. Thoroughly, as finding a balance between detail and brevity permits.
 
-Erhältlich bei [Amazon](https://www.amazon.de/dp/B094W54R2N/?tag=j9t-21), [Apple Books](https://books.apple.com/de/book-series/upgrade-your-html/id1569607037), [Kobo](https://www.kobo.com/de/de/search?query=upgrade+your+html), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM) und [Leanpub](https://leanpub.com/b/upgrade-your-html-1-4).
+Erhältlich bei [Amazon](https://www.amazon.de/dp/B0B4SD84B2/?tag=j9t-21), [Apple Books](https://books.apple.com/de/book-series/upgrade-your-html/id1569607037), [Kobo](https://www.kobo.com/de/de/search?query=upgrade+your+html), [Google Play Books](https://play.google.com/store/books/series?id=5AksGwAAABDJEM) und [Leanpub](https://leanpub.com/b/upgrade-your-html-1-4).
 
 ## [_CSS Optimization Basics_](https://meiert.com/de/publications/books/css-optimization-basics/) (2018)
 
