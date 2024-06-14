@@ -1,7 +1,7 @@
 {sample: true}
 # Über den Autor
 
-Jens Oliver Meiert ist auf Leitung und Kommunikation in den Bereichen Webentwicklung und -design spezialisiert. Er war technischer Leiter in Unternehmen wie [GMX](https://gmx.de/), [Aperto](https://www.aperto.com/) und [Google](https://www.google.com/), sowie verantwortlich für technische Kommunikation bei [sum.cumo](https://www.sumcumo.com/).
+Jens Oliver Meiert ist auf Leitung und Kommunikation in den Bereichen Webentwicklung und -design spezialisiert. Er war technischer Leiter in Unternehmen wie [GMX](https://gmx.de/), [Aperto](https://www.aperto.com/) und [Google](https://www.google.com/), sowie verantwortlich für technische Kommunikation bei [sum.cumo](https://web.archive.org/web/20190626002536/https://www.sumcumo.com/).
 
 Jens ist Verfasser [von knapp einem Dutzend Büchern](https://www.goodreads.com/author/list/13623828.Jens_Oliver_Meiert) (einige davon für seinen Hausverlag, O’Reilly) und Gastautor bei verschiedenen Magazinen, u.a. Smashing Magazine, A List Apart und heise.
 
