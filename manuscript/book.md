@@ -5,7 +5,7 @@ Autor: Jens Oliver Meiert. Alle Rechte vorbehalten.
 
 Herausgeber: [Frontend Dogma](https://frontenddogma.com/), c/o Jens Oliver Meiert, Apartado de correos 3, 36070 Pontevedra, Spanien.
 
-Dieses Buch und seine Inhalte wurden unter größter Sorgfalt erarbeitet. Dennoch können Fehler nicht ausgeschlossen werden. Autor und Herausgeber übernehmen keine Haftung für die Vollständigkeit, Richtigkeit und Aktualität der Inhalte dieses Buchs. Rechts- und Schadenersatzansprüche sind ausgeschlossen. Die Benutzung der in diesem Buch enthaltenen Informationen erfolgt auf eigenes Risiko. Wenn Code oder Technologien, die dieses Buch beinhaltet oder beschreibt, Open-Source-Lizenzen oder Eigentumsrechten anderer unterliegen, ist es Ihre Verantwortung sicherzustellen, dass Ihr Gebrauch von Code und Technologien den entsprechenden Lizenzen und Rechten entspricht.
+Dieses Buch und seine Inhalte wurden unter großer Sorgfalt erarbeitet. Dennoch können Fehler nicht ausgeschlossen werden. Autor und Herausgeber übernehmen keine Haftung für die Vollständigkeit, Richtigkeit und Aktualität der Inhalte dieses Buchs. Rechts- und Schadenersatzansprüche sind ausgeschlossen. Die Benutzung der in diesem Buch enthaltenen Informationen erfolgt auf eigenes Risiko. Wenn Code oder Technologien, die dieses Buch beinhaltet oder beschreibt, Open-Source-Lizenzen oder Eigentumsrechten anderer unterliegen, ist es Ihre Verantwortung, sicherzustellen, dass Ihr Gebrauch von solchem Code und Technologien den entsprechenden Lizenzen und Rechten entspricht.
 
 Kontaktieren Sie +34-610859489 oder info@frontenddogma.com für weitere Informationen.
 
