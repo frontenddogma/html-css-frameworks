@@ -95,7 +95,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Basscss](https://basscss.com/)
 * [Beard](https://web.archive.org/web/20190302021244/http://buildwithbeard.com/)
 * [Bijou](https://andhart.github.io/bijou/)
-* [Blueprint](http://www.blueprintcss.org/)
+* [Blueprint](https://web.archive.org/web/20231225134452/http://www.blueprintcss.org/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Brutalist Framework](https://web.archive.org/web/20210729180857/http://brutalistframework.com/)
 * [Bulma](https://bulma.io/)
