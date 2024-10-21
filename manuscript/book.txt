@@ -1,5 +1,5 @@
-acknowledgments.md
 intro.md
+acknowledgments.md
 concepts.md
 understanding.md
 attributes.md
