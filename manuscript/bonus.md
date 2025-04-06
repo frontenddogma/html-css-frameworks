@@ -53,7 +53,7 @@ Auf rasche Akzeptanz und Annahme hoffte ich nicht nur durch Benutzerfreundlichke
 * eine Mailingliste für Ankündigungen, auf der das ganze Team vertreten war;
 * eine Mailingliste für die Framework-Entwicklung;
 * Dokumentation;
-* improvisierte Videos ([Asim Janjua](https://x.com/asimjanj) und mir machten diese besondere Freude);
+* improvisierte Videos ([Asim Janjua](https://nitter.net/asimjanj) und mir machten diese besondere Freude);
 * [Code-Richtlinien](https://www.oreilly.com/library/view/the-little-book/9781492048459/), die die Verwendung steuerten.
 
 Aus technischer Sicht halte ich Go für eines der elegantesten Dinge, die ich bisher entwickelt habe. Go war einfach, leicht, robust, erweiterbar, skalierbar und wartbar. Bis heute erscheint es basal und unspektakulär, und genau das war sorgfältig überlegt und funktionierte außerordentlich gut. Fast ein Jahrzehnt später gibt es wenig, das ich ändern würde (ich würde neuere HTML- und CSS-Features einsetzen, um Go noch kompakter zu machen).

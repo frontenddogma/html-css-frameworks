@@ -5,7 +5,7 @@ Jens Oliver Meiert ist auf Leitung und Kommunikation in den Bereichen Webentwick
 
 Jens ist Verfasser [von knapp einem Dutzend Büchern](https://www.goodreads.com/author/list/13623828.Jens_Oliver_Meiert) (einige davon für seinen Hausverlag, O’Reilly) und Gastautor bei verschiedenen Magazinen, u.a. Smashing Magazine, A List Apart und heise.
 
-Für mehr zu hochwertiger Webentwicklung folgen Sie Jens auf seiner Website ([meiert.com](https://meiert.com/)) oder auf Twitter ([@j9t](https://x.com/j9t)).
+Für mehr zu hochwertiger Webentwicklung folgen Sie Jens auf seiner Website ([meiert.com](https://meiert.com/)) oder auf Twitter ([@j9t](https://nitter.net/j9t)).
 
 Weitere Werke von Jens Oliver Meiert:
 
