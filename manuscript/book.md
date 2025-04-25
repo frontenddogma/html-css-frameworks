@@ -1,7 +1,7 @@
 {sample: true}
 # Über _Das kleine Buch der HTML-/CSS-Frameworks_
 
-Autor: [Jens Oliver Meiert](https://meiert.com/)
+Autor: [Jens Oliver Meiert](https://meiert.com/de/)
 
 Herausgeber: [Frontend Dogma](https://frontenddogma.com/), c/o Jens Oliver Meiert, Apartado de correos 3, 36070 Pontevedra, Spanien
 
@@ -11,4 +11,4 @@ Kontaktieren Sie +34-610859489 oder info@frontenddogma.com für Fragen und weite
 
 Folgen Sie [Frontend Dogma auf Mastodon](https://mas.to/@frontenddogma) ([und anderen Netzwerken](https://frontenddogma.com/posts/2024/frontend-dogma-on-the-web/)).
 
-[1.3.41]
+[1.3.42]
