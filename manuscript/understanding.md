@@ -153,7 +153,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [UIkit](https://getuikit.com/)
 * [YAML](http://www.yaml.de/)
 
-(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/en/blog/choke/) erinnert fühlen, obwohl der Humor damals recht grob war.)
+(Manche Lesen mögen sich dabei an [Choke](https://meiert.com/blog/choke/) erinnert fühlen, obwohl der Humor damals recht grob war.)
 
 Die dargestellten Frameworks variieren in Funktionalität und Scope. Manche konzentrieren sich auf Grund-Layouts, während andere den kompletten Bogen schlagen, um nicht nur mobiles sondern auch Druck-Styling anzubieten.
 
