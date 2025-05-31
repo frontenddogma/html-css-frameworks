@@ -76,7 +76,7 @@ Diese Punkte führten mich dazu, Bemühungen zu unterstützen und dann anzuführ
 Die Geschichte von Maia ist anders als die von Go, insbesondere dadurch, dass Maia eine offiziell abgesegnete Teamunternehmung war, mit einem Team von fünf Webmastern, für deren Arbeit ich verantwortlich war. Der Prozess und die Organisation waren ähnlich zu dem, das ich in _The Little Book of HTML/CSS Frameworks_ beschreibe – angefangen bei der Motivation, eine zugeschnittene Lösung zu den eigenen (Design-)Problemen zu schaffen, über die Gründung eines Team, das über entsprechende Ziele und Werkzeuge verfügte, bis hin zur Kommunikation an eine nochmal größere Organisation. Ich glaube, dass _The Little Book of HTML/CSS Frameworks_ ein nützliches Buch ist, um mehr über solche Entwicklung zu erfahren, aber es folgen hier die Eckpfeiler für die Arbeit an Maia:
 
 * das Definieren von Framework-Designzielen und -Entwicklungsprinzipien;
-* das Zusammenstellen und Organisieren eines kleinen Teams von Entwicklern und Designern (mit den großartigen [Tony Ruscoe](http://ruscoe.net/) und [Zacky Ma](http://marchbox.com/));
+* das Zusammenstellen und Organisieren eines kleinen Teams von Entwicklern und Designern (mit den großartigen [Tony Ruscoe](https://ruscoe.net/) und [Zacky Ma](https://marchbox.com/));
 * das Aufsetzen eines funktionierenden Prototypen, der auch alle Framework-Dokumentation beinhaltete (eine [wichtige und bewährte Vorgehensweise](https://meiert.com/de/publications/talks/20070523/));
 * das Einrichten von Mailinglisten für Entwickler und Benutzer, für wichtige Ankündigungen.
 
