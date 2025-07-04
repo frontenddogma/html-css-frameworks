@@ -140,7 +140,7 @@ Es gibt Dutzende – vielleicht Hunderte – von öffentlichen HTML-/CSS-Framewo
 * [Salsa](https://tsi.github.io/Salsa/)
 * [Semantic Grid System](https://web.archive.org/web/20150316133000/http://semantic.gs/)
 * [Simple Grid](https://thisisdallas.github.io/Simple-Grid/)
-* [Skeleton](http://getskeleton.com/)
+* [Skeleton](https://web.archive.org/web/20110519105939/http://www.getskeleton.com/)
 * [Spectre.css](https://picturepan2.github.io/spectre/)
 * [Susy](https://www.oddbird.net/susy/)
 * [Tachyons](http://tachyons.io/)
