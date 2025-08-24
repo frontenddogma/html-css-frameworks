@@ -69,7 +69,7 @@ Bei der Qualitätskontrolle sollte man folgendes testen:
 
 T> Ich selbst betreibe einen Hub für solche Tools, und habe ein kleines Büchlein geschrieben, das näher auf das Thema Qualitätskontrolle eingeht: Werfen Sie einen Blick auf [Frontend Dogma](https://frontenddogma.com/tools/) für eine umfangreiche Sammlung an Werkzeugen, um Websites zu entwickeln und testen, sowie das etwas seichte [_The Little Book of Website Quality Control_](https://www.oreilly.com/library/view/the-little-book/9781492042860/) für ein paar weitere Gedanken zum Thema.
 
-Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können oder über eine API verfügen. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](http://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
+Ganz im Sinne der Effizienz ist es empfehlenswert, Tests dann zu automatisieren. Die Dokumentation einzelner Tools gibt oft Hinweise, da viele Werkzeuge lokal installiert werden können oder über eine API verfügen. Dazu gibt es Instrumente wie [Selenium](https://www.seleniumhq.org/) und [ChromeDriver](https://chromedriver.chromium.org/), die automatisiertes Testen im Browser oder »headless« ermöglichen. Wie bei vielen anderen komplexen Themen soll hier nur grob in eine Richtung verwiesen werden.
 
 ## Wartung
 
