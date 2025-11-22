@@ -9,6 +9,12 @@ Für mehr zu hochwertiger Webentwicklung folgen Sie Jens auf seiner Website ([me
 
 Weitere Werke von Jens Oliver Meiert:
 
+## [_On Web Development II_](https://meiert.com/de/publications/books/on-web-development-2/) (2025)
+
+> A comprehensive ebook marking another 10 years of meiert.com, featuring 180 curated articles on web development from 2015 to 2025.
+
+Erhältlich bei [Amazon](https://www.amazon.de/dp/B0G15TM2XL/), [Kobo](https://www.kobo.com/de/de/ebook/on-web-development-ii), [Google Play Books](https://play.google.com/store/books/details?id=ruaVEQAAQBAJ) und [Leanpub](https://leanpub.com/on-web-development-2).
+
 ## _Upgrade Your HTML_ (2019–2024)
 
 > The _Upgrade Your HTML_ series is about one thing: Picking examples of HTML in the wild, and explaining how to make that code better. Kindly. Constructively. Thoroughly, as finding a balance between detail and brevity permits.
@@ -32,9 +38,3 @@ Erhältlich bei [Amazon](https://www.amazon.de/dp/B09LLFH2RY/), [Apple Books](ht
 > Are you unsure about your style sheets’ quality, or whether you’ve maxed out your options? _CSS Optimization Basics_ covers the necessary mindsets, discusses the main optimization methods, and presents useful resources to write higher-quality CSS.
 
 Erhältlich bei [Amazon](https://www.amazon.de/dp/B07TVW1ZT8/), [Apple Books](https://books.apple.com/de/book/css-optimization-basics/id1571260941), [Kobo](https://www.kobo.com/de/de/ebook/css-optimization-basics), [Google Play Books](https://play.google.com/store/books/details/Jens_Oliver_Meiert_CSS_Optimization_Basics?id=xgTfDwAAQBAJ) und [Leanpub](https://leanpub.com/css-optimization-basics).
-
-## [_On Web Development_](https://meiert.com/de/publications/books/on-web-development/) (2015)
-
-> _On Web Development_ bundles 134 articles and the last 11 years of technical writings by Jens Oliver Meiert (meiert.com). Freshly reordered and commented, the articles cover processes and maintenance, HTML and CSS, standards, as well as development and design in general; they include coding basics and principles, carefully scathing criticism, and tips and tricks and trivia.
-
-Erhältlich bei [Amazon](https://www.amazon.de/dp/B010PQPT90/).
