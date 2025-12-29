@@ -172,9 +172,9 @@ Was wir noch nicht berührt haben:
 * Request- und Bug-Management-Systeme (wie [Jira](https://www.atlassian.com/software/jira) oder [Bugzilla](https://www.bugzilla.org/))
 * Framework-Websites mit Feeds und weiteren Features (öffentlich bei externen Frameworks)
 * Mailinglisten für
-  * Entwickler (ob für Team oder Interessierte)
-  * Nutzer (offen für jeden)
-  * Ankündigungen (für maßgebliche Neuigkeiten, die gleichzeitig auch an die Entwickler- und Nutzerlisten gehen sollten)
+  - Entwickler (ob für Team oder Interessierte)
+  - Nutzer (offen für jeden)
+  - Ankündigungen (für maßgebliche Neuigkeiten, die gleichzeitig auch an die Entwickler- und Nutzerlisten gehen sollten)
 * Übersichten für Live-Implementierungen (primär für Tests und Stichproben, aber auch für Referenzen)
 
 Eine Website für das Framework und eine Mailingliste für Ankündigungen sind besonders empfehlenswert, weil sie Nutzern effektiv helfen und Framework-Inhabern und -Entwicklern Dividenden abwerfen können. Eine Website ist dabei hilfreich, wichtige Informationen und Dokumentation bereitzustellen. Eine Ankündigungsliste ist unverzichtbar, um Interessierte über neue Releases und Features auf dem Laufenden zu halten und Nutzer in eine für sie nützliche Richtung zu lenken. Durch beides wird ein Framework leichter zu bedienen und gleichzeitig die Support-Last der Entwickler reduziert.
