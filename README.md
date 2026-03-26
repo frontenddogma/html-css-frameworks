@@ -2,7 +2,7 @@
 
 Dies ist der Quelltext der überarbeiteten deutschen Ausgabe (2019) von [_The Little Book of HTML/CSS Frameworks_](https://www.oreilly.com/library/view/the-little-book/9781492048121/) (2015), verfasst vom O’Reilly-Autor sowie Initiator und Hauptentwickler der [Google-Frameworks Go und Maia](https://meiert.com/de/publications/articles/20171005/), [Jens Oliver Meiert](https://meiert.com/de/) (kurz: Jens).
 
-<!-- Seriously, GitHub? -->
+<!-- Really, GitHub? -->
 <div align="center">
 	<a href="https://meiert.com/de/publications/books/das-kleine-buch-der-html-css-frameworks/"><img src="https://meiert.com/de/publications/books/das-kleine-buch-der-html-css-frameworks/cover-s.png" alt="Das Cover von »Das kleine Buch der HTML-/CSS-Frameworks«."></a>
 </div>
